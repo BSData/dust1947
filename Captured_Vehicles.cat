@@ -1,0 +1,1722 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="39bd06dd-8eca-57c2-31d1-89d41907b772" revision="1" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="2" battleScribeVersion="1.15" name="Captured Vehicles" authorName="Franky" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="74a9-eee5-f5f7-4e06" name="Wildfire" points="9.0" categoryId="5b653694-3ee6-eada-5846-7c02129bc43a" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+      <entries>
+        <entry id="d758-a847-4556-8bd5" name="Quad Heavy Machinegun (Front)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="9c70-6ce3-745c-c22e" targetId="84c0-c81b-3644-a5ea" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="9417-ba20-9b1b-b6bd" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" name="Wildfire" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="ed36b802-b164-ae0b-b441-ebb8e45606b6" name="Damage Track" value="4"/>
+            <characteristic characteristicId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" name="Move" value="3"/>
+            <characteristic characteristicId="7efff746-66c0-c275-304c-6339ff7da914" name="March Move" value="6"/>
+            <characteristic characteristicId="214b6458-e958-a048-8f8c-de17188dae7b" name="Armour" value="V2"/>
+            <characteristic characteristicId="fbc5-7d00-f9de-443e" name="Faction"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="ef27-15b0-7d83-5124" targetId="b6d0-6788-6a83-0387" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="262b-bea2-7884-a05c" name="Mickey" points="15.0" categoryId="5b653694-3ee6-eada-5846-7c02129bc43a" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="29cd-601e-b153-0f22" name="Heavy Machinegun (Turret)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="27be-31df-78c1-6604" targetId="e6ce-0531-aa76-b4c0" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="717a-40d0-3824-7a89" name="M1 Howitzer (Turret)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="dab6-2f6d-1495-1ef5" targetId="a97a-63ca-47fc-29b7" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="de4d-820b-5ec6-405c" targetId="8843-49bd-3da9-5b32" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="63ef-542e-27c7-223b" name="Machinegun (Front)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="f943-b812-8ba8-157d" targetId="b07a-f0d7-7a6d-4549" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="1045-b093-4022-21d9" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" name="Mickey" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="ed36b802-b164-ae0b-b441-ebb8e45606b6" name="Damage Track" value="6"/>
+            <characteristic characteristicId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" name="Move" value="3"/>
+            <characteristic characteristicId="7efff746-66c0-c275-304c-6339ff7da914" name="March Move" value="5"/>
+            <characteristic characteristicId="214b6458-e958-a048-8f8c-de17188dae7b" name="Armour" value="V4"/>
+            <characteristic characteristicId="fbc5-7d00-f9de-443e" name="Faction" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="2ec7-112c-15ea-908a" name="Mickey (Light)" points="12.0" categoryId="5b653694-3ee6-eada-5846-7c02129bc43a" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="da14-e550-8931-6e44" name="Heavy Machinegun (Turret)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="2a7b-cace-688d-0a7d" targetId="e6ce-0531-aa76-b4c0" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="5828-4f26-3dc2-d973" name="M1 Howitzer (Turret)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="bf05-aa51-6598-a7fa" targetId="a97a-63ca-47fc-29b7" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="4d32-b907-251b-166c" targetId="8843-49bd-3da9-5b32" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="7097-1502-da31-d02e" name="Machinegun (Front)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="af16-3e88-beb0-4baa" targetId="b07a-f0d7-7a6d-4549" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="b3d1-7dac-4ca3-a79a" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" name="Mickey (Light)" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="ed36b802-b164-ae0b-b441-ebb8e45606b6" name="Damage Track" value="6"/>
+            <characteristic characteristicId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" name="Move" value="3"/>
+            <characteristic characteristicId="7efff746-66c0-c275-304c-6339ff7da914" name="March Move" value="5"/>
+            <characteristic characteristicId="214b6458-e958-a048-8f8c-de17188dae7b" name="Armour" value="V3"/>
+            <characteristic characteristicId="fbc5-7d00-f9de-443e" name="Faction" value="USMC"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="1cdc-b977-1349-57d5" name="Pounder" points="15.0" categoryId="5b653694-3ee6-eada-5846-7c02129bc43a" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="ef94-02b8-0976-80d8" name="Antitank Gun (Turret)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="b36f-e14c-1516-6c9e" targetId="74c2-71bd-2db8-6d4e" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="e5d9-041f-0ed8-bc9e" name="Heavy Machinegun (Turret)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="b86c-ec35-bf60-8bd9" targetId="e6ce-0531-aa76-b4c0" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="3b71-9a81-4b76-84a0" name="Machinegun (Front)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="434e-4bf5-b30e-69a5" targetId="b07a-f0d7-7a6d-4549" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d5e1-c1a7-bf73-e67c" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" name="Pounder" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="ed36b802-b164-ae0b-b441-ebb8e45606b6" name="Damage Track" value="6"/>
+            <characteristic characteristicId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" name="Move" value="3"/>
+            <characteristic characteristicId="7efff746-66c0-c275-304c-6339ff7da914" name="March Move" value="5"/>
+            <characteristic characteristicId="214b6458-e958-a048-8f8c-de17188dae7b" name="Armour" value="V4"/>
+            <characteristic characteristicId="fbc5-7d00-f9de-443e" name="Faction" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="666d-5197-e040-72da" name="Pounder (Light)" points="13.0" categoryId="5b653694-3ee6-eada-5846-7c02129bc43a" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="7792-53e4-df85-fa53" name="Antitank Gun (Turret)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="d4a6-88be-a4f4-843e" targetId="74c2-71bd-2db8-6d4e" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="1748-7ba1-031d-c587" name="Heavy Machinegun (Turret)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="0e73-e199-b61f-6c0e" targetId="e6ce-0531-aa76-b4c0" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="2562-a22e-bfe2-e04c" name="Machinegun (Front)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="cbab-dc2b-9cb8-74c5" targetId="b07a-f0d7-7a6d-4549" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="3bc4-94e4-d886-d1f9" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" name="Pounder (Light)" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="ed36b802-b164-ae0b-b441-ebb8e45606b6" name="Damage Track" value="6"/>
+            <characteristic characteristicId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" name="Move" value="3"/>
+            <characteristic characteristicId="7efff746-66c0-c275-304c-6339ff7da914" name="March Move" value="5"/>
+            <characteristic characteristicId="214b6458-e958-a048-8f8c-de17188dae7b" name="Armour" value="V3"/>
+            <characteristic characteristicId="fbc5-7d00-f9de-443e" name="Faction" value="USMC"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="57fe-d351-400b-6029" name="Skysweeper" points="17.0" categoryId="5b653694-3ee6-eada-5846-7c02129bc43a" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="ab24-629b-25d0-cebb" name="Heavy Machinegun (Front)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="a88a-d8bc-05ad-3404" targetId="f772-63f0-347f-5132" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="6eda-dd5a-d1d2-6a9d" name="Heavy Machinegun (Left)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="2bd2-51f8-1219-0abf" targetId="4f3f-fd63-a42f-f672" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="9926-ae54-7286-af93" name="Heavy Machinegun (Right)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8d62-a9a8-5568-e52d" targetId="2c41-acb3-4459-2e79" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="1c16-62ef-363b-0b43" name="Submachine Gun (Turret)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="674c-44c3-224f-a777" targetId="2153-07c6-9d11-c2a4" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="d176-59c2-2d51-24a1" name="Triple Anti-Aircraft Guns (Turret)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8823-35ae-b23b-2924" targetId="7107-ad59-8a81-cc58" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d082-c94c-be8d-d924" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" name="Skysweeper" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="ed36b802-b164-ae0b-b441-ebb8e45606b6" name="Damage Track" value="6"/>
+            <characteristic characteristicId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" name="Move" value="2"/>
+            <characteristic characteristicId="7efff746-66c0-c275-304c-6339ff7da914" name="March Move" value="4"/>
+            <characteristic characteristicId="214b6458-e958-a048-8f8c-de17188dae7b" name="Armour" value="V5"/>
+            <characteristic characteristicId="fbc5-7d00-f9de-443e" name="Faction"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8736-070b-6dcb-7a40" targetId="b6d0-6788-6a83-0387" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e7b2-2318-b20f-ff17" targetId="db21-6503-f1fc-ac2d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e107-6fc4-dfd4-7910" targetId="7fb2-05a1-1197-8de2" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="aa5c-f923-900f-724e" name="Heinrich" points="10.0" categoryId="6a923987-e5ac-c7e8-396b-e9132b67ddf8" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="f240-0881-92dc-f7f2" name="Quad Anti-Aircraft Guns (Front)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="6e74-74b8-0add-20c7" targetId="1dba-8a5a-cff2-98a9" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="b08f-275a-ad71-eca2" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" name="Heinrich" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="ed36b802-b164-ae0b-b441-ebb8e45606b6" name="Damage Track" value="5"/>
+            <characteristic characteristicId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" name="Move" value="2"/>
+            <characteristic characteristicId="7efff746-66c0-c275-304c-6339ff7da914" name="March Move" value="4"/>
+            <characteristic characteristicId="214b6458-e958-a048-8f8c-de17188dae7b" name="Armour" value="V3"/>
+            <characteristic characteristicId="fbc5-7d00-f9de-443e" name="Faction" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="6ec7-fef9-e436-f9f1" targetId="84ae-c6fb-93db-c5fb" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="4799-1a36-636b-2a24" name="Heinrich Tropical" points="10.0" categoryId="6a923987-e5ac-c7e8-396b-e9132b67ddf8" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="9dbd-35c9-e3d9-7584" name="Machinegun (Front)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="b405-48db-323c-68d0" targetId="b07a-f0d7-7a6d-4549" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="edae-3bf4-0e1c-fb3b" name="Quad Anti-Aircraft Guns (Front)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="895d-90d2-1968-b686" targetId="087d-cd7e-307e-99f6" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="bca3-b89f-d574-5f57" name="Heinrich Tropical" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="2d38-63e7-188d-5727" name="Heinrich Tropical (NDAK)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="ae5b-b0cf-c3bc-4ddb" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" name="Heinrich Tropical" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="ed36b802-b164-ae0b-b441-ebb8e45606b6" name="Damage Track" value="4"/>
+                    <characteristic characteristicId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" name="Move" value="2"/>
+                    <characteristic characteristicId="7efff746-66c0-c275-304c-6339ff7da914" name="March Move" value="4"/>
+                    <characteristic characteristicId="214b6458-e958-a048-8f8c-de17188dae7b" name="Armour" value="V3"/>
+                    <characteristic characteristicId="fbc5-7d00-f9de-443e" name="Faction" value="NDAK"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="eaeb-e9c4-30fd-3df2" name="Heinrich Tropical (Blutkreuz)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="75da-2b56-e2fc-13b4" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" name="Heinrich Tropical" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="ed36b802-b164-ae0b-b441-ebb8e45606b6" name="Damage Track" value="4"/>
+                    <characteristic characteristicId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" name="Move" value="2"/>
+                    <characteristic characteristicId="7efff746-66c0-c275-304c-6339ff7da914" name="March Move" value="4"/>
+                    <characteristic characteristicId="214b6458-e958-a048-8f8c-de17188dae7b" name="Armour" value="V3"/>
+                    <characteristic characteristicId="fbc5-7d00-f9de-443e" name="Faction" value="Blutkreuz"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="b341-98f0-74f1-0873" targetId="84ae-c6fb-93db-c5fb" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="3ad1-b277-3ebc-4c8c" name="Loth" points="11.0" categoryId="6a923987-e5ac-c7e8-396b-e9132b67ddf8" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="902d-6665-a87a-bc0b" name="Dual Combat Claw (Front)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="0128-fca5-0d02-77e8" targetId="db08-59f6-2732-1459" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="58d4-292f-43bf-44ca" targetId="d326-d932-4c3c-a92e" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="c376-352e-cbc4-8f81" name="Machinegun (Turret)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="48f6-3555-4b81-0ca4" targetId="fd63-5049-550f-92fc" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="ffb6-9b64-448b-f853" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" name="Loth" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="ed36b802-b164-ae0b-b441-ebb8e45606b6" name="Damage Track" value="6"/>
+            <characteristic characteristicId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" name="Move" value="2"/>
+            <characteristic characteristicId="7efff746-66c0-c275-304c-6339ff7da914" name="March Move" value="4"/>
+            <characteristic characteristicId="214b6458-e958-a048-8f8c-de17188dae7b" name="Armour" value="V4"/>
+            <characteristic characteristicId="fbc5-7d00-f9de-443e" name="Faction"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8ade-d9e2-616d-beeb" targetId="a72e-d835-213b-3635" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="dc0e-0e98-de23-7f26" targetId="c466-bbc3-e6f8-2812" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4601-f0c2-0947-4860" targetId="31f0-029d-f396-dae5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f3dd-4e3c-cc97-92c3" targetId="7fb2-05a1-1197-8de2" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="799d-8693-044e-abfd" name="Luther" points="13.0" categoryId="6a923987-e5ac-c7e8-396b-e9132b67ddf8" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="a3a6-c818-ed1b-e581" name="Machinegun (Turret)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="6215-ac55-15e4-41e5" targetId="fd63-5049-550f-92fc" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="b3ac-f98c-f64b-722f" name="Combat Claw (Front)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="badb-1ec7-f43d-4d54" targetId="d326-d932-4c3c-a92e" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="afdf-30d2-744b-2b62" targetId="e4bc-e367-06df-916a" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="c285-7933-fe6a-0306" name="Light Gun (Front)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8cda-c0c6-8400-19d4" targetId="40c0-835d-c034-5625" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2ee2-2b24-c23b-f886" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" name="Luther" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="ed36b802-b164-ae0b-b441-ebb8e45606b6" name="Damage Track" value="6"/>
+            <characteristic characteristicId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" name="Move" value="2"/>
+            <characteristic characteristicId="7efff746-66c0-c275-304c-6339ff7da914" name="March Move" value="4"/>
+            <characteristic characteristicId="214b6458-e958-a048-8f8c-de17188dae7b" name="Armour" value="V4"/>
+            <characteristic characteristicId="fbc5-7d00-f9de-443e" name="Faction"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="936b-98f8-1c8c-43c2" targetId="c466-bbc3-e6f8-2812" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="03c9-99f4-a882-55b1" targetId="7fb2-05a1-1197-8de2" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="23a8-e0cd-7211-fbcb" name="Ludwig" points="14.0" categoryId="6a923987-e5ac-c7e8-396b-e9132b67ddf8" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="f378-717c-3ae5-9e65" name="Dual Anti-Tank Guns (Front)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="aad7-2121-9351-5fd9" targetId="797f-e2cf-fbf8-1c9f" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="6821-ebd7-5bb1-5134" name="Machinegun (Turret)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="b0b8-97a1-955c-ce72" targetId="fd63-5049-550f-92fc" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="b868-dd19-7175-0cb6" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" name="Ludwig" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="ed36b802-b164-ae0b-b441-ebb8e45606b6" name="Damage Track" value="6"/>
+            <characteristic characteristicId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" name="Move" value="2"/>
+            <characteristic characteristicId="7efff746-66c0-c275-304c-6339ff7da914" name="March Move" value="4"/>
+            <characteristic characteristicId="214b6458-e958-a048-8f8c-de17188dae7b" name="Armour" value="V4"/>
+            <characteristic characteristicId="fbc5-7d00-f9de-443e" name="Faction"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f459-2b4e-d965-df11" targetId="7fb2-05a1-1197-8de2" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="5dca-1bbf-4770-90ea" name="Flammluther" points="14.0" categoryId="6a923987-e5ac-c7e8-396b-e9132b67ddf8" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="90a0-ed8e-57f4-be65" name="Machinegun (Turret)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="34d7-c780-a617-3aac" targetId="fd63-5049-550f-92fc" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="32ca-b29e-ad01-4a91" name="Dual Heavy Flamethrower (Front)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="bba4-047e-1429-d531" targetId="6bea-687a-19f3-9398" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="1b55-e20e-3127-3a09" targetId="5d33-a344-8cf0-1ca7" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="05ce-e8f9-e474-9531" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" name="Flammluther" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="ed36b802-b164-ae0b-b441-ebb8e45606b6" name="Damage Track" value="8"/>
+            <characteristic characteristicId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" name="Move" value="2"/>
+            <characteristic characteristicId="7efff746-66c0-c275-304c-6339ff7da914" name="March Move" value="4"/>
+            <characteristic characteristicId="214b6458-e958-a048-8f8c-de17188dae7b" name="Armour" value="V5"/>
+            <characteristic characteristicId="fbc5-7d00-f9de-443e" name="Faction"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="e000-31fd-e2fa-5ba4" name="Jagdluther" points="17.0" categoryId="6a923987-e5ac-c7e8-396b-e9132b67ddf8" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="e559-d94f-fe53-857c" name="Machinegun (Turret)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="0a2b-9581-0843-d1d0" targetId="fd63-5049-550f-92fc" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="1e41-bd2d-8b9c-5993" name="Dual Anti-Tank Guns (Front)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="61e3-9150-c0db-3d53" targetId="ef8f-adfd-366b-8291" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="7b40-27cc-92dc-8501" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" name="Jagdluther" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="ed36b802-b164-ae0b-b441-ebb8e45606b6" name="Damage Track" value="7"/>
+            <characteristic characteristicId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" name="Move" value="2"/>
+            <characteristic characteristicId="7efff746-66c0-c275-304c-6339ff7da914" name="March Move" value="4"/>
+            <characteristic characteristicId="214b6458-e958-a048-8f8c-de17188dae7b" name="Armour" value="V5"/>
+            <characteristic characteristicId="fbc5-7d00-f9de-443e" name="Faction"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="da38-ccd4-bfe0-294c" name="Nadya" points="10.0" categoryId="69554cf4-6ebb-98a2-9249-0d7c1641b183" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="9736-84ad-6ef6-b5e3" name="Dual Chainsaws (Front)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="c0e9-f5ae-e366-41c8" targetId="443a-eb3e-29c5-3791" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="4176-b882-bc52-c50e" targetId="6662-933e-dfef-9643" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="43e6-1f23-1dc7-b19f" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" name="Natalya" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="ed36b802-b164-ae0b-b441-ebb8e45606b6" name="Damage Track" value="6"/>
+            <characteristic characteristicId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" name="Move" value="3"/>
+            <characteristic characteristicId="7efff746-66c0-c275-304c-6339ff7da914" name="March Move" value="4"/>
+            <characteristic characteristicId="214b6458-e958-a048-8f8c-de17188dae7b" name="Armour" value="V4"/>
+            <characteristic characteristicId="fbc5-7d00-f9de-443e" name="Faction" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="beeb-c9db-e018-1449" targetId="07e2-d6cf-df3f-ff82" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="01ff-161a-f85b-5265" targetId="0652-0b07-308d-8b6e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0445-9595-5ecf-fd5e" targetId="7fb2-05a1-1197-8de2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="df25-2815-7850-6910" targetId="a72e-d835-213b-3635" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b29b-26aa-f95a-4297" targetId="c466-bbc3-e6f8-2812" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="2f18-d533-8adb-7eaf" name="Natalya" points="10.0" categoryId="69554cf4-6ebb-98a2-9249-0d7c1641b183" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="040c-f6b8-09ee-0344" name="Dual Heavy Flamethrowers (Front)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="98c7-f293-46e9-2c9b" targetId="5d33-a344-8cf0-1ca7" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="10a4-1ce4-d5be-bbff" targetId="7588-65e5-e1de-d751" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="6e04-3ad0-61dd-6367" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" name="Nadya" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="ed36b802-b164-ae0b-b441-ebb8e45606b6" name="Damage Track" value="6"/>
+            <characteristic characteristicId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" name="Move" value="3"/>
+            <characteristic characteristicId="7efff746-66c0-c275-304c-6339ff7da914" name="March Move" value="4"/>
+            <characteristic characteristicId="214b6458-e958-a048-8f8c-de17188dae7b" name="Armour" value="V4"/>
+            <characteristic characteristicId="fbc5-7d00-f9de-443e" name="Faction" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="d3bc-b096-cd36-9d4e" targetId="07e2-d6cf-df3f-ff82" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0c3f-1d25-2c45-6ee8" targetId="0652-0b07-308d-8b6e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4568-b463-1d63-4f25" targetId="7fb2-05a1-1197-8de2" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="ea81-7a7d-b0a8-1a53" name="Natasha" points="11.0" categoryId="69554cf4-6ebb-98a2-9249-0d7c1641b183" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="67e6-c2db-02c9-c68e" name="Dual Howitzers (Front)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8e0c-4176-310b-cf0f" targetId="8843-49bd-3da9-5b32" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="a08e-b59d-6902-f449" targetId="7b1b-98d6-e015-82cc" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="59d0-7ee1-debe-f30b" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" name="Natasha" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="ed36b802-b164-ae0b-b441-ebb8e45606b6" name="Damage Track" value="6"/>
+            <characteristic characteristicId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" name="Move" value="3"/>
+            <characteristic characteristicId="7efff746-66c0-c275-304c-6339ff7da914" name="March Move" value="4"/>
+            <characteristic characteristicId="214b6458-e958-a048-8f8c-de17188dae7b" name="Armour" value="V4"/>
+            <characteristic characteristicId="fbc5-7d00-f9de-443e" name="Faction" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="6f01-c30f-b17d-bb01" targetId="07e2-d6cf-df3f-ff82" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fba7-6103-4e18-786c" targetId="0652-0b07-308d-8b6e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6a71-5593-7f00-116a" targetId="7fb2-05a1-1197-8de2" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="4b1f-02c5-f9ca-4b6d" name="Natasha (TSh)" points="10.0" categoryId="69554cf4-6ebb-98a2-9249-0d7c1641b183" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="bae3-aef6-4dd0-61b2" name="Dual Howitzers (Front)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="ef83-1c56-8713-7b3d" targetId="8843-49bd-3da9-5b32" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="e421-e738-62f9-55bb" targetId="66c4-735d-b8c0-e438" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="4740-b0b8-bd73-c059" name="Heavy Machinegun (Front)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="d160-234c-8009-c876" targetId="ab9a-7bb7-febf-5a23" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="1a84-be1f-6708-a5b4" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" name="Natasha (TSh)" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="ed36b802-b164-ae0b-b441-ebb8e45606b6" name="Damage Track" value="4"/>
+            <characteristic characteristicId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" name="Move" value="3"/>
+            <characteristic characteristicId="7efff746-66c0-c275-304c-6339ff7da914" name="March Move" value="4"/>
+            <characteristic characteristicId="214b6458-e958-a048-8f8c-de17188dae7b" name="Armour" value="V3"/>
+            <characteristic characteristicId="fbc5-7d00-f9de-443e" name="Faction" value="Spetsnaz"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="d96d-dfec-43df-50cf" targetId="07e2-d6cf-df3f-ff82" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f98b-8848-9407-1c3c" targetId="0652-0b07-308d-8b6e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b91b-ea2b-c706-cc11" targetId="7fb2-05a1-1197-8de2" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="bed7-c45d-bbbb-7677" name="Nikita" points="12.0" categoryId="69554cf4-6ebb-98a2-9249-0d7c1641b183" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="b11f-b74d-6f65-c432" name="Dual Quad Grenade Launchers (Front)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="85d5-dc8b-f6bc-9b23" targetId="8843-49bd-3da9-5b32" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="3b5a-4bc9-cb47-dfb9" targetId="798c-97b9-47e6-08c6" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="f60d-51cf-6781-452d" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" name="Nikita" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="ed36b802-b164-ae0b-b441-ebb8e45606b6" name="Damage Track" value="6"/>
+            <characteristic characteristicId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" name="Move" value="3"/>
+            <characteristic characteristicId="7efff746-66c0-c275-304c-6339ff7da914" name="March Move" value="4"/>
+            <characteristic characteristicId="214b6458-e958-a048-8f8c-de17188dae7b" name="Armour" value="V4"/>
+            <characteristic characteristicId="fbc5-7d00-f9de-443e" name="Faction" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8a5b-67ae-415e-efc2" targetId="0652-0b07-308d-8b6e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="522c-2844-915f-f5b7" targetId="40e4-d451-c168-fd94" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="a1e6-cbb0-8d10-ef95" name="Aleksei (TSh)" points="11.0" categoryId="69554cf4-6ebb-98a2-9249-0d7c1641b183" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="d096-d7cc-cf7f-dda6" name="Dual Gatling Gun (Front)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="c142-d7ab-7216-ea07" targetId="b940-80e4-38a9-8408" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="bfe4-9836-c38c-4b14" name="Heavy Machinegun (Front)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="2e56-1d45-e156-3e24" targetId="ab9a-7bb7-febf-5a23" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="f8be-0cdc-043d-ad95" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" name="Aleksei (TSh)" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="ed36b802-b164-ae0b-b441-ebb8e45606b6" name="Damage Track" value="4"/>
+            <characteristic characteristicId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" name="Move" value="3"/>
+            <characteristic characteristicId="7efff746-66c0-c275-304c-6339ff7da914" name="March Move" value="4"/>
+            <characteristic characteristicId="214b6458-e958-a048-8f8c-de17188dae7b" name="Armour" value="V3"/>
+            <characteristic characteristicId="fbc5-7d00-f9de-443e" name="Faction" value="Spetsnaz"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="7310-c3b3-9043-c817" targetId="07e2-d6cf-df3f-ff82" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="42aa-563f-f267-033e" targetId="0652-0b07-308d-8b6e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8805-31bf-2779-0690" targetId="7fb2-05a1-1197-8de2" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="d886-e557-6b97-a82e" name="Red Fury" points="9.0" categoryId="69554cf4-6ebb-98a2-9249-0d7c1641b183" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="0e6b-8565-cccc-d9ed" name="Submachine Gun (Turret)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="3" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="f31f-ae9f-0d48-e764" targetId="2153-07c6-9d11-c2a4" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="3af4-321f-a332-003d" name="Anti-Tank Gun (Turret)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8bef-6937-bd35-2e27" targetId="ef89-e80f-1ed4-f622" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="c667-288e-5df4-78f8" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" name="Red Fury" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="ed36b802-b164-ae0b-b441-ebb8e45606b6" name="Damage Track" value="3"/>
+            <characteristic characteristicId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" name="Move" value="2"/>
+            <characteristic characteristicId="7efff746-66c0-c275-304c-6339ff7da914" name="March Move" value="5"/>
+            <characteristic characteristicId="214b6458-e958-a048-8f8c-de17188dae7b" name="Armour" value="V2"/>
+            <characteristic characteristicId="fbc5-7d00-f9de-443e" name="Faction"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="653e-3c4c-75a1-de49" targetId="7a73-ed21-ad9d-1c68" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+  </entries>
+  <rules/>
+  <links/>
+  <sharedEntries/>
+  <sharedEntryGroups/>
+  <sharedRules>
+    <rule id="b6d0-6788-6a83-0387" name="Advanced Reactive Fire" hidden="false" page="0">
+      <description>Can attempt a Reactive Attack at up to Range 6, counting [shield] and [bloc] when rolling for number of Actions. Does not apply to units joined.</description>
+      <modifiers/>
+    </rule>
+    <rule id="8843-49bd-3da9-5b32" name="Grenade" hidden="false" page="0">
+      <description>Target Infantry receive no Cover Save from this weapon but still receive Infantry Save.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7fb2-05a1-1197-8de2" name="Smoke Launchers" hidden="false" page="0">
+      <description>Once per game, take a free Smoke Launcher Action to place Smoke on Unit.</description>
+      <modifiers/>
+    </rule>
+    <rule id="db21-6503-f1fc-ac2d" name="Huge Vehicle" hidden="false">
+      <description></description>
+      <modifiers/>
+    </rule>
+    <rule id="84ae-c6fb-93db-c5fb" name="Scout" hidden="false" page="0">
+      <description>Take March Move Action as first Action of game and recieve one extra Action for that Activation.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a72e-d835-213b-3635" name="Charge" hidden="false" page="0">
+      <description>May take a free Close-Combat Action after performing a March Move Action.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c466-bbc3-e6f8-2812" name="Engineer Vehicle" hidden="false" page="0">
+      <description>Has improved Engineering Action.</description>
+      <modifiers/>
+    </rule>
+    <rule id="31f0-029d-f396-dae5" name="Mechanic" hidden="false" page="0">
+      <description>Can use Makeshift Repair Action.</description>
+      <modifiers/>
+    </rule>
+    <rule id="d326-d932-4c3c-a92e" name="Grapple" hidden="false" page="0">
+      <description>Targets Hit by this weapon gain a Stunned Token.</description>
+      <modifiers/>
+    </rule>
+    <rule id="5d33-a344-8cf0-1ca7" name="Flame" hidden="false" page="0">
+      <description>Target gets no saves from this weapon and is suppressed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="07e2-d6cf-df3f-ff82" name="Airmobile" hidden="false" page="0">
+      <description>Can be carried by an Airlifter.</description>
+      <modifiers/>
+    </rule>
+    <rule id="0652-0b07-308d-8b6e" name="Damage Resilient" hidden="false" page="0">
+      <description>Roll one die for each point of Damage the Unit takes, negating one point for each [bloc] rolled. Does not apply to Units Joined.</description>
+      <modifiers/>
+    </rule>
+    <rule id="443a-eb3e-29c5-3791" name="Cutting" hidden="false" page="0">
+      <description>When weapon hits, roll again scoring another hit on a [bloc]. Keep rolling until failing to hit.</description>
+      <modifiers/>
+    </rule>
+    <rule id="40e4-d451-c168-fd94" name="Air Assault" hidden="false" page="0">
+      <description>Can be carried by an Airlifter and Activate after the Airlifter carrying it to Dismount and Move.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7a73-ed21-ad9d-1c68" name="Tracked" hidden="false" page="0">
+      <description>Can be affected by type of Terrain crossed. (See Terrain Table)</description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="84c0-c81b-3644-a5ea" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="Quad Heavy Machinegun (Front)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Front"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="8"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="12/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="12/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="10/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="7/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="7/1"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value="5/1"/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3" value="2/1"/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4" value=""/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5" value=""/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6" value=""/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7" value=""/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1" value="4/2"/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2" value="3/2"/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3" value="2/1"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="e6ce-0531-aa76-b4c0" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="Heavy Machinegun (Turret)" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Turret"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="8"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="5/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="5/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="4/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="3/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="3/2"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value="2/1"/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3" value="1/1"/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4" value=""/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5" value=""/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6" value=""/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7" value=""/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1" value="2/2"/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2" value="2/2"/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3" value="1/1"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="a97a-63ca-47fc-29b7" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="M1 Howitzer (Turret)" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Turret"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="8"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="*/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="*/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="*/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="*/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="1/#"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value="1/4"/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3" value="1/3"/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4" value="1/3"/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5" value="1/2"/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6" value="1/2"/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7" value="1/1"/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1" value=""/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2" value=""/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3" value=""/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="b07a-f0d7-7a6d-4549" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="Machinegun (Front)" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Front"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="6"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="7/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="6/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="4/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="2/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="4/1"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value="2/1"/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3" value=""/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4" value=""/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5" value=""/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6" value=""/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7" value=""/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1" value=""/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2" value=""/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3" value=""/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="74c2-71bd-2db8-6d4e" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="Antitank Gun (Turret)" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Turret"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="16"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="*/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="*/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="*/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="*/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="1/#"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value="1/#"/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3" value="1/5"/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4" value="1/4"/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5" value="1/4"/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6" value="1/3"/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7" value="1/3"/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1" value=""/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2" value=""/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3" value=""/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="f772-63f0-347f-5132" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="Heavy Machinegun (Front)" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Front"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="8"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="5/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="5/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="4/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="3/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="3/2"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value="2/1"/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3" value="1/1"/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4" value=""/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5" value=""/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6" value=""/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7" value=""/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1" value="2/2"/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2" value="2/2"/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3" value="1/1"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="4f3f-fd63-a42f-f672" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="Heavy Machinegun (Left)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Left Side"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="8"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="5/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="5/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="4/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="3/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="3/2"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value="2/1"/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3" value="1/1"/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4" value=""/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5" value=""/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6" value=""/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7" value=""/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1" value="2/2"/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2" value="2/2"/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3" value="1/1"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="2c41-acb3-4459-2e79" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="Heavy Machinegun (Right)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Right Side"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="8"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="5/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="5/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="4/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="3/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="3/2"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value="2/1"/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3" value="1/1"/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4" value=""/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5" value=""/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6" value=""/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7" value=""/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1" value="2/2"/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2" value="2/2"/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3" value="1/1"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="2153-07c6-9d11-c2a4" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="Submachine Gun (Turret)" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Turret"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="3"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="5/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="4/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="3/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="2/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="3/1"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value=""/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3" value=""/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4" value=""/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5" value=""/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6" value=""/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7" value=""/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1" value=""/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2" value=""/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3" value=""/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="7107-ad59-8a81-cc58" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="Triple Anti-Aircraft Guns (Turret)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Turret"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="12"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="**/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="**/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="**/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="**/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="4/#"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value="4/4"/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3" value="4/3"/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4" value="3/3"/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5" value="2/2"/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6" value="1/2"/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7" value=""/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1" value="4/3"/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2" value="3/3"/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3" value="1/2"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="1dba-8a5a-cff2-98a9" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="Quad Anti-Aircraft Guns (Front)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Front"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="8"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="9/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="9/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="8/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="7/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="5/2"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value="4/2"/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3" value="2/1"/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4" value=""/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5" value=""/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6" value=""/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7" value=""/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1" value="4/2"/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2" value="3/2"/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3" value="1/1"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="087d-cd7e-307e-99f6" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="Quad Anti-Aircraft Guns (Front)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Front"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="8"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="9/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="9/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="9/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="7/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="5/3"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value="5/2"/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3" value="3/2"/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4" value="1/1"/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5" value="1/1"/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6" value=""/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7" value=""/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1" value="4/2"/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2" value="3/2"/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3" value="1/1"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="db08-59f6-2732-1459" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="Dual Combat Claw (Front)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Front"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="C"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="2/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="2/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="2/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="2/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="2/3"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value="2/3"/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3" value="2/2"/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4" value="2/1"/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5" value="2/1"/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6" value="2/1"/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7" value="2/1"/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1"/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2"/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="fd63-5049-550f-92fc" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="Machinegun (Turret)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Turret"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="6"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="7/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="6/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="4/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="3/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="4/1"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value="2/1"/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3"/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4"/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5"/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6"/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7" value=""/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1" value="2/1"/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2" value="2/1"/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3" value=""/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="e4bc-e367-06df-916a" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="Combat Claw (Front)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Front"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="C"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="1/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="1/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="1/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="1/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="1/3"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value="1/3"/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3" value="1/2"/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4" value="1/1"/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5" value="1/1"/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6" value="1/1"/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7" value="1/1"/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1"/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2"/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="40c0-835d-c034-5625" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="Light Gun (Front)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Front"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="12"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="*/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="*/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="*/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="*/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="2/#"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value="2/3"/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3" value="2/3"/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4" value="1/2"/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5" value="1/2"/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6" value="1/1"/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7" value=""/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1" value="2/3"/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2" value="2/3"/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3" value="1/2"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="797f-e2cf-fbf8-1c9f" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="Dual Anti-Tank Guns (Front)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Front"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="14"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="*/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="*/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="*/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="*/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="2/#"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value="2/#"/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3" value="2/5"/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4" value="2/4"/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5" value="2/4"/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6" value="1/3"/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7" value="1/3"/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1"/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2"/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="6bea-687a-19f3-9398" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="Dual Heavy Flamethrower (Front)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Front"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="2"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="**/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="**/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="**/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="**/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="**/#"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value="**/#"/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3" value="**/3"/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4" value="**/3"/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5" value="**/3"/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6" value="**/3"/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7" value="**/3"/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1"/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2"/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="ef8f-adfd-366b-8291" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="Dual Anti-Tank Guns (Front)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Front"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="18"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="*/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="*/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="*/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="*/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="2/#"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value="2/#"/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3" value="2/#"/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4" value="2/5"/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5" value="2/4"/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6" value="1/4"/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7" value="1/3"/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1"/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2"/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="7588-65e5-e1de-d751" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="Dual Heavy Flamethrower (Front)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Front"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="2"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="**/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="**/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="**/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="**/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="**/#"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value="**/#"/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3" value="**/2"/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4" value="**/2"/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5" value="**/2"/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6" value="**/2"/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7" value="**/2"/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1" value=""/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2"/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="6662-933e-dfef-9643" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="Dual Chainsaws (Front)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Front"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="C"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="6/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="6/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="6/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="6/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="6/2"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value="6/2"/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3" value="4/2"/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4" value="4/1"/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5" value="4/1"/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6" value="4/1"/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7" value="2/1"/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1" value=""/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2"/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="7b1b-98d6-e015-82cc" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="Dual Howitzers (Front)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Front"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="6"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="**/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="**/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="**/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="**/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="4/3"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value="4/2"/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3" value="3/2"/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4" value="1/1"/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5" value="1/1"/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6"/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7"/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1"/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2"/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="66c4-735d-b8c0-e438" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="Dual Howitzers (Front)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Front"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="6"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="**/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="**/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="**/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="**/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="4/3"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value="4/2"/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3" value="3/2"/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4" value="1/1"/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5"/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6"/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7"/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1"/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2"/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="ab9a-7bb7-febf-5a23" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="Heavy Machinegun (Front)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Front"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="6"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="5/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="5/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="4/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="3/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="3/2"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value="2/1"/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3" value="1/1"/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4" value=""/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5" value=""/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6" value=""/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7" value=""/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1" value="2/2"/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2" value="1/2"/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3" value="1/1"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="798c-97b9-47e6-08c6" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="Dual Quad Grenade Launchers (Front)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Front"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="8"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="**/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="**/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="**/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="**/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="**/2"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value="**/1"/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3" value="**/1"/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4" value="**/1"/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5" value="**/1"/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6"/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7"/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1"/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2"/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="b940-80e4-38a9-8408" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="Dual Gatling Gun (Front)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Front"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="10"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="7/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="7/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="7/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="6/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="3/2"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value="3/2"/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3" value="2/1"/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4" value="1/1"/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5" value=""/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6" value=""/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7" value=""/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1" value="3/2"/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2" value="2/2"/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3" value="1/1"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="ef89-e80f-1ed4-f622" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" name="Anti-Tank Gun (Turret)" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" name="Mount" value="Turret"/>
+        <characteristic characteristicId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" name="Range" value="14"/>
+        <characteristic characteristicId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" name="S1" value="*/1"/>
+        <characteristic characteristicId="a645204b-207d-2884-31bf-8052544ebe0f" name="S2" value="*/1"/>
+        <characteristic characteristicId="144e20c5-fee5-87da-d142-43ee6b13d299" name="S3" value="*/1"/>
+        <characteristic characteristicId="f8d85935-dc8d-ceab-8b59-185af6f07e21" name="S4" value="*/1"/>
+        <characteristic characteristicId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" name="V1" value="1/#"/>
+        <characteristic characteristicId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" name="V2" value="1/#"/>
+        <characteristic characteristicId="7d9919e5-211a-348d-cc4a-75f55034aa11" name="V3" value="1/#"/>
+        <characteristic characteristicId="5126abc7-3036-a560-473c-95cc1ebd6083" name="V4" value="1/5"/>
+        <characteristic characteristicId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" name="V5" value="1/5"/>
+        <characteristic characteristicId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" name="V6" value="1/4"/>
+        <characteristic characteristicId="95df902a-0d91-60fb-d501-90ba12e3f256" name="V7" value="1/4"/>
+        <characteristic characteristicId="3d408739-3c19-38d5-ed51-5bf195e61965" name="A1"/>
+        <characteristic characteristicId="afbc1d34-5c65-e8a1-6226-84be59697cb2" name="A2"/>
+        <characteristic characteristicId="cc1450a8-c61a-8715-5533-2175e5923685" name="A3"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+  </sharedProfiles>
+</catalogue>

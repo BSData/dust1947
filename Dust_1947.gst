@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bacf-9ebb-dbda-57d0" name="Dust 1947" revision="1" battleScribeVersion="2.00" authorName="Franky" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bacf-9ebb-dbda-57d0" name="Dust 1947" revision="2" battleScribeVersion="2.00" authorName="Franky" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
   <costTypes>
-    <costType id="points" name="pts"/>
+    <costType id="points" name=" pts"/>
   </costTypes>
   <profileTypes>
     <profileType id="6c4a1962-9409-6e62-9ea7-e81c4935e4fa" name="Weapons">
@@ -259,6 +259,208 @@
   <entryLinks/>
   <sharedSelectionEntries/>
   <sharedSelectionEntryGroups/>
-  <sharedRules/>
+  <sharedRules>
+    <rule id="f8a6-e566-a6b7-6e60" name="Steel Guard" book="Dust 1947 Rule Book" page="155" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Always pass Infantry Saves on [shield] and [bloc] and roll one die for each point of Damage the Unit takes, negating one point of damage for each [bloc] rolled. Steel Guard may only join Steel Guard.</description>
+    </rule>
+    <rule id="17e1-8ca6-bf45-3af0" name="Officer" book="Dust 1947 Rule Book" page="153" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>May take Officer Special Actions to reactivate or rearm their troops.</description>
+    </rule>
+    <rule id="34b6-fca0-3db0-c147" name="Tesla" book="Dust 1947 Rule Book" page="144" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Place Stunned token on Unit hit by this weapon, Unit must perform a Nothing Action as its first Action next Activation, removing all Stunned tokens.</description>
+    </rule>
+    <rule id="1612-1ff1-d920-6c4a" name="Brave" book="Dust 1947 Rule Book" page="148" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Roll three dice when Rallying.</description>
+    </rule>
+    <rule id="6c44-df48-8441-e194" name="Commissar" book="Dust 1947 Rule Book" page="149" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Joins Infantry Unit for the duration of the game. Each Unit may only have on Commissar attached to it.</description>
+    </rule>
+    <rule id="ea2b-3789-e80a-5bca" name="Tracked" book="Dust 1947 Rule Book" page="156" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Can be affected by type of Terrain crossed. (See Terrain Table)</description>
+    </rule>
+    <rule id="7005-a571-08c8-f819" name="Damage Resilient" book="Dust 1947 Rule Book" page="149" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Roll one die for each point of Damage the Unit takes, negating one point for each [bloc] rolled. Does not apply to Units Joined.</description>
+    </rule>
+    <rule id="aaf6-87a0-b6d9-c6a1" name="Large Vehicle" book="Dust 1947 Rule Book" page="21" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="8bdb-0ad0-bcd4-2ea7" name="Huge Vehicle" book="Dust 1947 Rule Book" page="21" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="0a5a-e196-7864-a74b" name="Advanced Reactive Fire" book="Dust 1947 Rule Book" page="146" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Can attempt a Reactive Attack at up to Range 6, counting [shield] and [bloc] when rolling for number of Actions. Does not apply to units joined.</description>
+    </rule>
+    <rule id="c1cd-d427-ebe6-b9d3" name="Airmobile" book="Dust 1947 Rule Book" page="147" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Can be carried by an Airlifter.</description>
+    </rule>
+    <rule id="23ee-9e3a-02bb-770f" name="Cheat Death" book="Dust 1947 Rule Book" page="149" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If eliminated, roll a die. On a [bloc] or [shield], cancel one point of Damage and Hero survives, but gains a Stunned token.</description>
+    </rule>
+    <rule id="0764-cb58-288e-a291" name="Combat Medic" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Can use the Medic Special Actions like a Command Squad Medic. Can be used on a unit joined.</description>
+    </rule>
+    <rule id="6b36-e1c4-18c7-68ec" name="Defensive Tactics" book="Dust 1947 Rule Book" page="150" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Gains Damage Resiliance when in cover.</description>
+    </rule>
+    <rule id="76b8-1dfa-a0de-a745" name="Flame" book="Dust 1947 Rule Book" page="140" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Target gets no saves from this weapon and is suppressed.</description>
+    </rule>
+    <rule id="be1f-1707-269f-5ab5" name="Grenade" book="Dust 1947 Rule Book" page="141" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Target Infantry receive no Cover Save from this weapon but still receive Infantry Save.</description>
+    </rule>
+    <rule id="8388-8a96-5103-f9a7" name="Killing Spree" book="Dust 1947 Rule Book" page="152" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When Hero hits with Ranged Weapon, roll again scoring another hit on [bloc]. Continue rolling until fail to hit. Does not Apply to Units Joined.</description>
+    </rule>
+    <rule id="df87-9c5e-8e76-fa89" name="Lucky" book="Dust 1947 Rule Book" page="153" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Once per game, may re-roll all of the dice for one weapon during his Attack action.</description>
+    </rule>
+    <rule id="b18f-45d7-bd64-7a09" name="Mechanic Crew" book="" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Perform a Makeshift repair Action to roll one die for each Miniature in the Unit. Cancel one point of damage on an adjacent vehicle for each [bloc] rolled. Does not apply to Units Joined.</description>
+    </rule>
+    <rule id="f410-4431-9afd-85f1" name="Mercenary" book="Dust 1947 Rule Book" page="153" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Unit can be fielded by any Bloc.</description>
+    </rule>
+    <rule id="ac5d-c49b-ab17-e288" name="Smoke Launchers" book="Dust 1947 Rule Book" page="154" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Once per game, take a free Smoke Launcher Action to place Smoke on Unit.</description>
+    </rule>
+    <rule id="9766-6532-5af3-6daa" name="Support Weapon" book="Dust 1947 Rule Book" page="156" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Support Weapons have multiple Soldiers on the same base. Surviving Soldiers choose which weapons to use.</description>
+    </rule>
+    <rule id="ec57-e4c9-31bf-6eea" name="Air Assault" book="Dust 1947 Rule Book" page="146" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Can be carried by an Airlifter and Activate after the Airlifter carrying it to Dismount and Move.</description>
+    </rule>
+    <rule id="e9af-5878-ed2e-f493" name="Charge" book="Dust 1947 Rule Book" page="148" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>May take a free Close-Combat Action after performing a March Move Action.</description>
+    </rule>
+    <rule id="4a33-c432-98c8-bdb9" name="Cutting" book="Dust 1947 Rule Book" page="140" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When weapon hits, roll again scoring another hit on a [bloc]. Keep rolling until failing to hit.</description>
+    </rule>
+    <rule id="721d-17f8-a3b1-6e8e" name="Engineer Vehicle" book="Dust 1947 Rule Book" page="150" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Has improved Engineering Action.</description>
+    </rule>
+    <rule id="f391-6d27-0521-d982" name="Grapple" book="Dust 1947 Rule Book" page="151" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Targets Hit by this weapon gain a Stunned Token.</description>
+    </rule>
+    <rule id="98e0-cc03-eb83-da4f" name="Mechanic" book="Dust 1947 Rule Book" page="153" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Can use Makeshift Repair Action.</description>
+    </rule>
+    <rule id="2c87-2079-b7dd-9363" name="Scout" book="Dust 1947 Rule Book" page="154" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Take March Move Action as first Action of game and recieve one extra Action for that Activation.</description>
+    </rule>
+  </sharedRules>
   <sharedProfiles/>
 </gameSystem>

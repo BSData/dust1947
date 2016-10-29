@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4568-fee3-1dc6-089f" name="Mercenaries" revision="1" battleScribeVersion="2.00" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4568-fee3-1dc6-089f" name="Mercenaries" revision="2" battleScribeVersion="2.00" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -25,31 +25,31 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="a18b-58b7-8bc9-585b" hidden="false" targetId="2ab2-c3d6-5796-a787" type="rule">
+        <infoLink id="a18b-58b7-8bc9-585b" hidden="false" targetId="f410-4431-9afd-85f1" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="03f8-1f10-740d-d293" hidden="false" targetId="caf4-9b2d-36a2-baa4" type="rule">
+        <infoLink id="03f8-1f10-740d-d293" hidden="false" targetId="1612-1ff1-d920-6c4a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="ec50-1877-5b99-6f4c" hidden="false" targetId="22ab-0be5-7d4f-b977" type="rule">
+        <infoLink id="ec50-1877-5b99-6f4c" hidden="false" targetId="23ee-9e3a-02bb-770f" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="7196-88f2-6c11-20b9" hidden="false" targetId="bcef-0de0-fad3-7abb" type="rule">
+        <infoLink id="7196-88f2-6c11-20b9" hidden="false" targetId="0764-cb58-288e-a291" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="4771-da19-6f09-fe9b" hidden="false" targetId="de04-3352-8ab3-8c25" type="rule">
+        <infoLink id="4771-da19-6f09-fe9b" hidden="false" targetId="df87-9c5e-8e76-fa89" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -81,14 +81,14 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="4.0"/>
+        <cost name=" pts" costTypeId="points" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4f56-eadc-d98b-8abd" name="Justine &amp; Co" hidden="false" collective="false" categoryEntryId="76227318-3362-ffb8-0460-e948cda200fe" type="unit">
@@ -108,13 +108,13 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="ea32-3f1a-47d2-8e96" hidden="false" targetId="161c-9de0-090b-5127" type="rule">
+        <infoLink id="ea32-3f1a-47d2-8e96" hidden="false" targetId="b18f-45d7-bd64-7a09" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="b133-3b3c-7ce9-c4a9" hidden="false" targetId="2ab2-c3d6-5796-a787" type="rule">
+        <infoLink id="b133-3b3c-7ce9-c4a9" hidden="false" targetId="f410-4431-9afd-85f1" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -144,14 +144,14 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="4.0"/>
+        <cost name=" pts" costTypeId="points" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a846-5c7f-4dbe-bbd2" name="Luisa" hidden="false" collective="false" categoryEntryId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" type="model">
@@ -172,19 +172,19 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="d8f8-ddac-2dea-652a" hidden="false" targetId="0bce-b9a6-a134-1c79" type="rule">
+        <infoLink id="d8f8-ddac-2dea-652a" hidden="false" targetId="8388-8a96-5103-f9a7" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="b747-537c-de00-bcf4" hidden="false" targetId="2ab2-c3d6-5796-a787" type="rule">
+        <infoLink id="b747-537c-de00-bcf4" hidden="false" targetId="f410-4431-9afd-85f1" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="5cc2-f41b-131c-c110" hidden="false" targetId="40b8-f11d-0fce-419a" type="rule">
+        <infoLink id="5cc2-f41b-131c-c110" hidden="false" targetId="17e1-8ca6-bf45-3af0" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -206,7 +206,7 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="0a91-7fec-754f-260a" hidden="false" targetId="09bc-a549-98ca-e775" type="rule">
+            <infoLink id="0a91-7fec-754f-260a" hidden="false" targetId="be1f-1707-269f-5ab5" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -222,14 +222,14 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="12.0"/>
+        <cost name=" pts" costTypeId="points" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1797-9995-0b26-e0b9" name="Mercenary Cleaning Team" hidden="false" collective="false" categoryEntryId="76227318-3362-ffb8-0460-e948cda200fe" type="unit">
@@ -249,7 +249,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="45c7-47ca-8cb4-2ac4" hidden="false" targetId="2ab2-c3d6-5796-a787" type="rule">
+        <infoLink id="45c7-47ca-8cb4-2ac4" hidden="false" targetId="f410-4431-9afd-85f1" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -263,7 +263,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="2157-fcbe-9ec6-6ece" hidden="false" targetId="09bc-a549-98ca-e775" type="rule">
+            <infoLink id="2157-fcbe-9ec6-6ece" hidden="false" targetId="be1f-1707-269f-5ab5" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -285,7 +285,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7a06-892f-ecaa-f2d9" name="Flamethrower" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -298,7 +298,7 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="fc01-4ad3-27e0-dd48" hidden="false" targetId="9710-99f8-91b7-33fc" type="rule">
+            <infoLink id="fc01-4ad3-27e0-dd48" hidden="false" targetId="76b8-1dfa-a0de-a745" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -314,14 +314,14 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="10.0"/>
+        <cost name=" pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="169d-9dab-1cff-61c2" name="Mercenary Heavy Machine Gun Squad" hidden="false" collective="false" categoryEntryId="b65bbf00-a157-7756-2040-07ec6f49cef9" type="unit">
@@ -342,19 +342,19 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="db5a-4dd6-5cf3-a656" hidden="false" targetId="2ab2-c3d6-5796-a787" type="rule">
+        <infoLink id="db5a-4dd6-5cf3-a656" hidden="false" targetId="f410-4431-9afd-85f1" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="27b6-5feb-7c45-da9a" hidden="false" targetId="3238-f40b-93f1-f85c" type="rule">
+        <infoLink id="27b6-5feb-7c45-da9a" hidden="false" targetId="9766-6532-5af3-6daa" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="6a8d-20b0-dace-6c1a" hidden="false" targetId="9d63-8192-166f-d0dd" type="rule">
+        <infoLink id="6a8d-20b0-dace-6c1a" hidden="false" targetId="0a5a-e196-7864-a74b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -384,7 +384,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a8d5-388f-e9f2-5b6b" name="BAR Automatic Rifle" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -407,7 +407,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f234-e1a9-4886-86cc" name="Submachine Gun" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -430,14 +430,14 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="4.0"/>
+        <cost name=" pts" costTypeId="points" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="27a3-07de-f855-d5e2" name="Tanya" hidden="false" collective="false" categoryEntryId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" type="model">
@@ -458,13 +458,13 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="3240-ff2d-4bfc-5fef" hidden="false" targetId="2ab2-c3d6-5796-a787" type="rule">
+        <infoLink id="3240-ff2d-4bfc-5fef" hidden="false" targetId="f410-4431-9afd-85f1" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="05db-d2d0-6dd5-35ce" hidden="false" targetId="2142-c30d-e589-9990" type="rule">
+        <infoLink id="05db-d2d0-6dd5-35ce" hidden="false" targetId="6b36-e1c4-18c7-68ec" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -497,39 +497,39 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="7.0"/>
+        <cost name=" pts" costTypeId="points" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ea8a-1168-0f9f-7989" name="Wrecker" hidden="false" collective="false" categoryEntryId="29b76100-e940-9c92-7f00-a7ad44e2f288" type="model">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="34bf-e75e-167c-e83e" hidden="false" targetId="2ab2-c3d6-5796-a787" type="rule">
+        <infoLink id="34bf-e75e-167c-e83e" hidden="false" targetId="f410-4431-9afd-85f1" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="bbac-1fcd-0030-70f0" hidden="false" targetId="1554-4a20-0d38-16a1" type="rule">
+        <infoLink id="bbac-1fcd-0030-70f0" hidden="false" targetId="c1cd-d427-ebe6-b9d3" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="0edb-6ef2-6757-03d6" hidden="false" targetId="62b6-9e14-97a3-a64a" type="rule">
+        <infoLink id="0edb-6ef2-6757-03d6" hidden="false" targetId="7005-a571-08c8-f819" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="a193-0493-8b14-4db1" hidden="false" targetId="9296-76cf-e70f-990d" type="rule">
+        <infoLink id="a193-0493-8b14-4db1" hidden="false" targetId="ac5d-c49b-ab17-e288" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -559,7 +559,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fa9c-326a-f2dc-9dbb" name="Machinegun (Front)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -582,7 +582,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -623,7 +623,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name=" pts" costTypeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5e87-18c1-16d3-854b" name="Demolisher" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -668,7 +668,7 @@
                       <infoLinks/>
                       <modifiers/>
                     </infoLink>
-                    <infoLink id="d8e8-59bf-99f6-1371" hidden="false" targetId="09bc-a549-98ca-e775" type="rule">
+                    <infoLink id="d8e8-59bf-99f6-1371" hidden="false" targetId="be1f-1707-269f-5ab5" type="rule">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -684,14 +684,14 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="0.0"/>
+                    <cost name=" pts" costTypeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="pts" costTypeId="points" value="2.0"/>
+                <cost name=" pts" costTypeId="points" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -701,127 +701,14 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="11.0"/>
+        <cost name=" pts" costTypeId="points" value="11.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries/>
   <sharedSelectionEntryGroups/>
-  <sharedRules>
-    <rule id="9d63-8192-166f-d0dd" name="Advanced Reactive Fire" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Can attempt a Reactive Attack at up to Range 6, counting [shield] and [bloc] when rolling for number of Actions. Does not apply to units joined.</description>
-    </rule>
-    <rule id="1554-4a20-0d38-16a1" name="Airmobile" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Can be carried by an Airlifter.</description>
-    </rule>
-    <rule id="caf4-9b2d-36a2-baa4" name="Brave" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Roll three dice when Rallying.</description>
-    </rule>
-    <rule id="22ab-0be5-7d4f-b977" name="Cheat Death" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>If eliminated, roll a die. On a [bloc] or [shield], cancel one point of Damage and Hero survives, but gains a Stunned token.</description>
-    </rule>
-    <rule id="bcef-0de0-fad3-7abb" name="Combat Medic" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Can use the Medic Special Actions like a Command Squad Medic. Can be used on a unit joined.</description>
-    </rule>
-    <rule id="62b6-9e14-97a3-a64a" name="Damage Resilient" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Roll one die for each point of Damage the Unit takes, negating one point for each [bloc] rolled. Does not apply to Units Joined.</description>
-    </rule>
-    <rule id="2142-c30d-e589-9990" name="Defensive Tactics" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Gains Damage Resiliance when in cover.</description>
-    </rule>
-    <rule id="9710-99f8-91b7-33fc" name="Flame" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Target gets no saves from this weapon and is suppressed.</description>
-    </rule>
-    <rule id="09bc-a549-98ca-e775" name="Grenade" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Target Infantry receive no Cover Save from this weapon but still receive Infantry Save.</description>
-    </rule>
-    <rule id="0bce-b9a6-a134-1c79" name="Killing Spree" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>When Hero hits with Ranged Weapon, roll again scoring another hit on [bloc]. Continue rolling until fail to hit. Does not Apply to Units Joined.</description>
-    </rule>
-    <rule id="de04-3352-8ab3-8c25" name="Lucky" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Once per game, may re-roll all of the dice for one weapon during his Attack action.</description>
-    </rule>
-    <rule id="161c-9de0-090b-5127" name="Mechanic Crew" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Perform a Makeshift repair Action to roll one die for each Miniature in the Unit. Cancel one point of damage on an adjacent vehicle for each [bloc] rolled. Does not apply to Units Joined.</description>
-    </rule>
-    <rule id="2ab2-c3d6-5796-a787" name="Mercenary" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Unit can be fielded by any Bloc.</description>
-    </rule>
-    <rule id="40b8-f11d-0fce-419a" name="Officer" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>May take Officer Special Actions to reactivate or rearm their troops.</description>
-    </rule>
-    <rule id="9296-76cf-e70f-990d" name="Smoke Launchers" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Once per game, take a free Smoke Launcher Action to place Smoke on Unit.</description>
-    </rule>
-    <rule id="3238-f40b-93f1-f85c" name="Support Weapon" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Support Weapons have multiple Soldiers on the same base. Surviving Soldiers choose which weapons to use.</description>
-    </rule>
-  </sharedRules>
+  <sharedRules/>
   <sharedProfiles>
     <profile id="a7ea-d374-dc1f-5d5d" name=".45 ACP Pistol" hidden="false" profileTypeId="6c4a1962-9409-6e62-9ea7-e81c4935e4fa">
       <profiles/>

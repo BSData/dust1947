@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bacf-9ebb-dbda-57d0" name="Dust 1947" revision="2" battleScribeVersion="2.00" authorName="Franky" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bacf-9ebb-dbda-57d0" name="Dust 1947" revision="3" battleScribeVersion="2.00" authorName="Franky" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -212,6 +212,13 @@
           <constraints/>
         </categoryEntry>
         <categoryEntry id="e7069911-d999-7800-e256-b1f8752871e3" name="Fortification" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryEntry>
+        <categoryEntry id="0bb6-1bab-9318-124a" name="Platoons" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -460,6 +467,475 @@
       <infoLinks/>
       <modifiers/>
       <description>Take March Move Action as first Action of game and recieve one extra Action for that Activation.</description>
+    </rule>
+    <rule id="9047-90d7-cdbb-cfcd" name="Ace Pilot" book="Dust 1947 Rule Book" page="146" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>May mount a Vehicle, using his skills while mounted. Roll one die when Vehicle Activates gaining a third action on a [bloc] or a [crosshair].</description>
+    </rule>
+    <rule id="2198-a3d7-19e8-b14f" name="Air Alert" book="Dust 1947 Rule Book" page="146" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Take Air Alert Special Action to select an Aircraft in Line of Sight. On a [bloc], friendly Units attacking it hit on [crosshair] as well as [bloc] for the remainder of the turn.</description>
+    </rule>
+    <rule id="87e0-f224-a2d1-0d6d" name="Air Traffic Control" book="Dust 1947 Rule Book" page="146" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>To take an Air Traffic Control Special Action, select an Aircraft in line of sight and on a result of [bloc] the selected Aircraft activates again.</description>
+    </rule>
+    <rule id="dc06-363f-17b7-9d9f" name="And Stay Down" book="Dust 1947 Rule Book" page="147" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Any Unit Hit by ranged weapons fired by this Unit automatically gains a Suppression token.</description>
+    </rule>
+    <rule id="9f01-cd98-0325-296d" name="Artillery" book="Dust 1947 Rule Book" page="139" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Can fire under control of an Artillery Observer. Ignores infantry save.</description>
+    </rule>
+    <rule id="464f-2687-e1d8-97f2" name="Artillery Observer" book="Dust 1947 Rule Book" page="147" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Can shoot a target in Line of Sight with an Artillery Weapon from another Unit that has not yet Activated, even if the other Unit does not have Line of Sight. The other Unit is counted as Activated after making its Attack.</description>
+    </rule>
+    <rule id="ad54-dca0-aaa6-a533" name="Assassin" book="Dust 1947 Rule Book" page="148" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Choose Soldiers hit using Close-Combat Weapons. Does not apply to Units Joined.</description>
+    </rule>
+    <rule id="fe0f-5721-dbe0-601b" name="At the Double" book="Dust 1947 Rule Book" page="148" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>May take a free Move Action after performing a March Move. Applies to Units Joined.</description>
+    </rule>
+    <rule id="58cd-d607-7fba-34c6" name="Berserk" book="Dust 1947 Rule Book" page="148" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When Close-Combat Weapon Hits, roll again scoring another hit on a [bloc]. Keep rolling until failing to hit.</description>
+    </rule>
+    <rule id="eec6-77c3-2eb0-5b81" name="Black Ops" book="Dust 1947 Rule Book" page="148" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Rolls four dice for initiative.</description>
+    </rule>
+    <rule id="52ec-faeb-4b70-18df" name="Camouflage" book="Dust 1947 Rule Book" page="148" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Take Camouflage Special Action. Unit cannor be attacked at Range or higher. Ends if Unit takes any Action other than a Move or Nothing Action. Start the game Camouflaged. Does not share it with any Unit Joined.</description>
+    </rule>
+    <rule id="e75e-1fec-1166-ab4c" name="Command Squad" book="Dust 1947 Rule Book" page="149" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>May perform Special Actions with its Officer, Medic, or Mechanic to reactivate, heal, repair, or rearm Units.</description>
+    </rule>
+    <rule id="b88b-55c0-83ff-005f" name="Command Vehicle" book="Dust 1947 Rule Book" page="149" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Officers, Mechanics, and Medics mounted in vehicle can re-roll Special Actions.</description>
+    </rule>
+    <rule id="0201-3d78-6b57-1cbc" name="Dozer Blade" book="Dust 1947 Rule Book" page="150" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Take a Dozer Special Action to gain a Cover Save until the vehicle takes a Move or March Move Action.</description>
+    </rule>
+    <rule id="7fd1-f22a-c9a6-5dfd" name="Expert" book="Dust 1947 Rule Book" page="150" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Hits on [crosshair] as well as [bloc].</description>
+    </rule>
+    <rule id="9310-80a1-2d3a-9416" name="Fighting Spirit" book="Dust 1947 Rule Book" page="150" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Once per game, hit on [crosshair] as well as [bloc]. Also applies to Units Joined.</description>
+    </rule>
+    <rule id="e452-a3b7-f41c-2046" name="First Strike" book="Dust 1947 Rule Book" page="150" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Resolves Close-Combat Attacks before target resolves theirs.</description>
+    </rule>
+    <rule id="5c4d-7223-a1e3-67f2" name="Flying" book="Dust 1947 Rule Book" page="150" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Unit ignores terrain. Does not share with units joined.</description>
+    </rule>
+    <rule id="0d79-e8c3-551e-a35a" name="Helicopter" book="Dust 1947 Rule Book" page="151" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Helicopters are not required to take a Move Action, allowing them to make sustained attacks.</description>
+    </rule>
+    <rule id="918c-0b66-e132-5fdf" name="Infantry Ace" book="Dust 1947 Rule Book" page="151" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Roll one die when unit activates gaining a third action on a [bloc] or a [crosshair].</description>
+    </rule>
+    <rule id="bfbe-1613-22da-84e1" name="Loner" book="Dust 1947 Rule Book" page="153" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>May not Join a Unit.</description>
+    </rule>
+    <rule id="d475-fbdb-821c-ae90" name="Move and Fire" book="Dust 1947 Rule Book" page="153" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>May take free Move Action before or after a Sustained Attack Action or a free Attack Action before of acfter a March Move Action.</description>
+    </rule>
+    <rule id="c553-3eed-d339-bc2f" name="Naval Unit" book="Dust 1947 Rule Book" page="153" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Treats Water as Open Terrain but cannot enter any other type of terrain. May take a free Attack Action after performing a March Move Action.</description>
+    </rule>
+    <rule id="ad37-41f0-a2e5-4d13" name="Nothin&apos;s Easy" book="Dust 1947 Rule Book" page="153" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Does not gain Under fire or Suppression. Applies to Units Joined.</description>
+    </rule>
+    <rule id="df39-3cbb-8f43-f9a0" name="Passengers (6)" book="Dust 1947 Rule Book" page="154" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Can carry six Infantry with Armour 1 or 2 or three Infantry with Armour 3 or 4.</description>
+    </rule>
+    <rule id="2e31-6152-60f4-91cd" name="Phaser" book="Dust 1947 Rule Book" page="141" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Targets get no Cover Save from this weapon but still receive Infantry Save.</description>
+    </rule>
+    <rule id="7bf5-d07b-cc32-d990" name="Pilot" book="" page="" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>May mount a Vehicle and use skills while mounted.</description>
+    </rule>
+    <rule id="60e9-4b58-e3eb-bb32" name="Power Scope" book="Dust 1947 Rule Book" page="143" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Hits on [crosshair] as well as [bloc] when using ranged weapons when making a Sustained Attack. Does not appy to Units Joined.</description>
+    </rule>
+    <rule id="254c-1794-85de-e87c" name="Reload" book="Dust 1947 Rule Book" page="143" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When this weapon performs an Attack Action, remove it&apos;s Reload Token. The Unit may not perform another Attack Action until a Reload Action is performed.</description>
+    </rule>
+    <rule id="d2e3-01cc-31d2-6b6c" name="Salvo" book="Dust 1947 Rule Book" page="143" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>May double number of attack dice in an Attack but must be reloaded with a Reload Action prior to next use.</description>
+    </rule>
+    <rule id="92ca-74ce-8c95-cf39" name="Savage Animal" book="Dust 1947 Rule Book" page="154" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Hits on [crosshair] and [bloc].</description>
+    </rule>
+    <rule id="1928-1773-1c86-bf7e" name="Small Vehicle" book="Dust 1947 Rule Book" page="154" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Always has Cover save. Determines and affects Line of Sight as an Infantry Unit, but blocks LoS for other Small Vehicles.</description>
+    </rule>
+    <rule id="92f0-9d77-d69a-3f4a" name="Sealifter" book="Dust 1947 Rule Book" page="154" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Naval Unit equipped to carry Units into battle.</description>
+    </rule>
+    <rule id="6992-7508-bace-c186" name="Sniper" book="Dust 1947 Rule Book" page="144" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Choose the enemy soldiers hit with this weapon. It Ignores Infantry and Cover saves.</description>
+    </rule>
+    <rule id="894c-b20b-cbd2-60b2" name="Spotter" book="Dust 1947 Rule Book" page="144" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If Spotter does not use a weapon, each Sniper weapon making a Sustained Attack hits on rolls of [crosshair] as well as [bloc].</description>
+    </rule>
+    <rule id="7928-348e-09a8-7330" name="Spy" book="Dust 1947 Rule Book" page="154" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Not placed at the start of the game. Each time Spy is Activated, roll two dice. If any [bloc] are rolled, place the Spy within range one of an enemy Unit and perform one Action for each [bloc] rolled.</description>
+    </rule>
+    <rule id="13e7-28d9-1057-93e8" name="Strongpoint" book="Dust 1947 Rule Book" page="155" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Must be deployed in a Strongpoint or Bunker. Unit has a Strongpoint included in its points cost. You may upgrade the Strongpoint to a Bunker for an additional +5 points. Cannot move.</description>
+    </rule>
+    <rule id="a72a-f81e-84cb-9277" name="Super Human" book="Dust 1947 Rule Book" page="155" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Passes Infantry Save on [shield] as well as [bloc] and can benefit from Cover, but not at the same time. May not Join a Unit.</description>
+    </rule>
+    <rule id="86b8-d87a-68fe-53b9" name="Trail Blazer" book="Dust 1947 Rule Book" page="156" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Can Move through enemy Units. Applies to Units Joined.</description>
+    </rule>
+    <rule id="1c8b-dca9-bf60-884f" name="Volley" book="Dust 1947 Rule Book" page="145" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Weapon may fire all remaining ammunition at the same target in a Single Attack or Sustained Attack Action.</description>
+    </rule>
+    <rule id="f35c-0357-07e1-0a5d" name="Ace Air Pilot" book="Dust 1947 Rule Book" page="146" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>May mount an Aircraft, using his skills while mounted. Roll one die when the Aircraft Activates gaining a third action on a [bloc] or [crosshair].</description>
+    </rule>
+    <rule id="77f0-fd65-c07e-019d" name="Airborne" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Airborne units are dropped anywhere on the table, but not closer than range 2 to any objective in the game. The Unit&apos;s first Action must by a Nothing Action. Player rolls one die and on a roll of [bloc] or [crosshair] the player may take a second action. Unit may not capture objectives on the first turn placed.</description>
+    </rule>
+    <rule id="90f6-9a1a-e0ab-ce6c" name="Blutkreuz" book="Dust 1947 Rule Book" page="148" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>All mindless zombie units withing range 1 at the start of their activation increase their move to 3, their march move to 4, and gain charge.</description>
+    </rule>
+    <rule id="e320-9f32-a81d-e0a8" name="Execute" book="Dust 1947 Rule Book" page="150" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Can take execute special action to eliminate chose soldier within Range 1 from a unit with a stunned token.</description>
+    </rule>
+    <rule id="540e-f4c4-e4c9-0153" name="Flame Burst" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Target get no saves from this weapon and is suppressed. Use blast template instead of flame template.</description>
+    </rule>
+    <rule id="c022-dee0-e6b4-752b" name="General" book="Dust 1947 Rule Book" page="150" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When joined to a Command Squad, this Hero rolls one extra dice when attempting Officer Special Actions.</description>
+    </rule>
+    <rule id="f41a-e504-291c-ff1e" name="Gorilla" book="Dust 1947 Rule Book" page="151" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Only a Gorilla may Join Gorillas.</description>
+    </rule>
+    <rule id="6d19-5730-3b96-d1f1" name="Half-Tracked" book="Dust 1947 Rule Book" page="151" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Can be affected by type of Terrain crossed. (See Terrain Table)</description>
+    </rule>
+    <rule id="b11e-2700-038e-1344" name="Head Shot" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Choose the enemy soldiers hit with this weapon. Place stunned token on unit hit by this weapon.</description>
+    </rule>
+    <rule id="7bfc-7270-c332-7bf3" name="Interrogate" book="Dust 1947 Rule Book" page="152" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If Tina or a unit she joins uses a close-combat weapon to eliminate a hero or officer, or executes a hero or officer, roll four dice for initiative at the start of each turn for the rest of the game.</description>
+    </rule>
+    <rule id="6feb-0342-106c-0a6a" name="Jammer" book="Dust 1947 Rule Book" page="152" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>All successful enemy Actions that require use of a radio within a range of 6, are forced to re-roll and accept the new result.</description>
+    </rule>
+    <rule id="18d8-2c16-81bc-0fa6" name="Laser" book="Dust 1947 Rule Book" page="141" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When weapon hits, roll again scoring another hit on a [bloc]. Keep rolling until failing to hit.</description>
+    </rule>
+    <rule id="7585-b947-d930-0ef4" name="Mindless" book="Dust 1947 Rule Book" page="153" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Can be led by the Blutkreuz. Cannot take Objectives. Immune to Suppression. Applies to Unit Joined.</description>
+    </rule>
+    <rule id="ac94-29a0-bc56-a7e2" name="Passengers (12)" book="Dust 1947 Rule Book" page="154" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Can carry twelve Infantry with Armour 1 or 2 or six Infantry with Armour 3 or 4.</description>
+    </rule>
+    <rule id="5532-8093-0449-c910" name="Passengers (3)" book="Dust 1947 Rule Book" page="154" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Can carry three Infantry with Armour 1 or 2 or one Infantry with Armour 3 or 4.</description>
+    </rule>
+    <rule id="be60-d2b2-a811-b61d" name="Resurrection" book="Dust 1947 Rule Book" page="154" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>May take Resurrection Action on a Mindless Zombie Unit within Range 1. Unit rolls a die for each Zombie eliminated from the Unit. Each [bloc] returns one Zombie to the Unit.</description>
+    </rule>
+    <rule id="cbfd-2433-8ec0-7afe" name="Wheeled" book="Dust 1947 Rule Book" page="156" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Can be affected by type of Terrain crossed. (See Terrain Table)</description>
+    </rule>
+    <rule id="7134-6a73-e31c-7fe5" name="Wire Guided" book="Dust 1947 Rule Book" page="145" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If unit Attacks with one Missile and no other weapons, it re-rolls misses for that missile as if making a Sustained Attack.</description>
+    </rule>
+    <rule id="13c0-faf6-11d1-5aa9" name="Zombie" book="Dust 1947 Rule Book" page="156" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Zombies always pass Infantry Saves on [shield] as well as [bloc]. Only a Zombie may Join Zombies.</description>
+    </rule>
+    <rule id="7e12-8ea1-81fb-41cf" name="Airlifter" book="Dust 1947 Rule Book" page="147" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Can carry an Air Assault or Airmobile Unit.</description>
+    </rule>
+    <rule id="aef5-44e8-7fd4-b9e6" name="Assault Shield" page="" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When a Hit from a Close-Combat weapon is assigned to a miniature with an Assault Shield, roll a die. On a [bloc], cancel the Hit.</description>
+    </rule>
+    <rule id="36ed-eb01-37aa-0c4f" name="Follow Me" book="Dust 1947 Rule Book" page="150" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Can take a Follow Me Special Action once per turn. All friendly Infantry Units with Infantry Armour 1 or 2 within Range 2 and in Line of Sight roll a die. On a [bloc] they take an immediate Move Action with a Move rating of 2.</description>
+    </rule>
+    <rule id="cddf-c4c1-150d-a6f2" name="Get Moving You..." page="" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Succeeds on [crosshair] as well as [bloc] when using Get Moving You Bunch of Monkeys on a Spetsnaz Unit.</description>
+    </rule>
+    <rule id="f15f-61f5-44f4-cb21" name="Medevac" book="Dust 1947 Rule Book" page="153" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Take a Medevac Action on a friendly Infantry Unit within Range 1. Roll a die for each Soldier eliminated from the Unit. Each roll of [bloc] returns one of Soldier to the Unit.</description>
+    </rule>
+    <rule id="34cd-c25a-7247-8ee9" name="Radiation" page="" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Targets re-roll successful Saves against this weapon.</description>
+    </rule>
+    <rule id="fa87-8160-f83d-1469" name="Red Banner" book="Dust 1947 Rule Book" page="154" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>All friendly Infantry Units within Range 2 and in Line of Sight roll three dice when Rallying.</description>
+    </rule>
+    <rule id="2163-bdc6-fddb-07b3" name="Take Aim" book="Dust 1947 Rule Book" page="156" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When making a Sustained Attack with ranged weapons hits on rolls of [crosshair] as well as [bloc]. Does not apply to Units Joined.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>

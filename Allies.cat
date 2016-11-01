@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8eb0bc51-b6f0-d32c-b0d1-35fa5259b2da" name="Allies" revision="2" battleScribeVersion="2.00" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8eb0bc51-b6f0-d32c-b0d1-35fa5259b2da" name="Allies" revision="3" battleScribeVersion="2.00" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -25,7 +25,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="557d2089-906a-9d6b-7d40-39cdb166c62d" hidden="false" targetId="740f7774-1e1b-7d0a-654c-1fba99504746" type="rule">
+        <infoLink id="557d2089-906a-9d6b-7d40-39cdb166c62d" hidden="false" targetId="fe0f-5721-dbe0-601b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -53,7 +53,7 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="fd0f71ed-0d87-14b7-3cb0-cbd774d75730" hidden="false" targetId="846fac29-98d6-3e45-c563-a090a4323029" type="rule">
+            <infoLink id="fd0f71ed-0d87-14b7-3cb0-cbd774d75730" hidden="false" targetId="2e31-6152-60f4-91cd" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -109,7 +109,7 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="67de3a50-52ad-c4fc-cea9-cd4a24569e51" hidden="false" targetId="846fac29-98d6-3e45-c563-a090a4323029" type="rule">
+            <infoLink id="67de3a50-52ad-c4fc-cea9-cd4a24569e51" hidden="false" targetId="2e31-6152-60f4-91cd" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -195,7 +195,7 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="2b51-17bc-dcfa-2326" hidden="false" targetId="846fac29-98d6-3e45-c563-a090a4323029" type="rule">
+            <infoLink id="2b51-17bc-dcfa-2326" hidden="false" targetId="2e31-6152-60f4-91cd" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -246,7 +246,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="acaf-1340-6386-195a" hidden="false" targetId="db186c88-bdda-2605-c980-dccf9970b40d" type="rule">
+            <infoLink id="acaf-1340-6386-195a" hidden="false" targetId="254c-1794-85de-e87c" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -355,7 +355,7 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="3c50-ecf5-5e11-6aa6" hidden="false" targetId="db186c88-bdda-2605-c980-dccf9970b40d" type="rule">
+            <infoLink id="3c50-ecf5-5e11-6aa6" hidden="false" targetId="254c-1794-85de-e87c" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -445,7 +445,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="725fc804-4e67-70eb-142c-8faefc2361a3" hidden="false" targetId="9f02833e-a40c-4e4c-ca48-53aba62eac90" type="rule">
+        <infoLink id="725fc804-4e67-70eb-142c-8faefc2361a3" hidden="false" targetId="eec6-77c3-2eb0-5b81" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -473,7 +473,7 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="16d80e61-77e3-1c8c-3dc1-0c9b42c8ebff" hidden="false" targetId="982782f6-8dd0-f8c8-10d0-15e640561c66" type="rule">
+            <infoLink id="16d80e61-77e3-1c8c-3dc1-0c9b42c8ebff" hidden="false" targetId="7fd1-f22a-c9a6-5dfd" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -559,7 +559,7 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="fb7c2fb8-85c0-1a6c-8ed7-2c56019eb09c" hidden="false" targetId="db186c88-bdda-2605-c980-dccf9970b40d" type="rule">
+            <infoLink id="fb7c2fb8-85c0-1a6c-8ed7-2c56019eb09c" hidden="false" targetId="254c-1794-85de-e87c" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -608,7 +608,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="78d8-a9fe-a15a-d717" hidden="false" targetId="5936a625-ea59-d435-de6c-bd0f2fbb5cdd" type="rule">
+        <infoLink id="78d8-a9fe-a15a-d717" hidden="false" targetId="e75e-1fec-1166-ab4c" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -709,7 +709,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="73930201-406d-a600-2cac-cf2902e0b433" hidden="false" targetId="846fac29-98d6-3e45-c563-a090a4323029" type="rule">
+            <infoLink id="73930201-406d-a600-2cac-cf2902e0b433" hidden="false" targetId="2e31-6152-60f4-91cd" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1085,7 +1085,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="a4d78a50-38cf-675a-12de-215fafd11bd7" hidden="false" targetId="846fac29-98d6-3e45-c563-a090a4323029" type="rule">
+            <infoLink id="a4d78a50-38cf-675a-12de-215fafd11bd7" hidden="false" targetId="2e31-6152-60f4-91cd" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1255,7 +1255,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="9f683bc9-69e0-0c45-39b4-41e487eedfd2" hidden="false" targetId="31acb0af-c785-18d2-bb99-1ce9c6165c82" type="rule">
+        <infoLink id="9f683bc9-69e0-0c45-39b4-41e487eedfd2" hidden="false" targetId="9047-90d7-cdbb-cfcd" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1471,7 +1471,7 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="fa95-21a2-bd81-aba7" hidden="false" targetId="846fac29-98d6-3e45-c563-a090a4323029" type="rule">
+            <infoLink id="fa95-21a2-bd81-aba7" hidden="false" targetId="2e31-6152-60f4-91cd" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1515,7 +1515,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="69a24699-e244-ec8e-e46b-d2b4727ba9a2" hidden="false" targetId="d8e92d30-960b-c231-31b1-19f729bc3414" type="rule">
+        <infoLink id="69a24699-e244-ec8e-e46b-d2b4727ba9a2" hidden="false" targetId="0201-3d78-6b57-1cbc" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1541,7 +1541,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="6a3c0e07-fa90-412e-f285-54972cf29f57" hidden="false" targetId="846fac29-98d6-3e45-c563-a090a4323029" type="rule">
+            <infoLink id="6a3c0e07-fa90-412e-f285-54972cf29f57" hidden="false" targetId="2e31-6152-60f4-91cd" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1637,7 +1637,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="6b22-05d2-d9f2-fab1" hidden="false" targetId="e6d6-e52e-4d8f-af0f" type="rule">
+        <infoLink id="6b22-05d2-d9f2-fab1" hidden="false" targetId="dc06-363f-17b7-9d9f" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1689,7 +1689,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="7a67-313a-3ae1-7d88" hidden="false" targetId="fa85e34f-0a5f-3106-0fa5-892356037a48" type="rule">
+        <infoLink id="7a67-313a-3ae1-7d88" hidden="false" targetId="918c-0b66-e132-5fdf" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1711,7 +1711,7 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="2d06-2126-1ab1-e460" hidden="false" targetId="982782f6-8dd0-f8c8-10d0-15e640561c66" type="rule">
+            <infoLink id="2d06-2126-1ab1-e460" hidden="false" targetId="7fd1-f22a-c9a6-5dfd" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1828,7 +1828,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="f555192e-b5a6-635c-c983-499c7c28590e" hidden="false" targetId="bd5731f0-7b98-0476-b0b4-962e974bda1e" type="rule">
+        <infoLink id="f555192e-b5a6-635c-c983-499c7c28590e" hidden="false" targetId="13e7-28d9-1057-93e8" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1871,7 +1871,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="a2eb634f-5b75-329a-94c1-7541296a18bd" hidden="false" targetId="846fac29-98d6-3e45-c563-a090a4323029" type="rule">
+            <infoLink id="a2eb634f-5b75-329a-94c1-7541296a18bd" hidden="false" targetId="2e31-6152-60f4-91cd" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1935,7 +1935,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="facff3d4-2226-935c-7b24-ded5f55afc11" hidden="false" targetId="bd5731f0-7b98-0476-b0b4-962e974bda1e" type="rule">
+        <infoLink id="facff3d4-2226-935c-7b24-ded5f55afc11" hidden="false" targetId="13e7-28d9-1057-93e8" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1972,7 +1972,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="ff3e3098-82ef-56a5-fac7-a867f782b781" hidden="false" targetId="846fac29-98d6-3e45-c563-a090a4323029" type="rule">
+            <infoLink id="ff3e3098-82ef-56a5-fac7-a867f782b781" hidden="false" targetId="2e31-6152-60f4-91cd" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2030,7 +2030,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="de043bb2-cafa-57c2-c063-f7f47b84a687" hidden="false" targetId="079ee2d7-2f7c-3580-0ef2-f32975e2c589" type="rule">
+        <infoLink id="de043bb2-cafa-57c2-c063-f7f47b84a687" hidden="false" targetId="df39-3cbb-8f43-f9a0" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2042,7 +2042,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="05f5272a-af85-7959-b3bf-4e7acdbdbc5f" hidden="false" targetId="d8e92d30-960b-c231-31b1-19f729bc3414" type="rule">
+        <infoLink id="05f5272a-af85-7959-b3bf-4e7acdbdbc5f" hidden="false" targetId="0201-3d78-6b57-1cbc" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2170,13 +2170,13 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="1670-39ba-eb0f-0fe3" hidden="false" targetId="e6d6-e52e-4d8f-af0f" type="rule">
+        <infoLink id="1670-39ba-eb0f-0fe3" hidden="false" targetId="dc06-363f-17b7-9d9f" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="6cc8-3e6e-4465-9dbb" hidden="false" targetId="0fa2-8416-b379-d85a" type="rule">
+        <infoLink id="6cc8-3e6e-4465-9dbb" hidden="false" targetId="ad37-41f0-a2e5-4d13" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2192,7 +2192,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="dde02c43-c72b-f9ea-dc27-a0fc0aefeabf" hidden="false" targetId="982782f6-8dd0-f8c8-10d0-15e640561c66" type="rule">
+            <infoLink id="dde02c43-c72b-f9ea-dc27-a0fc0aefeabf" hidden="false" targetId="7fd1-f22a-c9a6-5dfd" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2353,13 +2353,13 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="cc35d965-1f39-759a-6222-cb5d95e654cb" hidden="false" targetId="13ec757e-7dd7-0c63-1218-0d850d1bbf05" type="rule">
+        <infoLink id="cc35d965-1f39-759a-6222-cb5d95e654cb" hidden="false" targetId="e452-a3b7-f41c-2046" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="e7899637-cde0-1636-3bc9-5ab22d6fbb35" hidden="false" targetId="fba4adca-b237-915e-6e80-24a616e36eb5" type="rule">
+        <infoLink id="e7899637-cde0-1636-3bc9-5ab22d6fbb35" hidden="false" targetId="5c4d-7223-a1e3-67f2" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2416,7 +2416,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="826480ba-89f2-265a-3a54-d5ea7b5eae2e" hidden="false" targetId="fba4adca-b237-915e-6e80-24a616e36eb5" type="rule">
+        <infoLink id="826480ba-89f2-265a-3a54-d5ea7b5eae2e" hidden="false" targetId="5c4d-7223-a1e3-67f2" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2496,7 +2496,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="3e012fad-2e62-8834-83c3-7bd8124e5718" hidden="false" targetId="5936a625-ea59-d435-de6c-bd0f2fbb5cdd" type="rule">
+        <infoLink id="3e012fad-2e62-8834-83c3-7bd8124e5718" hidden="false" targetId="e75e-1fec-1166-ab4c" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2605,7 +2605,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="22365ccf-0411-389e-f37c-c6004cfddb73" hidden="false" targetId="fba4adca-b237-915e-6e80-24a616e36eb5" type="rule">
+        <infoLink id="22365ccf-0411-389e-f37c-c6004cfddb73" hidden="false" targetId="5c4d-7223-a1e3-67f2" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2699,13 +2699,13 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="9a2c086a-b0f9-4929-7e2d-5786717a715c" hidden="false" targetId="846fac29-98d6-3e45-c563-a090a4323029" type="rule">
+            <infoLink id="9a2c086a-b0f9-4929-7e2d-5786717a715c" hidden="false" targetId="2e31-6152-60f4-91cd" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="6603b957-d9f7-0488-ecd6-ad54db3e9077" hidden="false" targetId="f26c2674-d88e-ef7b-f694-1529ec7cc57a" type="rule">
+            <infoLink id="6603b957-d9f7-0488-ecd6-ad54db3e9077" hidden="false" targetId="d2e3-01cc-31d2-6b6c" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2870,7 +2870,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="2ad9-8b98-1824-fdfc" hidden="false" targetId="e3b8f1e2-fe17-d3d3-0ca9-564581a38eb5" type="rule">
+        <infoLink id="2ad9-8b98-1824-fdfc" hidden="false" targetId="7bf5-d07b-cc32-d990" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2930,7 +2930,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="dc88b046-1fe7-40e4-a62c-9844d77e10dd" hidden="false" targetId="625afe5b-5ca5-eaae-b399-6a742bb0133e" type="rule">
+        <infoLink id="dc88b046-1fe7-40e4-a62c-9844d77e10dd" hidden="false" targetId="9310-80a1-2d3a-9416" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2996,13 +2996,13 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="8e616135-004d-01dd-84c8-84d9b1247925" hidden="false" targetId="fa5702a3-94ea-a22e-500e-99f501a7adb9" type="rule">
+        <infoLink id="8e616135-004d-01dd-84c8-84d9b1247925" hidden="false" targetId="c553-3eed-d339-bc2f" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="565c2fee-d5d0-8626-69cd-573d1982333a" hidden="false" targetId="8e5462e8-3687-5229-b1d9-62e47f255310" type="rule">
+        <infoLink id="565c2fee-d5d0-8626-69cd-573d1982333a" hidden="false" targetId="92f0-9d77-d69a-3f4a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3080,7 +3080,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="d78707f3-07c3-349f-f252-33a0c6978909" hidden="false" targetId="0dc7450d-023b-c224-b4bd-8f3a02e916e5" type="rule">
+            <infoLink id="d78707f3-07c3-349f-f252-33a0c6978909" hidden="false" targetId="9f01-cd98-0325-296d" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3220,7 +3220,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="4aad-03cf-6462-1e04" hidden="false" targetId="0d7c-0dd9-d955-7780" type="rule">
+        <infoLink id="4aad-03cf-6462-1e04" hidden="false" targetId="86b8-d87a-68fe-53b9" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3243,7 +3243,7 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="4b5d-47e3-9e43-b091" hidden="false" targetId="982782f6-8dd0-f8c8-10d0-15e640561c66" type="rule">
+            <infoLink id="4b5d-47e3-9e43-b091" hidden="false" targetId="7fd1-f22a-c9a6-5dfd" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3354,7 +3354,7 @@
                       <infoLinks/>
                       <modifiers/>
                     </infoLink>
-                    <infoLink id="7c3b-a3a5-6a31-76a3" hidden="false" targetId="982782f6-8dd0-f8c8-10d0-15e640561c66" type="rule">
+                    <infoLink id="7c3b-a3a5-6a31-76a3" hidden="false" targetId="7fd1-f22a-c9a6-5dfd" type="rule">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -3414,7 +3414,7 @@
                       <infoLinks/>
                       <modifiers/>
                     </infoLink>
-                    <infoLink id="270f-e571-0d7c-5f1b" hidden="false" targetId="982782f6-8dd0-f8c8-10d0-15e640561c66" type="rule">
+                    <infoLink id="270f-e571-0d7c-5f1b" hidden="false" targetId="7fd1-f22a-c9a6-5dfd" type="rule">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -3716,7 +3716,7 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="fbf7-5ef2-a26c-13bb" hidden="false" targetId="db186c88-bdda-2605-c980-dccf9970b40d" type="rule">
+            <infoLink id="fbf7-5ef2-a26c-13bb" hidden="false" targetId="254c-1794-85de-e87c" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3825,7 +3825,7 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="d894-7b7e-4614-6cc6" hidden="false" targetId="db186c88-bdda-2605-c980-dccf9970b40d" type="rule">
+            <infoLink id="d894-7b7e-4614-6cc6" hidden="false" targetId="254c-1794-85de-e87c" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -4008,7 +4008,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="252153e8-b7eb-4cba-348c-99eea5494817" hidden="false" targetId="079ee2d7-2f7c-3580-0ef2-f32975e2c589" type="rule">
+        <infoLink id="252153e8-b7eb-4cba-348c-99eea5494817" hidden="false" targetId="df39-3cbb-8f43-f9a0" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4020,13 +4020,13 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="0d2f37e1-bfce-b790-287e-2c4519b045bb" hidden="false" targetId="afa4af92-d800-0d87-1c2f-95b59e6b4fa0" type="rule">
+        <infoLink id="0d2f37e1-bfce-b790-287e-2c4519b045bb" hidden="false" targetId="2198-a3d7-19e8-b14f" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="73bc1c31-746d-67fc-90b2-a04e776e6018" hidden="false" targetId="109e011e-1ee1-410d-2279-dbbeb2a8866f" type="rule">
+        <infoLink id="73bc1c31-746d-67fc-90b2-a04e776e6018" hidden="false" targetId="b88b-55c0-83ff-005f" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4159,13 +4159,13 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="27e04f79-2657-cd4c-1d31-2a7452cbd46e" hidden="false" targetId="6aee748a-fc19-98c0-5afc-d68ef4d4d881" type="rule">
+        <infoLink id="27e04f79-2657-cd4c-1d31-2a7452cbd46e" hidden="false" targetId="ad54-dca0-aaa6-a533" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="5bd9d38d-61b9-4fa1-a7f6-8c71c3ce4096" hidden="false" targetId="fba4adca-b237-915e-6e80-24a616e36eb5" type="rule">
+        <infoLink id="5bd9d38d-61b9-4fa1-a7f6-8c71c3ce4096" hidden="false" targetId="5c4d-7223-a1e3-67f2" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4187,7 +4187,7 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="2197538b-4bd5-6d54-59c3-439dbde55753" hidden="false" targetId="982782f6-8dd0-f8c8-10d0-15e640561c66" type="rule">
+            <infoLink id="2197538b-4bd5-6d54-59c3-439dbde55753" hidden="false" targetId="7fd1-f22a-c9a6-5dfd" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -4272,6 +4272,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="c8a5-8e72-9882-90eb" name="New InfoLink" hidden="false" targetId="aaf6-87a0-b6d9-c6a1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -4280,7 +4286,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="d0a4051d-af16-50e2-43ab-256320d51183" hidden="false" targetId="846fac29-98d6-3e45-c563-a090a4323029" type="rule">
+            <infoLink id="d0a4051d-af16-50e2-43ab-256320d51183" hidden="false" targetId="2e31-6152-60f4-91cd" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -4411,6 +4417,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="d596-73fc-837b-e13d" name="New InfoLink" hidden="false" targetId="aaf6-87a0-b6d9-c6a1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -4419,7 +4431,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="caa014d5-a8aa-8290-8f0d-1c9c84b55568" hidden="false" targetId="f26c2674-d88e-ef7b-f694-1529ec7cc57a" type="rule">
+            <infoLink id="caa014d5-a8aa-8290-8f0d-1c9c84b55568" hidden="false" targetId="d2e3-01cc-31d2-6b6c" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -4732,13 +4744,13 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="55a28198-6dd4-7d22-9532-f6d857540a4a" hidden="false" targetId="d8e92d30-960b-c231-31b1-19f729bc3414" type="rule">
+        <infoLink id="55a28198-6dd4-7d22-9532-f6d857540a4a" hidden="false" targetId="0201-3d78-6b57-1cbc" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="b66b0594-129e-0f04-0cee-264ed80fbdec" hidden="false" targetId="079ee2d7-2f7c-3580-0ef2-f32975e2c589" type="rule">
+        <infoLink id="b66b0594-129e-0f04-0cee-264ed80fbdec" hidden="false" targetId="df39-3cbb-8f43-f9a0" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5142,7 +5154,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="b16d92d5-4159-6963-fe04-cfe6c6fc0520" hidden="false" targetId="5936a625-ea59-d435-de6c-bd0f2fbb5cdd" type="rule">
+        <infoLink id="b16d92d5-4159-6963-fe04-cfe6c6fc0520" hidden="false" targetId="e75e-1fec-1166-ab4c" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5237,7 +5249,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="525d-e73b-fb35-ac10" hidden="false" targetId="0dc7450d-023b-c224-b4bd-8f3a02e916e5" type="rule">
+            <infoLink id="525d-e73b-fb35-ac10" hidden="false" targetId="9f01-cd98-0325-296d" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -5388,13 +5400,13 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="a61782d5-9a11-0fcb-be1f-2e7beb8df3dc" hidden="false" targetId="d578423f-6473-80a5-69be-01780ecbaf40" type="rule">
+        <infoLink id="a61782d5-9a11-0fcb-be1f-2e7beb8df3dc" hidden="false" targetId="464f-2687-e1d8-97f2" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="d3e9747b-990d-345d-440e-55952193f18b" hidden="false" targetId="d1507e3a-a87f-a025-caba-7b9d8829254a" type="rule">
+        <infoLink id="d3e9747b-990d-345d-440e-55952193f18b" hidden="false" targetId="52ec-faeb-4b70-18df" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5560,7 +5572,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="b312f192-42ad-e6f9-13e2-b139067b2d2c" hidden="false" targetId="d1507e3a-a87f-a025-caba-7b9d8829254a" type="rule">
+        <infoLink id="b312f192-42ad-e6f9-13e2-b139067b2d2c" hidden="false" targetId="52ec-faeb-4b70-18df" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5572,7 +5584,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="a7c2bf42-49b4-1eac-030f-cb64b33c71c4" hidden="false" targetId="dcd99cd3-df63-7eae-e88c-1df8455355cd" type="rule">
+        <infoLink id="a7c2bf42-49b4-1eac-030f-cb64b33c71c4" hidden="false" targetId="894c-b20b-cbd2-60b2" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5586,7 +5598,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="acc57d6a-701f-26a7-c368-42cedfd0cfba" hidden="false" targetId="18b52554-9530-6173-044e-bea1c943aca3" type="rule">
+            <infoLink id="acc57d6a-701f-26a7-c368-42cedfd0cfba" hidden="false" targetId="6992-7508-bace-c186" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -5880,7 +5892,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="8dad97a2-8242-df24-39ed-63853a1dd971" hidden="false" targetId="d578423f-6473-80a5-69be-01780ecbaf40" type="rule">
+        <infoLink id="8dad97a2-8242-df24-39ed-63853a1dd971" hidden="false" targetId="464f-2687-e1d8-97f2" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6086,7 +6098,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="8fef-5ab3-0481-713d" hidden="false" targetId="d578423f-6473-80a5-69be-01780ecbaf40" type="rule">
+        <infoLink id="8fef-5ab3-0481-713d" hidden="false" targetId="464f-2687-e1d8-97f2" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6219,19 +6231,19 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="6fe10c9f-84e7-1076-3746-5d47a199642a" hidden="false" targetId="fba4adca-b237-915e-6e80-24a616e36eb5" type="rule">
+        <infoLink id="6fe10c9f-84e7-1076-3746-5d47a199642a" hidden="false" targetId="5c4d-7223-a1e3-67f2" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="25128a8f-a32a-9fa3-f08d-251cd34e96dd" hidden="false" targetId="24e51a44-645e-578d-73af-299cc7dc42d8" type="rule">
+        <infoLink id="25128a8f-a32a-9fa3-f08d-251cd34e96dd" hidden="false" targetId="58cd-d607-7fba-34c6" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="5aeaeb24-68d4-8a49-aa8c-3e0201522c60" hidden="false" targetId="13ec757e-7dd7-0c63-1218-0d850d1bbf05" type="rule">
+        <infoLink id="5aeaeb24-68d4-8a49-aa8c-3e0201522c60" hidden="false" targetId="e452-a3b7-f41c-2046" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6253,7 +6265,7 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="2a23e627-0277-bd92-e00d-82034a7ee02a" hidden="false" targetId="982782f6-8dd0-f8c8-10d0-15e640561c66" type="rule">
+            <infoLink id="2a23e627-0277-bd92-e00d-82034a7ee02a" hidden="false" targetId="7fd1-f22a-c9a6-5dfd" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -6313,7 +6325,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="0d644eb5-2ee3-2813-9f50-68a2a725a225" hidden="false" targetId="982782f6-8dd0-f8c8-10d0-15e640561c66" type="rule">
+            <infoLink id="0d644eb5-2ee3-2813-9f50-68a2a725a225" hidden="false" targetId="7fd1-f22a-c9a6-5dfd" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -6392,19 +6404,19 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="ac2f-b3fd-befe-4527" hidden="false" targetId="d578423f-6473-80a5-69be-01780ecbaf40" type="rule">
+        <infoLink id="ac2f-b3fd-befe-4527" hidden="false" targetId="464f-2687-e1d8-97f2" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="9531-4895-0470-3033" hidden="false" targetId="4eff-39e8-3e99-8f17" type="rule">
+        <infoLink id="9531-4895-0470-3033" hidden="false" targetId="87e0-f224-a2d1-0d6d" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="8632-1396-0d6b-1f3a" hidden="false" targetId="c821-0c96-6b9e-a7a5" type="rule">
+        <infoLink id="8632-1396-0d6b-1f3a" hidden="false" targetId="0d79-e8c3-551e-a35a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6497,19 +6509,19 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="08a349e8-c1c3-00a5-4829-8f37aa7e3f76" hidden="false" targetId="13ec757e-7dd7-0c63-1218-0d850d1bbf05" type="rule">
+        <infoLink id="08a349e8-c1c3-00a5-4829-8f37aa7e3f76" hidden="false" targetId="e452-a3b7-f41c-2046" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="6ba0376d-ca76-974b-50e3-88e191d91eb6" hidden="false" targetId="fba4adca-b237-915e-6e80-24a616e36eb5" type="rule">
+        <infoLink id="6ba0376d-ca76-974b-50e3-88e191d91eb6" hidden="false" targetId="5c4d-7223-a1e3-67f2" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="b708e531-838f-7f83-ec89-0c91ac5f9983" hidden="false" targetId="c16b6d36-5e44-b9eb-c357-ec9f22a096f0" type="rule">
+        <infoLink id="b708e531-838f-7f83-ec89-0c91ac5f9983" hidden="false" targetId="a72a-f81e-84cb-9277" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6531,7 +6543,7 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="a74d-8c67-fcf9-8559" hidden="false" targetId="982782f6-8dd0-f8c8-10d0-15e640561c66" type="rule">
+            <infoLink id="a74d-8c67-fcf9-8559" hidden="false" targetId="7fd1-f22a-c9a6-5dfd" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -6618,7 +6630,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="7d0512d6-708d-3e38-6102-2e76176fe8a3" hidden="false" targetId="f26c2674-d88e-ef7b-f694-1529ec7cc57a" type="rule">
+            <infoLink id="7d0512d6-708d-3e38-6102-2e76176fe8a3" hidden="false" targetId="d2e3-01cc-31d2-6b6c" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -6912,7 +6924,7 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="8a58-7848-dec6-fdc4" hidden="false" targetId="db186c88-bdda-2605-c980-dccf9970b40d" type="rule">
+            <infoLink id="8a58-7848-dec6-fdc4" hidden="false" targetId="254c-1794-85de-e87c" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -6947,7 +6959,7 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="dd60-6683-5aed-6219" hidden="false" targetId="2054be91-c788-30d1-3ce9-7ebfe835f4fb" type="rule">
+            <infoLink id="dd60-6683-5aed-6219" hidden="false" targetId="1c8b-dca9-bf60-884f" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -7021,7 +7033,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="55d722a2-d943-3938-3186-bf4ed2675197" hidden="false" targetId="2054be91-c788-30d1-3ce9-7ebfe835f4fb" type="rule">
+            <infoLink id="55d722a2-d943-3938-3186-bf4ed2675197" hidden="false" targetId="1c8b-dca9-bf60-884f" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -7094,7 +7106,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="50879d0e-4380-033e-4732-852a9398530f" hidden="false" targetId="179df050-39d9-27bf-f8f5-2a45e8b4de4d" type="rule">
+        <infoLink id="50879d0e-4380-033e-4732-852a9398530f" hidden="false" targetId="bfbe-1613-22da-84e1" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7106,7 +7118,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="3f9d0afb-8e43-a4dc-c139-2f716c69d780" hidden="false" targetId="062f356d-90f8-3c2d-17b5-c874946f0e3f" type="rule">
+        <infoLink id="3f9d0afb-8e43-a4dc-c139-2f716c69d780" hidden="false" targetId="7928-348e-09a8-7330" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7151,7 +7163,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="46c9784e-e79a-f936-ecc5-1f8af7655013" hidden="false" targetId="982782f6-8dd0-f8c8-10d0-15e640561c66" type="rule">
+            <infoLink id="46c9784e-e79a-f936-ecc5-1f8af7655013" hidden="false" targetId="7fd1-f22a-c9a6-5dfd" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -7207,7 +7219,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="f41e8c97-8ccd-7683-17a5-a59b1a0415ae" hidden="false" targetId="062f356d-90f8-3c2d-17b5-c874946f0e3f" type="rule">
+        <infoLink id="f41e8c97-8ccd-7683-17a5-a59b1a0415ae" hidden="false" targetId="7928-348e-09a8-7330" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7246,7 +7258,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="6e5ab938-33ba-03ed-c58f-b6186f350aea" hidden="false" targetId="982782f6-8dd0-f8c8-10d0-15e640561c66" type="rule">
+            <infoLink id="6e5ab938-33ba-03ed-c58f-b6186f350aea" hidden="false" targetId="7fd1-f22a-c9a6-5dfd" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -7303,7 +7315,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="aca5b1ac-a1a6-2e2b-f4fa-9e9568453acc" hidden="false" targetId="2054be91-c788-30d1-3ce9-7ebfe835f4fb" type="rule">
+            <infoLink id="aca5b1ac-a1a6-2e2b-f4fa-9e9568453acc" hidden="false" targetId="1c8b-dca9-bf60-884f" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -7376,13 +7388,13 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="f065-1d96-a452-1782" hidden="false" targetId="b4e416bc-bd93-cc40-78cf-147a986b89da" type="rule">
+        <infoLink id="f065-1d96-a452-1782" hidden="false" targetId="d475-fbdb-821c-ae90" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="982a-7390-0faf-5694" hidden="false" targetId="e3b8f1e2-fe17-d3d3-0ca9-564581a38eb5" type="rule">
+        <infoLink id="982a-7390-0faf-5694" hidden="false" targetId="7bf5-d07b-cc32-d990" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7695,7 +7707,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="e7cc399b-5b6f-662d-3772-031e4bfb26b3" hidden="false" targetId="5936a625-ea59-d435-de6c-bd0f2fbb5cdd" type="rule">
+        <infoLink id="e7cc399b-5b6f-662d-3772-031e4bfb26b3" hidden="false" targetId="e75e-1fec-1166-ab4c" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8275,7 +8287,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="9df5eb12-d0cc-a4c1-17d0-49ac85a70c1f" hidden="false" targetId="0dc7450d-023b-c224-b4bd-8f3a02e916e5" type="rule">
+            <infoLink id="9df5eb12-d0cc-a4c1-17d0-49ac85a70c1f" hidden="false" targetId="9f01-cd98-0325-296d" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -8324,13 +8336,13 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="dde8f5ef-e42c-77e7-3ac1-c891bb2afd30" hidden="false" targetId="d578423f-6473-80a5-69be-01780ecbaf40" type="rule">
+        <infoLink id="dde8f5ef-e42c-77e7-3ac1-c891bb2afd30" hidden="false" targetId="464f-2687-e1d8-97f2" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="256b215d-43c9-eec2-deb2-cf157f3c8218" hidden="false" targetId="d1507e3a-a87f-a025-caba-7b9d8829254a" type="rule">
+        <infoLink id="256b215d-43c9-eec2-deb2-cf157f3c8218" hidden="false" targetId="52ec-faeb-4b70-18df" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8410,13 +8422,13 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="b2c2c58f-cd36-2449-7974-0230208947f9" hidden="false" targetId="d578423f-6473-80a5-69be-01780ecbaf40" type="rule">
+        <infoLink id="b2c2c58f-cd36-2449-7974-0230208947f9" hidden="false" targetId="464f-2687-e1d8-97f2" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="d57174fd-efa9-42a9-299b-c86d1451118a" hidden="false" targetId="d1507e3a-a87f-a025-caba-7b9d8829254a" type="rule">
+        <infoLink id="d57174fd-efa9-42a9-299b-c86d1451118a" hidden="false" targetId="52ec-faeb-4b70-18df" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8502,7 +8514,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="5fb609f1-99fa-1f22-c6ad-ed2845fd6314" hidden="false" targetId="b4e416bc-bd93-cc40-78cf-147a986b89da" type="rule">
+        <infoLink id="5fb609f1-99fa-1f22-c6ad-ed2845fd6314" hidden="false" targetId="d475-fbdb-821c-ae90" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8566,7 +8578,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="ac55-b756-51a4-0dd9" hidden="false" targetId="13ec757e-7dd7-0c63-1218-0d850d1bbf05" type="rule">
+        <infoLink id="ac55-b756-51a4-0dd9" hidden="false" targetId="e452-a3b7-f41c-2046" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8615,7 +8627,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="e75f-738c-38ba-0040" hidden="false" targetId="ecda-6919-c7a9-823b" type="rule">
+            <infoLink id="e75f-738c-38ba-0040" hidden="false" targetId="92ca-74ce-8c95-cf39" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -8796,6 +8808,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="218d-fa33-1770-2359" name="New InfoLink" hidden="false" targetId="aaf6-87a0-b6d9-c6a1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -8804,7 +8822,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="6e18-ddd9-efa7-1aae" hidden="false" targetId="846fac29-98d6-3e45-c563-a090a4323029" type="rule">
+            <infoLink id="6e18-ddd9-efa7-1aae" hidden="false" targetId="2e31-6152-60f4-91cd" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -8912,6 +8930,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="6c7c-3f41-b221-7ffc" name="New InfoLink" hidden="false" targetId="aaf6-87a0-b6d9-c6a1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -8920,7 +8944,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="6fa4-7741-fd57-cc49" hidden="false" targetId="db186c88-bdda-2605-c980-dccf9970b40d" type="rule">
+            <infoLink id="6fa4-7741-fd57-cc49" hidden="false" targetId="254c-1794-85de-e87c" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -9022,13 +9046,13 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="30f5-3c4c-4026-4018" name="New InfoLink" hidden="false" targetId="062f356d-90f8-3c2d-17b5-c874946f0e3f" type="rule">
+        <infoLink id="30f5-3c4c-4026-4018" name="New InfoLink" hidden="false" targetId="7928-348e-09a8-7330" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="96ce-71f7-7631-2d03" name="New InfoLink" hidden="false" targetId="8932-003d-a4cd-f46d" type="rule">
+        <infoLink id="96ce-71f7-7631-2d03" name="New InfoLink" hidden="false" targetId="60e9-4b58-e3eb-bb32" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9044,7 +9068,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="d051-8ee0-6901-d028" name="New InfoLink" hidden="false" targetId="18b52554-9530-6173-044e-bea1c943aca3" type="rule">
+            <infoLink id="d051-8ee0-6901-d028" name="New InfoLink" hidden="false" targetId="6992-7508-bace-c186" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -9073,7 +9097,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="6265-db45-2730-4cdb" name="New InfoLink" hidden="false" targetId="982782f6-8dd0-f8c8-10d0-15e640561c66" type="rule">
+            <infoLink id="6265-db45-2730-4cdb" name="New InfoLink" hidden="false" targetId="7fd1-f22a-c9a6-5dfd" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -9160,281 +9184,7 @@
       <entryLinks/>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
-  <sharedRules>
-    <rule id="31acb0af-c785-18d2-bb99-1ce9c6165c82" name="Ace Pilot" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>May mount a Vehicle, using his skills while mounted. Roll one die when Vehicle Activates gaining a third action on a [bloc] or a [crosshair].</description>
-    </rule>
-    <rule id="afa4af92-d800-0d87-1c2f-95b59e6b4fa0" name="Air Alert" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Take Air Alert Special Action to select an Aircraft in Line of Sight. On a [bloc], friendly Units attacking it hit on [crosshair] as well as [bloc] for the remainder of the turn.</description>
-    </rule>
-    <rule id="4eff-39e8-3e99-8f17" name="Air Traffic Control" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>To take an Air Traffic Control Special Action, select an Aircraft in line of sight and on a result of [bloc] the selected Aircraft activates again.</description>
-    </rule>
-    <rule id="e6d6-e52e-4d8f-af0f" name="And Stay Down" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Any Unit Hit by ranged weapons fired by this Unit automatically gains a Suppression token.</description>
-    </rule>
-    <rule id="0dc7450d-023b-c224-b4bd-8f3a02e916e5" name="Artillery" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Can fire under control of an Artillery Observer. Ignores infantry save.</description>
-    </rule>
-    <rule id="d578423f-6473-80a5-69be-01780ecbaf40" name="Artillery Observer" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Can shoot a target in Line of Sight with an Artillery Weapon from another Unit that has not yet Activated, even if the other Unit does not have Line of Sight. The other Unit is counted as Activated after making its Attack.</description>
-    </rule>
-    <rule id="6aee748a-fc19-98c0-5afc-d68ef4d4d881" name="Assassin" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Choose Soldiers hit using Close-Combat Weapons. Does not apply to Units Joined.</description>
-    </rule>
-    <rule id="740f7774-1e1b-7d0a-654c-1fba99504746" name="At the Double" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>May take a free Move Action after performing a March Move. Applies to Units Joined.</description>
-    </rule>
-    <rule id="24e51a44-645e-578d-73af-299cc7dc42d8" name="Berserk" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>When Close-Combat Weapon Hits, roll again scoring another hit on a [bloc]. Keep rolling until failing to hit.</description>
-    </rule>
-    <rule id="9f02833e-a40c-4e4c-ca48-53aba62eac90" name="Black Ops" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Rolls four dice for initiative.</description>
-    </rule>
-    <rule id="d1507e3a-a87f-a025-caba-7b9d8829254a" name="Camouflage" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Take Camouflage Special Action. Unit cannor be attacked at Range or higher. Ends if Unit takes any Action other than a Move or Nothing Action. Start the game Camouflaged. Does not share it with any Unit Joined.</description>
-    </rule>
-    <rule id="5936a625-ea59-d435-de6c-bd0f2fbb5cdd" name="Command Squad" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>May perform Special Actions with its Officer, Medic, or Mechanic to reactivate, heal, repair, or rearm Units.</description>
-    </rule>
-    <rule id="109e011e-1ee1-410d-2279-dbbeb2a8866f" name="Command Vehicle" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Officers, Mechanics, and Medics mounted in vehicle can re-roll Special Actions.</description>
-    </rule>
-    <rule id="d8e92d30-960b-c231-31b1-19f729bc3414" name="Dozer Blade" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Take a Dozer Special Action to gain a Cover Save until the vehicle takes a Move or March Move Action.</description>
-    </rule>
-    <rule id="982782f6-8dd0-f8c8-10d0-15e640561c66" name="Expert" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Hits on [crosshair] as well as [bloc].</description>
-    </rule>
-    <rule id="625afe5b-5ca5-eaae-b399-6a742bb0133e" name="Fighting Spirit" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Once per game, hit on [crosshair] as well as [bloc]. Also applies to Units Joined.</description>
-    </rule>
-    <rule id="13ec757e-7dd7-0c63-1218-0d850d1bbf05" name="First Strike" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Resolves Close-Combat Attacks before target resolves theirs.</description>
-    </rule>
-    <rule id="fba4adca-b237-915e-6e80-24a616e36eb5" name="Flying" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Unit ignores terrain. Does not share with units joined.</description>
-    </rule>
-    <rule id="c821-0c96-6b9e-a7a5" name="Helicopter" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Helicopters are not required to take a Move Action, allowing them to make sustained attacks.</description>
-    </rule>
-    <rule id="fa85e34f-0a5f-3106-0fa5-892356037a48" name="Infantry Ace" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Roll one die when unit activates gaining a third action on a [bloc] or a [crosshair].</description>
-    </rule>
-    <rule id="179df050-39d9-27bf-f8f5-2a45e8b4de4d" name="Loner" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>May not Join a Unit.</description>
-    </rule>
-    <rule id="b4e416bc-bd93-cc40-78cf-147a986b89da" name="Move and Fire" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>May take free Move Action before or after a Sustained Attack Action or a free Attack Action before of acfter a March Move Action.</description>
-    </rule>
-    <rule id="fa5702a3-94ea-a22e-500e-99f501a7adb9" name="Naval Unit" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Treats Water as Open Terrain but cannot enter any other type of terrain. May take a free Attack Action after performing a March Move Action.</description>
-    </rule>
-    <rule id="0fa2-8416-b379-d85a" name="Nothin&apos;s Easy" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Does not gain Under fire or Suppression. Applies to Units Joined.</description>
-    </rule>
-    <rule id="079ee2d7-2f7c-3580-0ef2-f32975e2c589" name="Passengers (6)" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Can carry six Infantry with Armour 1 or 2 or three Infantry with Armour 3 or 4.</description>
-    </rule>
-    <rule id="846fac29-98d6-3e45-c563-a090a4323029" name="Phaser" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Targets get no Cover Save from this weapon but still receive Infantry Save.</description>
-    </rule>
-    <rule id="e3b8f1e2-fe17-d3d3-0ca9-564581a38eb5" name="Pilot" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>May mount a Vehicle and use skills while mounted.</description>
-    </rule>
-    <rule id="db186c88-bdda-2605-c980-dccf9970b40d" name="Reload" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>When this weapon performs an Attack Action, remove it&apos;s Reload Token. The Unit may not perform another Attack Action until a Reload Action is performed.</description>
-    </rule>
-    <rule id="f26c2674-d88e-ef7b-f694-1529ec7cc57a" name="Salvo" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>May double number of attack dice in an Attack but must be reloaded with a Reload Action prior to next use.</description>
-    </rule>
-    <rule id="ecda-6919-c7a9-823b" name="Savage Animal" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Hits on [crosshair] and [bloc].</description>
-    </rule>
-    <rule id="8e5462e8-3687-5229-b1d9-62e47f255310" name="Sealifter" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Naval Unit equipped to carry Units into battle.</description>
-    </rule>
-    <rule id="18b52554-9530-6173-044e-bea1c943aca3" name="Sniper" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Choose the enemy soldiers hit with this weapon. It Ignores Infantry and Cover saves.</description>
-    </rule>
-    <rule id="dcd99cd3-df63-7eae-e88c-1df8455355cd" name="Spotter" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>If Spotter does not use a weapon, each Sniper weapon making a Sustained Attack hits on rolls of [crosshair] as well as [bloc].</description>
-    </rule>
-    <rule id="062f356d-90f8-3c2d-17b5-c874946f0e3f" name="Spy" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Not placed at the start of the game. Each time Spy is Activated, roll two dice. If any [bloc] are rolled, place the Spy within range one of an enemy Unit and perform one Action for each [bloc] rolled.</description>
-    </rule>
-    <rule id="bd5731f0-7b98-0476-b0b4-962e974bda1e" name="Strongpoint" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Must be deployed in a Strongpoint or Bunker. Unit has a Strongpoint included in its points cost. You may upgrade the Strongpoint to a Bunker for an additional +5 points. Cannot move.</description>
-    </rule>
-    <rule id="c16b6d36-5e44-b9eb-c357-ec9f22a096f0" name="Super Human" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Passes Infantry Save on [shield] as well as [bloc] and can benefit from Cover, but not at the same time. May not Join a Unit.</description>
-    </rule>
-    <rule id="0d7c-0dd9-d955-7780" name="Trail Blazer" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Can Move through enemy Units. Applies to Units Joined.</description>
-    </rule>
-    <rule id="2054be91-c788-30d1-3ce9-7ebfe835f4fb" name="Volley" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Weapon may fire all remaining ammunition at the same target in a Single Attack or Sustained Attack Action.</description>
-    </rule>
-    <rule id="8932-003d-a4cd-f46d" name="Power Scope" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Hits on [crosshair] as well as [bloc] when using ranged weapons when making a Sustained Attack. Does not appy to Units Joined.</description>
-    </rule>
-  </sharedRules>
+  <sharedRules/>
   <sharedProfiles>
     <profile id="78f8fce2-8c1f-8de8-0a5a-7e71c76f1cd9" name="Antitank Gun (Turret)" page="0" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
       <profiles/>
@@ -10167,7 +9917,7 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Mount" characteristicTypeId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" value="Left Side"/>
+        <characteristic name="Mount" characteristicTypeId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" value="Left"/>
         <characteristic name="Range" characteristicTypeId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" value="8"/>
         <characteristic name="S1" characteristicTypeId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" value="5/1"/>
         <characteristic name="S2" characteristicTypeId="a645204b-207d-2884-31bf-8052544ebe0f" value="5/1"/>
@@ -10191,7 +9941,7 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Mount" characteristicTypeId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" value="Right Side"/>
+        <characteristic name="Mount" characteristicTypeId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" value="Right"/>
         <characteristic name="Range" characteristicTypeId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" value="8"/>
         <characteristic name="S1" characteristicTypeId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" value="5/1"/>
         <characteristic name="S2" characteristicTypeId="a645204b-207d-2884-31bf-8052544ebe0f" value="5/1"/>

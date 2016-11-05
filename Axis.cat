@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8ef2fe75-bde5-cb08-a904-1e2fe601c053" name="Axis" revision="3" battleScribeVersion="2.00" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8ef2fe75-bde5-cb08-a904-1e2fe601c053" name="Axis" revision="4" battleScribeVersion="2.00" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -814,7 +814,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Damage Track" characteristicTypeId="a4875e7e-c956-c8de-a64e-7ff6b9fbfb06"/>
+            <characteristic name="Damage Track" characteristicTypeId="a4875e7e-c956-c8de-a64e-7ff6b9fbfb06" value="6"/>
             <characteristic name="Move" characteristicTypeId="7a690179-d56f-004e-6a34-c3a14d4c3376" value="12"/>
             <characteristic name="March Move" characteristicTypeId="b1da6799-c077-585e-f50d-c08ae11442cb" value="24"/>
             <characteristic name="Armour" characteristicTypeId="a07bf5c0-8890-4aa0-4507-ff193a2330d9" value="A2"/>
@@ -5619,7 +5619,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Damage Track" characteristicTypeId="a4875e7e-c956-c8de-a64e-7ff6b9fbfb06"/>
+            <characteristic name="Damage Track" characteristicTypeId="a4875e7e-c956-c8de-a64e-7ff6b9fbfb06" value="6"/>
             <characteristic name="Move" characteristicTypeId="7a690179-d56f-004e-6a34-c3a14d4c3376" value="12"/>
             <characteristic name="March Move" characteristicTypeId="b1da6799-c077-585e-f50d-c08ae11442cb" value="24"/>
             <characteristic name="Armour" characteristicTypeId="a07bf5c0-8890-4aa0-4507-ff193a2330d9" value="A2"/>
@@ -9089,7 +9089,7 @@
         <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685"/>
       </characteristics>
     </profile>
-    <profile id="5b1a-5418-f3d3-345f" name="Dual Anti-Tank Guns (Front)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
+    <profile id="5b1a-5418-f3d3-345f" name="Dual Anti-Tank Guns (Front) " hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -9113,7 +9113,7 @@
         <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685"/>
       </characteristics>
     </profile>
-    <profile id="590f-827f-e897-d60f" name="Dual Anti-Tank Guns (Front)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
+    <profile id="590f-827f-e897-d60f" name="Dual Anti-Tank Guns (Front)  " hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -9255,7 +9255,7 @@
         <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685"/>
       </characteristics>
     </profile>
-    <profile id="23a2-4a25-88df-0708" name="Dual Laser Gun (Front)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
+    <profile id="23a2-4a25-88df-0708" name="Dual Laser Gun (Front) " hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -9279,7 +9279,7 @@
         <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685"/>
       </characteristics>
     </profile>
-    <profile id="dd92-7a5b-d345-5a53" name="Dual Laser Gun (Front)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
+    <profile id="dd92-7a5b-d345-5a53" name="Dual Laser Gun (Front)  " hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -9303,7 +9303,7 @@
         <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685"/>
       </characteristics>
     </profile>
-    <profile id="d3e0-b7d5-22e5-adca" name="Dual Laser Gun (Front)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
+    <profile id="d3e0-b7d5-22e5-adca" name="Dual Laser Gun (Front)   " hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -9422,7 +9422,7 @@
         <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685"/>
       </characteristics>
     </profile>
-    <profile id="01d1-348e-a96c-16f7" name="Dual Rocket Launcher (Front)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
+    <profile id="01d1-348e-a96c-16f7" name="Dual Rocket Launcher (Front) " hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -9446,7 +9446,7 @@
         <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685"/>
       </characteristics>
     </profile>
-    <profile id="9c7c-866f-44a5-a296" name="Dual Rocket Launchers (Front)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
+    <profile id="9c7c-866f-44a5-a296" name="Dual Rocket Launcher (Front)  " hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -9780,9 +9780,9 @@
       <modifiers/>
       <characteristics>
         <characteristic name="Range" characteristicTypeId="382f5f95-0919-db20-9901-aa54bc211abf" value="4"/>
-        <characteristic name="S1" characteristicTypeId="9f313303-9a76-64ed-6657-e3b18cdf1022" value="1/"/>
+        <characteristic name="S1" characteristicTypeId="9f313303-9a76-64ed-6657-e3b18cdf1022" value="1/1"/>
         <characteristic name="S2" characteristicTypeId="2fd57814-fb96-57cd-78e5-048c1e328a32" value="1/1"/>
-        <characteristic name="S3" characteristicTypeId="21997c06-620b-2dc6-ee6e-6f0b06c06b70" value="1/"/>
+        <characteristic name="S3" characteristicTypeId="21997c06-620b-2dc6-ee6e-6f0b06c06b70" value="1/1"/>
         <characteristic name="S4" characteristicTypeId="9c177689-a2b1-8777-3393-bd39db9df6f9" value="1/1"/>
         <characteristic name="V1" characteristicTypeId="4acce298-41c6-ac29-6442-02e5e62f87c5" value="3/1"/>
         <characteristic name="V2" characteristicTypeId="ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1" value="2/1"/>
@@ -9985,7 +9985,7 @@
         <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685"/>
       </characteristics>
     </profile>
-    <profile id="e066-5d5d-299c-68c5" name="Machinegun (Front)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
+    <profile id="e066-5d5d-299c-68c5" name="Machinegun (Front) " hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -10033,7 +10033,7 @@
         <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685"/>
       </characteristics>
     </profile>
-    <profile id="bada-f24c-d3ca-444c" name="Machinegun (Rear)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
+    <profile id="bada-f24c-d3ca-444c" name="Machinegun (Rear) " hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -10081,7 +10081,7 @@
         <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685" value=""/>
       </characteristics>
     </profile>
-    <profile id="87ba-1712-ffd0-7d8f" name="Machinegun (Turret)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
+    <profile id="87ba-1712-ffd0-7d8f" name="Machinegun (Turret) " hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -10337,7 +10337,7 @@
         <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685" value="1/1"/>
       </characteristics>
     </profile>
-    <profile id="aca6-1130-b65a-d795" name="Quad Anti-Aircraft Guns (Front)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
+    <profile id="aca6-1130-b65a-d795" name="Quad Anti-Aircraft Guns (Front) " hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -10361,7 +10361,7 @@
         <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685" value="2/2"/>
       </characteristics>
     </profile>
-    <profile id="8499-b66d-eb49-89f7" name="Quad Anti-Aircraft Guns (Front)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
+    <profile id="8499-b66d-eb49-89f7" name="Quad Anti-Aircraft Guns (Front)  " hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -10385,7 +10385,7 @@
         <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685" value="2/3"/>
       </characteristics>
     </profile>
-    <profile id="0ebc-f2fe-3abc-ab0f" name="Quad Anti-Aircraft Guns (Front)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
+    <profile id="0ebc-f2fe-3abc-ab0f" name="Quad Anti-Aircraft Guns (Front)   " hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
       <profiles/>
       <rules/>
       <infoLinks/>

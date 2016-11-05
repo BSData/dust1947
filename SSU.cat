@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ad634f24-aa33-2bad-c3a7-cda4f0a5417b" name="SSU" revision="3" battleScribeVersion="2.00" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ad634f24-aa33-2bad-c3a7-cda4f0a5417b" name="SSU" revision="4" battleScribeVersion="2.00" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -8447,7 +8447,7 @@
         <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685"/>
       </characteristics>
     </profile>
-    <profile id="71ba-051b-e642-3a21" name="Anti-Tank Gun (Turret)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
+    <profile id="71ba-051b-e642-3a21" name="Anti-Tank Gun (Turret) " hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -8706,7 +8706,7 @@
         <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685" value="1/1"/>
       </characteristics>
     </profile>
-    <profile id="02e7-f1d0-34ba-0a3e" name="Dual Gatling Guns (Front)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
+    <profile id="02e7-f1d0-34ba-0a3e" name="Dual Gatling Gun (Front) " hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -8778,7 +8778,7 @@
         <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685"/>
       </characteristics>
     </profile>
-    <profile id="c792-4645-e0bc-5a63" name="Dual Howitzers (Front)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
+    <profile id="c792-4645-e0bc-5a63" name="Dual Howitzers (Front) " hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -9158,7 +9158,7 @@
         <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685"/>
       </characteristics>
     </profile>
-    <profile id="3ad6-9fc7-04a2-27d0" name="Heavy Machinegun (Front)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
+    <profile id="3ad6-9fc7-04a2-27d0" name="Heavy Machinegun (Front) " hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -9230,7 +9230,7 @@
         <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685" value="1/1"/>
       </characteristics>
     </profile>
-    <profile id="9e31-9b3e-c5b3-7b10" name="Heavy Machinegun (Turret)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
+    <profile id="9e31-9b3e-c5b3-7b10" name="Heavy Machinegun (Turret) " hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -9371,7 +9371,7 @@
         <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685"/>
       </characteristics>
     </profile>
-    <profile id="850e-c56d-befa-f087" name="Heavy Tesla Gun (Turret)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
+    <profile id="850e-c56d-befa-f087" name="Heavy Tesla Gun (Turret) " hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -9932,7 +9932,7 @@
         <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685"/>
       </characteristics>
     </profile>
-    <profile id="3a53-da7d-88ca-b246" name="Twin Tesla Gun (Turret)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
+    <profile id="3a53-da7d-88ca-b246" name="Twin Tesla Gun (Turret) " hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40">
       <profiles/>
       <rules/>
       <infoLinks/>

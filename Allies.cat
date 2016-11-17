@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8eb0bc51-b6f0-d32c-b0d1-35fa5259b2da" name="Allies" revision="5" battleScribeVersion="2.00" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8eb0bc51-b6f0-d32c-b0d1-35fa5259b2da" name="Allies" revision="6" battleScribeVersion="2.00" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -160,7 +160,7 @@
     </selectionEntry>
     <selectionEntry id="da8f41f4-25c6-6e74-b62c-e6dfef76c0f9" name="Allied Heavy Commando Kill Squad" page="0" hidden="false" collective="false" categoryEntryId="be074469-cf2b-f2c0-40ca-57b07dcf6d94" type="unit">
       <profiles>
-        <profile id="20fb1ad0-6e21-1ce0-ce59-2c417fb0c70d" name="Devil&apos;s Own" page="0" hidden="false" profileTypeId="41b56042-fab9-47e0-0812-0af86fc4caba">
+        <profile id="20fb1ad0-6e21-1ce0-ce59-2c417fb0c70d" name="Allied Heavy Commando Kill Squad" page="0" hidden="false" profileTypeId="41b56042-fab9-47e0-0812-0af86fc4caba">
           <profiles/>
           <rules/>
           <infoLinks/>

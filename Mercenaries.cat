@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4568-fee3-1dc6-089f" name="Mercenaries" revision="2" battleScribeVersion="2.00" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4568-fee3-1dc6-089f" name="Mercenaries" revision="3" battleScribeVersion="2.00" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -19,7 +19,7 @@
             <characteristic name="Move" characteristicTypeId="44ed5a71-9e76-fc25-7fcf-46df82ff75eb" value="2"/>
             <characteristic name="March Move" characteristicTypeId="c508ae09-edfd-4a55-8027-3b3099af5e01" value="5"/>
             <characteristic name="Armour" characteristicTypeId="ec77eb83-dbb3-c773-ca88-53b8207beda6" value="S1"/>
-            <characteristic name="Faction" characteristicTypeId="4a5a-a591-3db6-3a03" value=""/>
+            <characteristic name="Faction" characteristicTypeId="4a5a-a591-3db6-3a03" value="Neutral Medical Corps"/>
           </characteristics>
         </profile>
       </profiles>
@@ -170,7 +170,15 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="2c3f-bca5-c165-58a5" name="Pilot: Demolisher" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>May pilot this vehicle, using her skills while mounted.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="d8f8-ddac-2dea-652a" hidden="false" targetId="8388-8a96-5103-f9a7" type="rule">
           <profiles/>
@@ -288,17 +296,11 @@
             <cost name=" pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="7a06-892f-ecaa-f2d9" name="Flamethrower" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="2eb7-9640-efae-fe83" name="Demo Charge" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="711a-2ada-8806-043d" hidden="false" targetId="2a22-aab8-3753-f1c1" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="fc01-4ad3-27e0-dd48" hidden="false" targetId="76b8-1dfa-a0de-a745" type="rule">
+            <infoLink id="8ad1-4818-64d3-ebf3" name="New InfoLink" hidden="false" targetId="9145-f64d-930f-8ced" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -307,8 +309,8 @@
           </infoLinks>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c64d-b9c5-2b89-b1e5" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3698-38a7-2e59-7c28" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -319,7 +321,18 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="44f9-caa8-1152-7e70" name="New EntryLink" hidden="false" targetId="5537-d29a-674c-653e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="051c-79bf-3fb7-f675" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a0f9-fcc9-753e-b69f" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" pts" costTypeId="points" value="10.0"/>
       </costs>
@@ -387,7 +400,7 @@
             <cost name=" pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a8d5-388f-e9f2-5b6b" name="BAR Automatic Rifle" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="a8d5-388f-e9f2-5b6b" name="Bar Automatic Rifle" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -410,7 +423,7 @@
             <cost name=" pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f234-e1a9-4886-86cc" name="Submachine Gun" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="f234-e1a9-4886-86cc" name="Submachine-Gun" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -473,7 +486,6 @@
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <selectionEntries>
@@ -539,7 +551,7 @@
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="2ca0-374b-3c24-33f2" name="Quad Anti-Aircraft Gun (Front)" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="2ca0-374b-3c24-33f2" name="Quad Antiaircraft Gun (Front)" page="" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -704,6 +716,113 @@
         <cost name=" pts" costTypeId="points" value="11.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c71b-ad3f-b038-46e1" name="Silence" hidden="false" collective="false" categoryEntryId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" type="model">
+      <profiles>
+        <profile id="61f9-cb99-36b5-381d" name="Silence" hidden="false" profileTypeId="cdc60b3a-77a5-d5f7-bfbc-40fa73d6902b" profileTypeName="Heroes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Damage Track" characteristicTypeId="4df5bfce-f8de-996b-b151-521ceb1ffe6a" value="4"/>
+            <characteristic name="Move" characteristicTypeId="44ed5a71-9e76-fc25-7fcf-46df82ff75eb" value="2"/>
+            <characteristic name="March Move" characteristicTypeId="c508ae09-edfd-4a55-8027-3b3099af5e01" value="5"/>
+            <characteristic name="Armour" characteristicTypeId="ec77eb83-dbb3-c773-ca88-53b8207beda6" value="S1"/>
+            <characteristic name="Faction" characteristicTypeId="4a5a-a591-3db6-3a03" value=""/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a5d2-df2b-5721-67dd" name="New InfoLink" hidden="false" targetId="0a5a-e196-7864-a74b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8a6b-5c33-0fb1-a7e2" name="New InfoLink" hidden="false" targetId="52ec-faeb-4b70-18df" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ae1a-5844-c25e-1cf2" name="New InfoLink" hidden="false" targetId="f410-4431-9afd-85f1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3579-ffc9-87c4-f1c6" name="New InfoLink" hidden="false" targetId="60e9-4b58-e3eb-bb32" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6ce4-25e6-07e6-355a" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="61d8-1415-160e-3216" name="Sniper Rifle" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="38a9-ca3a-a13e-15b2" name="New InfoLink" hidden="false" targetId="6906-e7d5-72f1-799c" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="2c53-bca0-74df-5b00" name="New InfoLink" hidden="false" targetId="6992-7508-bace-c186" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b0db-8eb3-1cfc-d459" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7652-bde5-b005-7726" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5864-c15a-69ef-27ab" name="Pistol" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="49cc-7071-356f-4c46" name="New InfoLink" hidden="false" targetId="f67d-1ab8-c78f-1dd6" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ee6b-ed4b-eb2a-06f2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e43b-9702-e22b-a8a6" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" pts" costTypeId="points" value="6.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries/>
@@ -756,7 +875,7 @@
         <characteristic name="A3" characteristicTypeId="4946dc2d-5011-1098-c878-f3ab3bc8477f"/>
       </characteristics>
     </profile>
-    <profile id="e04f-b513-97ec-4108" name="BAR Automatic Rifle" page="0" hidden="false" profileTypeId="6c4a1962-9409-6e62-9ea7-e81c4935e4fa">
+    <profile id="e04f-b513-97ec-4108" name="Bar Automatic Rifle" page="0" hidden="false" profileTypeId="6c4a1962-9409-6e62-9ea7-e81c4935e4fa">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -776,29 +895,6 @@
         <characteristic name="V7" characteristicTypeId="36d7cfe6-023a-0dfe-e736-812d153c4fcc" value=""/>
         <characteristic name="A1" characteristicTypeId="bf377d08-6032-da4e-f38f-cab8ee40f265" value="2/1"/>
         <characteristic name="A2" characteristicTypeId="0bb5675e-a53a-ae6e-1343-8cd4702c13a7" value="1/1"/>
-        <characteristic name="A3" characteristicTypeId="4946dc2d-5011-1098-c878-f3ab3bc8477f" value=""/>
-      </characteristics>
-    </profile>
-    <profile id="2a22-aab8-3753-f1c1" name="Flamethrower" page="0" hidden="false" profileTypeId="6c4a1962-9409-6e62-9ea7-e81c4935e4fa">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Range" characteristicTypeId="382f5f95-0919-db20-9901-aa54bc211abf" value="1"/>
-        <characteristic name="S1" characteristicTypeId="9f313303-9a76-64ed-6657-e3b18cdf1022" value="*/1"/>
-        <characteristic name="S2" characteristicTypeId="2fd57814-fb96-57cd-78e5-048c1e328a32" value="*/1"/>
-        <characteristic name="S3" characteristicTypeId="21997c06-620b-2dc6-ee6e-6f0b06c06b70" value="*/1"/>
-        <characteristic name="S4" characteristicTypeId="9c177689-a2b1-8777-3393-bd39db9df6f9" value="*/1"/>
-        <characteristic name="V1" characteristicTypeId="4acce298-41c6-ac29-6442-02e5e62f87c5" value="*/#"/>
-        <characteristic name="V2" characteristicTypeId="ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1" value="*/#"/>
-        <characteristic name="V3" characteristicTypeId="dd544bcd-65f3-f239-9b6e-9a6342e49bac" value="*/2"/>
-        <characteristic name="V4" characteristicTypeId="a27828e2-0dc0-c181-1699-be334623891d" value="*/2"/>
-        <characteristic name="V5" characteristicTypeId="2e7ddbf4-add2-7c6a-e399-f39b4cddfb09" value="*/2"/>
-        <characteristic name="V6" characteristicTypeId="c95029b6-a3de-69ec-b3f0-0d150370d270" value="*/2"/>
-        <characteristic name="V7" characteristicTypeId="36d7cfe6-023a-0dfe-e736-812d153c4fcc" value="*/2"/>
-        <characteristic name="A1" characteristicTypeId="bf377d08-6032-da4e-f38f-cab8ee40f265" value=""/>
-        <characteristic name="A2" characteristicTypeId="0bb5675e-a53a-ae6e-1343-8cd4702c13a7" value=""/>
         <characteristic name="A3" characteristicTypeId="4946dc2d-5011-1098-c878-f3ab3bc8477f" value=""/>
       </characteristics>
     </profile>
@@ -867,9 +963,9 @@
         <characteristic name="V5" characteristicTypeId="10e6e9fa-5b07-60dc-7c21-43fd0d321972"/>
         <characteristic name="V6" characteristicTypeId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4"/>
         <characteristic name="V7" characteristicTypeId="95df902a-0d91-60fb-d501-90ba12e3f256"/>
-        <characteristic name="A1" characteristicTypeId="3d408739-3c19-38d5-ed51-5bf195e61965"/>
-        <characteristic name="A2" characteristicTypeId="afbc1d34-5c65-e8a1-6226-84be59697cb2"/>
-        <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685"/>
+        <characteristic name="A1" characteristicTypeId="3d408739-3c19-38d5-ed51-5bf195e61965" value="2/2"/>
+        <characteristic name="A2" characteristicTypeId="afbc1d34-5c65-e8a1-6226-84be59697cb2" value="1/2"/>
+        <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685" value="1/1"/>
       </characteristics>
     </profile>
     <profile id="0599-38a3-3291-935d" name="Mechanics&apos; Tools" hidden="false" profileTypeId="6c4a1962-9409-6e62-9ea7-e81c4935e4fa">
@@ -905,13 +1001,13 @@
         <characteristic name="Range" characteristicTypeId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" value="8"/>
         <characteristic name="S1" characteristicTypeId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" value="9/1"/>
         <characteristic name="S2" characteristicTypeId="a645204b-207d-2884-31bf-8052544ebe0f" value="9/1"/>
-        <characteristic name="S3" characteristicTypeId="144e20c5-fee5-87da-d142-43ee6b13d299" value="8/1"/>
+        <characteristic name="S3" characteristicTypeId="144e20c5-fee5-87da-d142-43ee6b13d299" value="9/1"/>
         <characteristic name="S4" characteristicTypeId="f8d85935-dc8d-ceab-8b59-185af6f07e21" value="7/1"/>
-        <characteristic name="V1" characteristicTypeId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" value="5/2"/>
-        <characteristic name="V2" characteristicTypeId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" value="4/2"/>
-        <characteristic name="V3" characteristicTypeId="7d9919e5-211a-348d-cc4a-75f55034aa11" value="2/1"/>
-        <characteristic name="V4" characteristicTypeId="5126abc7-3036-a560-473c-95cc1ebd6083" value=""/>
-        <characteristic name="V5" characteristicTypeId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" value=""/>
+        <characteristic name="V1" characteristicTypeId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" value="5/3"/>
+        <characteristic name="V2" characteristicTypeId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" value="5/2"/>
+        <characteristic name="V3" characteristicTypeId="7d9919e5-211a-348d-cc4a-75f55034aa11" value="3/2"/>
+        <characteristic name="V4" characteristicTypeId="5126abc7-3036-a560-473c-95cc1ebd6083" value="1/1"/>
+        <characteristic name="V5" characteristicTypeId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" value="1/1"/>
         <characteristic name="V6" characteristicTypeId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" value=""/>
         <characteristic name="V7" characteristicTypeId="95df902a-0d91-60fb-d501-90ba12e3f256" value=""/>
         <characteristic name="A1" characteristicTypeId="3d408739-3c19-38d5-ed51-5bf195e61965" value="4/2"/>
@@ -966,7 +1062,7 @@
         <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685"/>
       </characteristics>
     </profile>
-    <profile id="6456-8044-456a-5233" name="Submachine Gun" page="0" hidden="false" profileTypeId="6c4a1962-9409-6e62-9ea7-e81c4935e4fa">
+    <profile id="6456-8044-456a-5233" name="Submachine-Gun" page="0" hidden="false" profileTypeId="6c4a1962-9409-6e62-9ea7-e81c4935e4fa">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -987,6 +1083,75 @@
         <characteristic name="A1" characteristicTypeId="bf377d08-6032-da4e-f38f-cab8ee40f265" value=""/>
         <characteristic name="A2" characteristicTypeId="0bb5675e-a53a-ae6e-1343-8cd4702c13a7" value=""/>
         <characteristic name="A3" characteristicTypeId="4946dc2d-5011-1098-c878-f3ab3bc8477f" value=""/>
+      </characteristics>
+    </profile>
+    <profile id="9145-f64d-930f-8ced" name="Demo Charge" hidden="false" profileTypeId="6c4a1962-9409-6e62-9ea7-e81c4935e4fa" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="382f5f95-0919-db20-9901-aa54bc211abf" value="C"/>
+        <characteristic name="S1" characteristicTypeId="9f313303-9a76-64ed-6657-e3b18cdf1022" value="1/1"/>
+        <characteristic name="S2" characteristicTypeId="2fd57814-fb96-57cd-78e5-048c1e328a32" value="1/1"/>
+        <characteristic name="S3" characteristicTypeId="21997c06-620b-2dc6-ee6e-6f0b06c06b70" value="1/1"/>
+        <characteristic name="S4" characteristicTypeId="9c177689-a2b1-8777-3393-bd39db9df6f9" value="1/1"/>
+        <characteristic name="V1" characteristicTypeId="4acce298-41c6-ac29-6442-02e5e62f87c5" value="1/3"/>
+        <characteristic name="V2" characteristicTypeId="ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1" value="1/3"/>
+        <characteristic name="V3" characteristicTypeId="dd544bcd-65f3-f239-9b6e-9a6342e49bac" value="1/2"/>
+        <characteristic name="V4" characteristicTypeId="a27828e2-0dc0-c181-1699-be334623891d" value="1/2"/>
+        <characteristic name="V5" characteristicTypeId="2e7ddbf4-add2-7c6a-e399-f39b4cddfb09" value="1/2"/>
+        <characteristic name="V6" characteristicTypeId="c95029b6-a3de-69ec-b3f0-0d150370d270" value="1/2"/>
+        <characteristic name="V7" characteristicTypeId="36d7cfe6-023a-0dfe-e736-812d153c4fcc" value="1/2"/>
+        <characteristic name="A1" characteristicTypeId="bf377d08-6032-da4e-f38f-cab8ee40f265"/>
+        <characteristic name="A2" characteristicTypeId="0bb5675e-a53a-ae6e-1343-8cd4702c13a7"/>
+        <characteristic name="A3" characteristicTypeId="4946dc2d-5011-1098-c878-f3ab3bc8477f"/>
+      </characteristics>
+    </profile>
+    <profile id="6906-e7d5-72f1-799c" name="Sniper Rifle" hidden="false" profileTypeId="6c4a1962-9409-6e62-9ea7-e81c4935e4fa" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="382f5f95-0919-db20-9901-aa54bc211abf" value="8"/>
+        <characteristic name="S1" characteristicTypeId="9f313303-9a76-64ed-6657-e3b18cdf1022" value="1/1"/>
+        <characteristic name="S2" characteristicTypeId="2fd57814-fb96-57cd-78e5-048c1e328a32" value="1/1"/>
+        <characteristic name="S3" characteristicTypeId="21997c06-620b-2dc6-ee6e-6f0b06c06b70" value="1/1"/>
+        <characteristic name="S4" characteristicTypeId="9c177689-a2b1-8777-3393-bd39db9df6f9" value="1/1"/>
+        <characteristic name="V1" characteristicTypeId="4acce298-41c6-ac29-6442-02e5e62f87c5" value="1/1"/>
+        <characteristic name="V2" characteristicTypeId="ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1" value="1/1"/>
+        <characteristic name="V3" characteristicTypeId="dd544bcd-65f3-f239-9b6e-9a6342e49bac" value=""/>
+        <characteristic name="V4" characteristicTypeId="a27828e2-0dc0-c181-1699-be334623891d"/>
+        <characteristic name="V5" characteristicTypeId="2e7ddbf4-add2-7c6a-e399-f39b4cddfb09"/>
+        <characteristic name="V6" characteristicTypeId="c95029b6-a3de-69ec-b3f0-0d150370d270"/>
+        <characteristic name="V7" characteristicTypeId="36d7cfe6-023a-0dfe-e736-812d153c4fcc"/>
+        <characteristic name="A1" characteristicTypeId="bf377d08-6032-da4e-f38f-cab8ee40f265"/>
+        <characteristic name="A2" characteristicTypeId="0bb5675e-a53a-ae6e-1343-8cd4702c13a7"/>
+        <characteristic name="A3" characteristicTypeId="4946dc2d-5011-1098-c878-f3ab3bc8477f"/>
+      </characteristics>
+    </profile>
+    <profile id="f67d-1ab8-c78f-1dd6" name="Pistol" hidden="false" profileTypeId="6c4a1962-9409-6e62-9ea7-e81c4935e4fa" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="382f5f95-0919-db20-9901-aa54bc211abf" value="2"/>
+        <characteristic name="S1" characteristicTypeId="9f313303-9a76-64ed-6657-e3b18cdf1022" value="3/1"/>
+        <characteristic name="S2" characteristicTypeId="2fd57814-fb96-57cd-78e5-048c1e328a32" value="3/1"/>
+        <characteristic name="S3" characteristicTypeId="21997c06-620b-2dc6-ee6e-6f0b06c06b70" value="2/1"/>
+        <characteristic name="S4" characteristicTypeId="9c177689-a2b1-8777-3393-bd39db9df6f9" value=""/>
+        <characteristic name="V1" characteristicTypeId="4acce298-41c6-ac29-6442-02e5e62f87c5" value="2/1"/>
+        <characteristic name="V2" characteristicTypeId="ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1" value=""/>
+        <characteristic name="V3" characteristicTypeId="dd544bcd-65f3-f239-9b6e-9a6342e49bac"/>
+        <characteristic name="V4" characteristicTypeId="a27828e2-0dc0-c181-1699-be334623891d"/>
+        <characteristic name="V5" characteristicTypeId="2e7ddbf4-add2-7c6a-e399-f39b4cddfb09"/>
+        <characteristic name="V6" characteristicTypeId="c95029b6-a3de-69ec-b3f0-0d150370d270"/>
+        <characteristic name="V7" characteristicTypeId="36d7cfe6-023a-0dfe-e736-812d153c4fcc"/>
+        <characteristic name="A1" characteristicTypeId="bf377d08-6032-da4e-f38f-cab8ee40f265"/>
+        <characteristic name="A2" characteristicTypeId="0bb5675e-a53a-ae6e-1343-8cd4702c13a7"/>
+        <characteristic name="A3" characteristicTypeId="4946dc2d-5011-1098-c878-f3ab3bc8477f"/>
       </characteristics>
     </profile>
   </sharedProfiles>

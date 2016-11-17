@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bacf-9ebb-dbda-57d0" name="Dust 1947" revision="3" battleScribeVersion="2.00" authorName="Franky" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bacf-9ebb-dbda-57d0" name="Dust 1947" revision="4" battleScribeVersion="2.00" authorName="Franky" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
   <costTypes>
-    <costType id="points" name=" pts"/>
+    <costType id="points" name=" pts" defaultCostLimit="0.0"/>
   </costTypes>
   <profileTypes>
     <profileType id="6c4a1962-9409-6e62-9ea7-e81c4935e4fa" name="Weapons">
@@ -264,7 +264,32 @@
   </forceEntries>
   <selectionEntries/>
   <entryLinks/>
-  <sharedSelectionEntries/>
+  <sharedSelectionEntries>
+    <selectionEntry id="5537-d29a-674c-653e" name="Flamethrower" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3c66-942f-706d-b7d1" name="New InfoLink" hidden="false" targetId="76b8-1dfa-a0de-a745" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7bc2-3422-909e-8a3c" name="New InfoLink" hidden="false" targetId="b2cb-395a-57ae-0a52" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+  </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
     <rule id="f8a6-e566-a6b7-6e60" name="Steel Guard" book="Dust 1947 Rule Book" page="155" hidden="false">
@@ -938,5 +963,29 @@
       <description>When making a Sustained Attack with ranged weapons hits on rolls of [crosshair] as well as [bloc]. Does not apply to Units Joined.</description>
     </rule>
   </sharedRules>
-  <sharedProfiles/>
+  <sharedProfiles>
+    <profile id="b2cb-395a-57ae-0a52" name="Flamethrower" page="0" hidden="false" profileTypeId="6c4a1962-9409-6e62-9ea7-e81c4935e4fa">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="382f5f95-0919-db20-9901-aa54bc211abf" value="1"/>
+        <characteristic name="S1" characteristicTypeId="9f313303-9a76-64ed-6657-e3b18cdf1022" value="*/1"/>
+        <characteristic name="S2" characteristicTypeId="2fd57814-fb96-57cd-78e5-048c1e328a32" value="*/1"/>
+        <characteristic name="S3" characteristicTypeId="21997c06-620b-2dc6-ee6e-6f0b06c06b70" value="*/1"/>
+        <characteristic name="S4" characteristicTypeId="9c177689-a2b1-8777-3393-bd39db9df6f9" value="*/1"/>
+        <characteristic name="V1" characteristicTypeId="4acce298-41c6-ac29-6442-02e5e62f87c5" value="*/#"/>
+        <characteristic name="V2" characteristicTypeId="ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1" value="*/#"/>
+        <characteristic name="V3" characteristicTypeId="dd544bcd-65f3-f239-9b6e-9a6342e49bac" value="*/2"/>
+        <characteristic name="V4" characteristicTypeId="a27828e2-0dc0-c181-1699-be334623891d" value="*/2"/>
+        <characteristic name="V5" characteristicTypeId="2e7ddbf4-add2-7c6a-e399-f39b4cddfb09" value="*/2"/>
+        <characteristic name="V6" characteristicTypeId="c95029b6-a3de-69ec-b3f0-0d150370d270" value="*/2"/>
+        <characteristic name="V7" characteristicTypeId="36d7cfe6-023a-0dfe-e736-812d153c4fcc" value="*/2"/>
+        <characteristic name="A1" characteristicTypeId="bf377d08-6032-da4e-f38f-cab8ee40f265" value=""/>
+        <characteristic name="A2" characteristicTypeId="0bb5675e-a53a-ae6e-1343-8cd4702c13a7" value=""/>
+        <characteristic name="A3" characteristicTypeId="4946dc2d-5011-1098-c878-f3ab3bc8477f" value=""/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </gameSystem>

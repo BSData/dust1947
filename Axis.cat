@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8ef2fe75-bde5-cb08-a904-1e2fe601c053" name="Axis" revision="6" battleScribeVersion="2.00" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8ef2fe75-bde5-cb08-a904-1e2fe601c053" name="Axis" revision="7" battleScribeVersion="2.00" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1599,7 +1599,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="701c-7d74-439f-d463" hidden="false" targetId="9047-90d7-cdbb-cfcd" type="rule">
+        <infoLink id="701c-7d74-439f-d463" hidden="false" targetId="0a5a-e196-7864-a74b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4718,7 +4718,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="9aec-05c7-ed56-0c42" hidden="false" targetId="8499-b66d-eb49-89f7" type="profile">
+            <infoLink id="9aec-05c7-ed56-0c42" hidden="false" targetId="aca6-1130-b65a-d795" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -9591,7 +9591,7 @@
         <characteristic name="S3" characteristicTypeId="21997c06-620b-2dc6-ee6e-6f0b06c06b70" value="1/1"/>
         <characteristic name="S4" characteristicTypeId="9c177689-a2b1-8777-3393-bd39db9df6f9" value="1/1"/>
         <characteristic name="V1" characteristicTypeId="4acce298-41c6-ac29-6442-02e5e62f87c5" value="4/1"/>
-        <characteristic name="V2" characteristicTypeId="ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1" value="3/"/>
+        <characteristic name="V2" characteristicTypeId="ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1" value="3/1"/>
         <characteristic name="V3" characteristicTypeId="dd544bcd-65f3-f239-9b6e-9a6342e49bac" value="2/1"/>
         <characteristic name="V4" characteristicTypeId="a27828e2-0dc0-c181-1699-be334623891d" value="1/1"/>
         <characteristic name="V5" characteristicTypeId="2e7ddbf4-add2-7c6a-e399-f39b4cddfb09" value="1/1"/>

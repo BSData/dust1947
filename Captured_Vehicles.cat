@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="39bd06dd-8eca-57c2-31d1-89d41907b772" name="Captured Vehicles" revision="3" battleScribeVersion="2.00" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="39bd06dd-8eca-57c2-31d1-89d41907b772" name="Captured Vehicles" revision="4" battleScribeVersion="2.00" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1277,7 +1277,7 @@
         <cost name=" pts" costTypeId="points" value="17.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="da38-ccd4-bfe0-294c" name="Nadya" hidden="false" collective="false" categoryEntryId="69554cf4-6ebb-98a2-9249-0d7c1641b183" type="model">
+    <selectionEntry id="da38-ccd4-bfe0-294c" name="Natalya" hidden="false" collective="false" categoryEntryId="69554cf4-6ebb-98a2-9249-0d7c1641b183" type="model">
       <profiles>
         <profile id="43e6-1f23-1dc7-b19f" name="Natalya" hidden="false" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625">
           <profiles/>
@@ -1365,7 +1365,7 @@
         <cost name=" pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2f18-d533-8adb-7eaf" name="Natalya" hidden="false" collective="false" categoryEntryId="69554cf4-6ebb-98a2-9249-0d7c1641b183" type="model">
+    <selectionEntry id="2f18-d533-8adb-7eaf" name="Nadya" hidden="false" collective="false" categoryEntryId="69554cf4-6ebb-98a2-9249-0d7c1641b183" type="model">
       <profiles>
         <profile id="6e04-3ad0-61dd-6367" name="Nadya" hidden="false" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625">
           <profiles/>

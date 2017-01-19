@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8ef2fe75-bde5-cb08-a904-1e2fe601c053" name="Axis" revision="10" battleScribeVersion="2.00" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8ef2fe75-bde5-cb08-a904-1e2fe601c053" name="Axis" revision="11" battleScribeVersion="2.00" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -8948,6 +8948,98 @@
       <entryLinks/>
       <costs>
         <cost name=" pts" costTypeId="points" value="13.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2c98-cdc7-4572-d788" name="Fallschirmjäger Command Squad" hidden="false" collective="false" categoryEntryId="76227318-3362-ffb8-0460-e948cda200fe" type="unit">
+      <profiles>
+        <profile id="2af3-832f-3ec2-e007" name="Fallschirmjäger Command Squad" hidden="false" profileTypeId="41b56042-fab9-47e0-0812-0af86fc4caba">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="5c7c3ab5-1c5d-c101-1cbb-0352fdf58869" value="2"/>
+            <characteristic name="March Move" characteristicTypeId="b83a82fd-4a1a-6698-9305-9f3ef7e57f48" value="5"/>
+            <characteristic name="Armour" characteristicTypeId="aeef742f-0070-cf7b-3fba-92583ccc1fd7" value="S1"/>
+            <characteristic name="Faction" characteristicTypeId="0487-5495-4e79-1ee5" value="Luftwaffe"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="8b57-a6c6-03b4-9873" hidden="false" targetId="77f0-fd65-c07e-019d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c589-fad0-7ee6-2548" name="New InfoLink" hidden="false" targetId="e75e-1fec-1166-ab4c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="1b89-b690-4ad1-0df4" name="Rocket Launcher" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="afb3-e117-0eaf-fad2" hidden="false" targetId="7bac35a2-94c6-33a8-f1e9-0a2cff8b4cd9" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="e35a-eed8-adb4-54e4" hidden="false" targetId="d2e3-01cc-31d2-6b6c" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3dff-c0f3-407d-aed5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d457-84e1-9913-a8cd" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="39da-312b-c09e-6177" name="Heavy Assault Rifle" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="0c40-50ff-3601-5513" hidden="false" targetId="2b32-7eaa-bcdf-cc0c" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="988e-5153-6942-5dbb" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b4c8-1a74-5fd8-8c8b" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" pts" costTypeId="points" value="12.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bacf-9ebb-dbda-57d0" name="Dust 1947" revision="4" battleScribeVersion="2.00" authorName="Franky" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bacf-9ebb-dbda-57d0" name="Dust 1947" revision="5" battleScribeVersion="2.00" authorName="Franky" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -287,7 +287,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
@@ -961,6 +963,13 @@
       <infoLinks/>
       <modifiers/>
       <description>When making a Sustained Attack with ranged weapons hits on rolls of [crosshair] as well as [bloc]. Does not apply to Units Joined.</description>
+    </rule>
+    <rule id="328a-77cc-4b29-e85c" name="Stealth" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Attacking with this weapon does not remove Camouflage.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

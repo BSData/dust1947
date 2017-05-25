@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bacf-9ebb-dbda-57d0" name="Dust 1947" revision="7" battleScribeVersion="2.00" authorName="Franky" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bacf-9ebb-dbda-57d0" name="Dust 1947" revision="8" battleScribeVersion="2.00" authorName="Franky" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -984,6 +984,13 @@
       <infoLinks/>
       <modifiers/>
       <description>Passengers in this Vehicle can Activate after the Vehicle has Activated.</description>
+    </rule>
+    <rule id="4a1d-986b-27ce-95ef" name="Quick Recovery" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Unit does not need to take a Nothing Action after using Airborne skill. A Unit share this skill with a Squad but not a Vehicle.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

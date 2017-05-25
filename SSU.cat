@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ad634f24-aa33-2bad-c3a7-cda4f0a5417b" name="SSU" revision="8" battleScribeVersion="2.00" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ad634f24-aa33-2bad-c3a7-cda4f0a5417b" name="SSU" revision="9" battleScribeVersion="2.00" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -8048,6 +8048,122 @@
         <cost name=" pts" costTypeId="points" value="8.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="2b20-e2da-144d-2704" name="Invader" hidden="false" collective="false" categoryEntryId="0809ba6a-2cb6-2b5e-81ba-68899d3b5829" type="model">
+      <profiles>
+        <profile id="652a-f90a-fc05-3b32" name="Invader" hidden="false" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" profileTypeName="Vehicle">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Damage Track" characteristicTypeId="ed36b802-b164-ae0b-b441-ebb8e45606b6" value="8"/>
+            <characteristic name="Move" characteristicTypeId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" value="6"/>
+            <characteristic name="March Move" characteristicTypeId="7efff746-66c0-c275-304c-6339ff7da914" value="12"/>
+            <characteristic name="Armour" characteristicTypeId="214b6458-e958-a048-8f8c-de17188dae7b" value="A2"/>
+            <characteristic name="Faction" characteristicTypeId="fbc5-7d00-f9de-443e" value="Spetsnaz"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="dd34-3c31-b2f1-7610" name="New InfoLink" hidden="false" targetId="0d79-e8c3-551e-a35a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e09b-6352-c8f9-92a9" name="New InfoLink" hidden="false" targetId="df39-3cbb-8f43-f9a0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8f0f-60d2-95c4-ff95" name="New InfoLink" hidden="false" targetId="c697-cca3-4af2-fbc5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="0435-e24d-3c83-fda9" name="Quad Heavy Machinegun (Front)" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="56aa-f8bf-e772-934a" name="New InfoLink" hidden="false" targetId="5151-81fa-b822-5d36" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49aa-b675-d489-8062" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3eea-3464-a0fd-520c" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="6c27-2034-e4f4-aeac" name="Dual Gatling Gun (Front)" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="1659-9407-dc34-e468" name="New InfoLink" hidden="false" targetId="f7a6-76ba-d326-4adf" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77d0-9312-7301-1508" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="816a-21f6-34fc-765b" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="782a-e865-0216-846b" name="Rocket Pod (Front)" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="b04c-a814-872b-5791" name="New InfoLink" hidden="false" targetId="ea34-b0f2-fdf5-d14b" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="b1f9-e33c-1e12-8a9c" name="New InfoLink" hidden="false" targetId="1c8b-dca9-bf60-884f" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4355-2a0d-edc0-f5e9" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e74-1ee9-0fc1-cfd6" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
@@ -10007,6 +10123,30 @@
         <characteristic name="A1" characteristicTypeId="3d408739-3c19-38d5-ed51-5bf195e61965" value="3/2"/>
         <characteristic name="A2" characteristicTypeId="afbc1d34-5c65-e8a1-6226-84be59697cb2" value="2/2"/>
         <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685" value="1/1"/>
+      </characteristics>
+    </profile>
+    <profile id="f7a6-76ba-d326-4adf" name="Dual Gatling Gun (Front)  " hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" profileTypeName="Vehicle Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Mount" characteristicTypeId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" value="Front"/>
+        <characteristic name="Range" characteristicTypeId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" value="3"/>
+        <characteristic name="S1" characteristicTypeId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" value="6/1"/>
+        <characteristic name="S2" characteristicTypeId="a645204b-207d-2884-31bf-8052544ebe0f" value="6/1"/>
+        <characteristic name="S3" characteristicTypeId="144e20c5-fee5-87da-d142-43ee6b13d299" value="6/1"/>
+        <characteristic name="S4" characteristicTypeId="f8d85935-dc8d-ceab-8b59-185af6f07e21" value="5/1"/>
+        <characteristic name="V1" characteristicTypeId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" value="2/3"/>
+        <characteristic name="V2" characteristicTypeId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" value="2/2"/>
+        <characteristic name="V3" characteristicTypeId="7d9919e5-211a-348d-cc4a-75f55034aa11" value="2/2"/>
+        <characteristic name="V4" characteristicTypeId="5126abc7-3036-a560-473c-95cc1ebd6083" value="1/1"/>
+        <characteristic name="V5" characteristicTypeId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" value="1/1"/>
+        <characteristic name="V6" characteristicTypeId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" value=""/>
+        <characteristic name="V7" characteristicTypeId="95df902a-0d91-60fb-d501-90ba12e3f256" value=""/>
+        <characteristic name="A1" characteristicTypeId="3d408739-3c19-38d5-ed51-5bf195e61965" value="5/2"/>
+        <characteristic name="A2" characteristicTypeId="afbc1d34-5c65-e8a1-6226-84be59697cb2" value="4/2"/>
+        <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685" value="2/1"/>
       </characteristics>
     </profile>
   </sharedProfiles>

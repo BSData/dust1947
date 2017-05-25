@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bacf-9ebb-dbda-57d0" name="Dust 1947" revision="6" battleScribeVersion="2.00" authorName="Franky" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bacf-9ebb-dbda-57d0" name="Dust 1947" revision="7" battleScribeVersion="2.00" authorName="Franky" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -977,6 +977,13 @@
       <infoLinks/>
       <modifiers/>
       <description>Any Vehicle this Hero pilots gains Expert on all Weapons.</description>
+    </rule>
+    <rule id="c697-cca3-4af2-fbc5" name="Assault Vehicle" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Passengers in this Vehicle can Activate after the Vehicle has Activated.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

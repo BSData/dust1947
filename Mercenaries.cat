@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4568-fee3-1dc6-089f" name="Mercenaries" revision="4" battleScribeVersion="2.00" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="4568-fee3-1dc6-089f" name="Mercenaries" revision="4" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="4">
+<categoryEntries/>
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7,7 +7,10 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="d01a-3130-d148-a708" name="Emma" hidden="false" collective="false" categoryEntryId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" type="model">
+    <selectionEntry id="d01a-3130-d148-a708" name="Emma" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="d01a-3130-d148-a708-9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" targetId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="9f66-1c56-5499-0c43" name="Emma" hidden="false" profileTypeId="cdc60b3a-77a5-d5f7-bfbc-40fa73d6902b">
           <profiles/>
@@ -61,7 +64,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="6aaf-5603-6bfb-1a1f" name=".45 ACP Pistol" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="6aaf-5603-6bfb-1a1f" name=".45 ACP Pistol" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -91,7 +94,10 @@
         <cost name=" pts" costTypeId="points" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4f56-eadc-d98b-8abd" name="Justine &amp; Co" hidden="false" collective="false" categoryEntryId="76227318-3362-ffb8-0460-e948cda200fe" type="unit">
+    <selectionEntry id="4f56-eadc-d98b-8abd" name="Justine &amp; Co" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="4f56-eadc-d98b-8abd-76227318-3362-ffb8-0460-e948cda200fe" targetId="76227318-3362-ffb8-0460-e948cda200fe" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="4aeb-09b1-cc89-5da7" name="Justine &amp; Co" hidden="false" profileTypeId="41b56042-fab9-47e0-0812-0af86fc4caba">
           <profiles/>
@@ -124,7 +130,7 @@
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="6965-5987-41e3-d12a" name="Mechanics&apos; Tools" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="6965-5987-41e3-d12a" name="Mechanics' Tools" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -154,7 +160,10 @@
         <cost name=" pts" costTypeId="points" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a846-5c7f-4dbe-bbd2" name="Luisa" hidden="false" collective="false" categoryEntryId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" type="model">
+    <selectionEntry id="a846-5c7f-4dbe-bbd2" name="Luisa" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="a846-5c7f-4dbe-bbd2-9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" targetId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="6cc4-cce4-7ed1-035d" name="Luisa" hidden="false" profileTypeId="cdc60b3a-77a5-d5f7-bfbc-40fa73d6902b">
           <profiles/>
@@ -204,7 +213,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="ad23-d35f-684a-a780" name="Recoilless Rifle" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="ad23-d35f-684a-a780" name="Recoilless Rifle" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -240,7 +249,10 @@
         <cost name=" pts" costTypeId="points" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1797-9995-0b26-e0b9" name="Mercenary Cleaning Team" hidden="false" collective="false" categoryEntryId="76227318-3362-ffb8-0460-e948cda200fe" type="unit">
+    <selectionEntry id="1797-9995-0b26-e0b9" name="Mercenary Cleaning Team" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="1797-9995-0b26-e0b9-76227318-3362-ffb8-0460-e948cda200fe" targetId="76227318-3362-ffb8-0460-e948cda200fe" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="8fc6-865c-fb2c-4815" name="Mercenary Cleaning Team" hidden="false" profileTypeId="41b56042-fab9-47e0-0812-0af86fc4caba">
           <profiles/>
@@ -267,7 +279,7 @@
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="6c5f-8b2f-0c0a-ae40" name="Auto Grenade Launcher" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="6c5f-8b2f-0c0a-ae40" name="Auto Grenade Launcher" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -337,7 +349,10 @@
         <cost name=" pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="169d-9dab-1cff-61c2" name="Mercenary Heavy Machine Gun Squad" hidden="false" collective="false" categoryEntryId="b65bbf00-a157-7756-2040-07ec6f49cef9" type="model">
+    <selectionEntry id="169d-9dab-1cff-61c2" name="Mercenary Heavy Machine Gun Squad" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="169d-9dab-1cff-61c2-b65bbf00-a157-7756-2040-07ec6f49cef9" targetId="b65bbf00-a157-7756-2040-07ec6f49cef9" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="5774-f1f0-da20-42a0" name="Mercenary Heavy Machine Gun Squad" hidden="false" profileTypeId="4c7e5a31-9ebb-047b-c784-ddb4ae29b228">
           <profiles/>
@@ -377,7 +392,7 @@
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="226b-d5b3-f1b0-a994" name="Heavy Machinegun" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="226b-d5b3-f1b0-a994" name="Heavy Machinegun" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -400,7 +415,7 @@
             <cost name=" pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a8d5-388f-e9f2-5b6b" name="Bar Automatic Rifle" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="a8d5-388f-e9f2-5b6b" name="Bar Automatic Rifle" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -423,7 +438,7 @@
             <cost name=" pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f234-e1a9-4886-86cc" name="Submachine-Gun" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="f234-e1a9-4886-86cc" name="Submachine-Gun" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -453,7 +468,10 @@
         <cost name=" pts" costTypeId="points" value="4.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="27a3-07de-f855-d5e2" name="Tanya" hidden="false" collective="false" categoryEntryId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" type="model">
+    <selectionEntry id="27a3-07de-f855-d5e2" name="Tanya" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="27a3-07de-f855-d5e2-9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" targetId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="c2d6-7ce4-81ee-c363" name="Tanya" hidden="false" profileTypeId="cdc60b3a-77a5-d5f7-bfbc-40fa73d6902b">
           <profiles/>
@@ -489,7 +507,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="1d0c-578f-73df-21f0" name="Machinegun" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="1d0c-578f-73df-21f0" name="Machinegun" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -519,7 +537,10 @@
         <cost name=" pts" costTypeId="points" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ea8a-1168-0f9f-7989" name="Wrecker" hidden="false" collective="false" categoryEntryId="29b76100-e940-9c92-7f00-a7ad44e2f288" type="model">
+    <selectionEntry id="ea8a-1168-0f9f-7989" name="Wrecker" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="ea8a-1168-0f9f-7989-29b76100-e940-9c92-7f00-a7ad44e2f288" targetId="29b76100-e940-9c92-7f00-a7ad44e2f288" primary="true"/>
+</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks>
@@ -551,7 +572,7 @@
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="2ca0-374b-3c24-33f2" name="Quad Antiaircraft Gun (Front)" page="" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="2ca0-374b-3c24-33f2" name="Quad Antiaircraft Gun (Front)" page="" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -574,7 +595,7 @@
             <cost name=" pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="fa9c-326a-f2dc-9dbb" name="Machinegun (Front)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="fa9c-326a-f2dc-9dbb" name="Machinegun (Front)" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -609,7 +630,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="5362-6e1c-6954-7493" name="Wrecker" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+            <selectionEntry id="5362-6e1c-6954-7493" name="Wrecker" hidden="false" collective="false" type="model">
               <profiles>
                 <profile id="a723-6228-0c57-e618" name="Wrecker" hidden="false" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625">
                   <profiles/>
@@ -638,7 +659,7 @@
                 <cost name=" pts" costTypeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5e87-18c1-16d3-854b" name="Demolisher" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+            <selectionEntry id="5e87-18c1-16d3-854b" name="Demolisher" hidden="false" collective="false" type="model">
               <profiles>
                 <profile id="c3e5-b898-4fe5-2cfe" name="Demolisher" hidden="false" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625">
                   <profiles/>
@@ -670,7 +691,7 @@
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="a3ab-18e4-06ab-c9cf" name="Recoilless Rifle (Turret)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+                <selectionEntry id="a3ab-18e4-06ab-c9cf" name="Recoilless Rifle (Turret)" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
                   <infoLinks>
@@ -716,7 +737,10 @@
         <cost name=" pts" costTypeId="points" value="11.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c71b-ad3f-b038-46e1" name="Silence" hidden="false" collective="false" categoryEntryId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" type="model">
+    <selectionEntry id="c71b-ad3f-b038-46e1" name="Silence" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="c71b-ad3f-b038-46e1-9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" targetId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="61f9-cb99-36b5-381d" name="Silence" hidden="false" profileTypeId="cdc60b3a-77a5-d5f7-bfbc-40fa73d6902b" profileTypeName="Heroes">
           <profiles/>
@@ -823,7 +847,10 @@
         <cost name=" pts" costTypeId="points" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="16b1-7ec8-6805-c95a" name="Mercenary Heavy Machine Gun Squad II" hidden="false" collective="false" categoryEntryId="b65bbf00-a157-7756-2040-07ec6f49cef9" type="model">
+    <selectionEntry id="16b1-7ec8-6805-c95a" name="Mercenary Heavy Machine Gun Squad II" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="16b1-7ec8-6805-c95a-b65bbf00-a157-7756-2040-07ec6f49cef9" targetId="b65bbf00-a157-7756-2040-07ec6f49cef9" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="01e6-1c09-48b3-4855" name="Mercenary Heavy Machine Gun Squad II" hidden="false" profileTypeId="4c7e5a31-9ebb-047b-c784-ddb4ae29b228" profileTypeName="Support Weapons/Fortifications">
           <profiles/>
@@ -863,7 +890,7 @@
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="c2b1-2e99-1394-c1fc" name="Heavy Machinegun" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="c2b1-2e99-1394-c1fc" name="Heavy Machinegun" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -886,7 +913,7 @@
             <cost name=" pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="88aa-6a38-7724-ce3b" name="Submachine-Gun" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="88aa-6a38-7724-ce3b" name="Submachine-Gun" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -1082,7 +1109,7 @@
         <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685" value="1/1"/>
       </characteristics>
     </profile>
-    <profile id="0599-38a3-3291-935d" name="Mechanics&apos; Tools" hidden="false" profileTypeId="6c4a1962-9409-6e62-9ea7-e81c4935e4fa">
+    <profile id="0599-38a3-3291-935d" name="Mechanics' Tools" hidden="false" profileTypeId="6c4a1962-9409-6e62-9ea7-e81c4935e4fa">
       <profiles/>
       <rules/>
       <infoLinks/>

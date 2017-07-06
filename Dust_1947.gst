@@ -1,153 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" battleScribeVersion="2.01" id="bacf-9ebb-dbda-57d0" name="Dust 1947" revision="8" authorName="Franky">
-<categoryEntries>
-<categoryEntry id="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" name="Heroes" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="76227318-3362-ffb8-0460-e948cda200fe" name="Infantry 1" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="43cd9e7a-46cf-103f-d5da-1a3f38ab53fb" name="Infantry 2" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="be074469-cf2b-f2c0-40ca-57b07dcf6d94" name="Infantry 3" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="fb90473c-036d-7f25-40d9-dba33d0342e9" name="Infantry 4" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="6899132a-0170-e29f-d269-4048e127abd0" name="Vehicle 1" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="bbcb75d0-5169-4b14-1ca9-dff1d9b4996e" name="Vehicle 2" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="29b76100-e940-9c92-7f00-a7ad44e2f288" name="Vehicle 3" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="fbe52e4c-73ad-7aa5-3eb1-4f1114307d27" name="Vehicle 4" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="d78cc027-a9e9-a40f-cca6-6333e2739f64" name="Vehicle 5" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="8f007b15-eb4c-aa4a-6c20-29e1f25ba998" name="Vehicle 6" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="de909069-5479-47d9-dc05-07d94eae45d1" name="Vehicle 7" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="657eb533-3fe8-3213-2ac2-25b4aa56dd2b" name="Aircraft 1" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="0809ba6a-2cb6-2b5e-81ba-68899d3b5829" name="Aircraft 2" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="2787bb46-48d3-5ada-f551-13401affdeff" name="Aircraft 3" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="b65bbf00-a157-7756-2040-07ec6f49cef9" name="Support Weapon" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="e7069911-d999-7800-e256-b1f8752871e3" name="Fortification" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="0bb6-1bab-9318-124a" name="Platoons" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="5b653694-3ee6-eada-5846-7c02129bc43a" name="Allies" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="6a923987-e5ac-c7e8-396b-e9132b67ddf8" name="Axis" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-<categoryEntry id="69554cf4-6ebb-98a2-9249-0d7c1641b183" name="SSU" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          
-          
-        </categoryEntry>
-</categoryEntries>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gameSystem id="bacf-9ebb-dbda-57d0" name="Dust 1947" revision="9" battleScribeVersion="2.01" authorName="Franky" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -239,168 +91,293 @@
       </characteristicTypes>
     </profileType>
   </profileTypes>
-  <forceEntries>
-    <forceEntry id="97f291bb-995f-0bfb-0b04-3644de836546" name="Main Bloc" hidden="false">
-<categoryLinks>
-<categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" targetId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" name="Heroes" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-<categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-76227318-3362-ffb8-0460-e948cda200fe" targetId="76227318-3362-ffb8-0460-e948cda200fe" name="Infantry 1" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-<categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-43cd9e7a-46cf-103f-d5da-1a3f38ab53fb" targetId="43cd9e7a-46cf-103f-d5da-1a3f38ab53fb" name="Infantry 2" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-<categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-be074469-cf2b-f2c0-40ca-57b07dcf6d94" targetId="be074469-cf2b-f2c0-40ca-57b07dcf6d94" name="Infantry 3" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-<categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-fb90473c-036d-7f25-40d9-dba33d0342e9" targetId="fb90473c-036d-7f25-40d9-dba33d0342e9" name="Infantry 4" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-<categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-6899132a-0170-e29f-d269-4048e127abd0" targetId="6899132a-0170-e29f-d269-4048e127abd0" name="Vehicle 1" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-<categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-bbcb75d0-5169-4b14-1ca9-dff1d9b4996e" targetId="bbcb75d0-5169-4b14-1ca9-dff1d9b4996e" name="Vehicle 2" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-<categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-29b76100-e940-9c92-7f00-a7ad44e2f288" targetId="29b76100-e940-9c92-7f00-a7ad44e2f288" name="Vehicle 3" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-<categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-fbe52e4c-73ad-7aa5-3eb1-4f1114307d27" targetId="fbe52e4c-73ad-7aa5-3eb1-4f1114307d27" name="Vehicle 4" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-<categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-d78cc027-a9e9-a40f-cca6-6333e2739f64" targetId="d78cc027-a9e9-a40f-cca6-6333e2739f64" name="Vehicle 5" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-<categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-8f007b15-eb4c-aa4a-6c20-29e1f25ba998" targetId="8f007b15-eb4c-aa4a-6c20-29e1f25ba998" name="Vehicle 6" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-<categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-de909069-5479-47d9-dc05-07d94eae45d1" targetId="de909069-5479-47d9-dc05-07d94eae45d1" name="Vehicle 7" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-<categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-657eb533-3fe8-3213-2ac2-25b4aa56dd2b" targetId="657eb533-3fe8-3213-2ac2-25b4aa56dd2b" name="Aircraft 1" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-<categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-0809ba6a-2cb6-2b5e-81ba-68899d3b5829" targetId="0809ba6a-2cb6-2b5e-81ba-68899d3b5829" name="Aircraft 2" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-<categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-2787bb46-48d3-5ada-f551-13401affdeff" targetId="2787bb46-48d3-5ada-f551-13401affdeff" name="Aircraft 3" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-<categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-b65bbf00-a157-7756-2040-07ec6f49cef9" targetId="b65bbf00-a157-7756-2040-07ec6f49cef9" name="Support Weapon" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-<categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-e7069911-d999-7800-e256-b1f8752871e3" targetId="e7069911-d999-7800-e256-b1f8752871e3" name="Fortification" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-<categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-0bb6-1bab-9318-124a" targetId="0bb6-1bab-9318-124a" name="Platoons" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-</categoryLinks>
+  <categoryEntries>
+    <categoryEntry id="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" name="Heroes" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      
+    </categoryEntry>
+    <categoryEntry id="76227318-3362-ffb8-0460-e948cda200fe" name="Infantry 1" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="43cd9e7a-46cf-103f-d5da-1a3f38ab53fb" name="Infantry 2" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="be074469-cf2b-f2c0-40ca-57b07dcf6d94" name="Infantry 3" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="fb90473c-036d-7f25-40d9-dba33d0342e9" name="Infantry 4" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="6899132a-0170-e29f-d269-4048e127abd0" name="Vehicle 1" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="bbcb75d0-5169-4b14-1ca9-dff1d9b4996e" name="Vehicle 2" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="29b76100-e940-9c92-7f00-a7ad44e2f288" name="Vehicle 3" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="fbe52e4c-73ad-7aa5-3eb1-4f1114307d27" name="Vehicle 4" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="d78cc027-a9e9-a40f-cca6-6333e2739f64" name="Vehicle 5" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="8f007b15-eb4c-aa4a-6c20-29e1f25ba998" name="Vehicle 6" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="de909069-5479-47d9-dc05-07d94eae45d1" name="Vehicle 7" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="657eb533-3fe8-3213-2ac2-25b4aa56dd2b" name="Aircraft 1" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="0809ba6a-2cb6-2b5e-81ba-68899d3b5829" name="Aircraft 2" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="2787bb46-48d3-5ada-f551-13401affdeff" name="Aircraft 3" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="b65bbf00-a157-7756-2040-07ec6f49cef9" name="Support Weapon" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="e7069911-d999-7800-e256-b1f8752871e3" name="Fortification" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="0bb6-1bab-9318-124a" name="Platoons" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="5b653694-3ee6-eada-5846-7c02129bc43a" name="Allies" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="6a923987-e5ac-c7e8-396b-e9132b67ddf8" name="Axis" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="69554cf4-6ebb-98a2-9249-0d7c1641b183" name="SSU" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry id="97f291bb-995f-0bfb-0b04-3644de836546" name="Main Bloc" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
       <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" name="Heroes" hidden="false" targetId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-76227318-3362-ffb8-0460-e948cda200fe" name="Infantry 1" hidden="false" targetId="76227318-3362-ffb8-0460-e948cda200fe" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-43cd9e7a-46cf-103f-d5da-1a3f38ab53fb" name="Infantry 2" hidden="false" targetId="43cd9e7a-46cf-103f-d5da-1a3f38ab53fb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-be074469-cf2b-f2c0-40ca-57b07dcf6d94" name="Infantry 3" hidden="false" targetId="be074469-cf2b-f2c0-40ca-57b07dcf6d94" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-fb90473c-036d-7f25-40d9-dba33d0342e9" name="Infantry 4" hidden="false" targetId="fb90473c-036d-7f25-40d9-dba33d0342e9" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-6899132a-0170-e29f-d269-4048e127abd0" name="Vehicle 1" hidden="false" targetId="6899132a-0170-e29f-d269-4048e127abd0" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-bbcb75d0-5169-4b14-1ca9-dff1d9b4996e" name="Vehicle 2" hidden="false" targetId="bbcb75d0-5169-4b14-1ca9-dff1d9b4996e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-29b76100-e940-9c92-7f00-a7ad44e2f288" name="Vehicle 3" hidden="false" targetId="29b76100-e940-9c92-7f00-a7ad44e2f288" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-fbe52e4c-73ad-7aa5-3eb1-4f1114307d27" name="Vehicle 4" hidden="false" targetId="fbe52e4c-73ad-7aa5-3eb1-4f1114307d27" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-d78cc027-a9e9-a40f-cca6-6333e2739f64" name="Vehicle 5" hidden="false" targetId="d78cc027-a9e9-a40f-cca6-6333e2739f64" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-8f007b15-eb4c-aa4a-6c20-29e1f25ba998" name="Vehicle 6" hidden="false" targetId="8f007b15-eb4c-aa4a-6c20-29e1f25ba998" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-de909069-5479-47d9-dc05-07d94eae45d1" name="Vehicle 7" hidden="false" targetId="de909069-5479-47d9-dc05-07d94eae45d1" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-657eb533-3fe8-3213-2ac2-25b4aa56dd2b" name="Aircraft 1" hidden="false" targetId="657eb533-3fe8-3213-2ac2-25b4aa56dd2b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-0809ba6a-2cb6-2b5e-81ba-68899d3b5829" name="Aircraft 2" hidden="false" targetId="0809ba6a-2cb6-2b5e-81ba-68899d3b5829" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-2787bb46-48d3-5ada-f551-13401affdeff" name="Aircraft 3" hidden="false" targetId="2787bb46-48d3-5ada-f551-13401affdeff" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-b65bbf00-a157-7756-2040-07ec6f49cef9" name="Support Weapon" hidden="false" targetId="b65bbf00-a157-7756-2040-07ec6f49cef9" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-e7069911-d999-7800-e256-b1f8752871e3" name="Fortification" hidden="false" targetId="e7069911-d999-7800-e256-b1f8752871e3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="97f291bb-995f-0bfb-0b04-3644de836546-0bb6-1bab-9318-124a" name="Platoons" hidden="false" targetId="0bb6-1bab-9318-124a" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </forceEntry>
     <forceEntry id="098c1d71-ee65-110f-a2ee-85ec31e8a353" name="Captured Vehicles" hidden="false">
-<categoryLinks>
-<categoryLink id="098c1d71-ee65-110f-a2ee-85ec31e8a353-5b653694-3ee6-eada-5846-7c02129bc43a" targetId="5b653694-3ee6-eada-5846-7c02129bc43a" name="Allies" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-<categoryLink id="098c1d71-ee65-110f-a2ee-85ec31e8a353-6a923987-e5ac-c7e8-396b-e9132b67ddf8" targetId="6a923987-e5ac-c7e8-396b-e9132b67ddf8" name="Axis" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-<categoryLink id="098c1d71-ee65-110f-a2ee-85ec31e8a353-69554cf4-6ebb-98a2-9249-0d7c1641b183" targetId="69554cf4-6ebb-98a2-9249-0d7c1641b183" name="SSU" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -408,8 +385,30 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
       </constraints>
-      
       <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="098c1d71-ee65-110f-a2ee-85ec31e8a353-5b653694-3ee6-eada-5846-7c02129bc43a" name="Allies" hidden="false" targetId="5b653694-3ee6-eada-5846-7c02129bc43a" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="098c1d71-ee65-110f-a2ee-85ec31e8a353-6a923987-e5ac-c7e8-396b-e9132b67ddf8" name="Axis" hidden="false" targetId="6a923987-e5ac-c7e8-396b-e9132b67ddf8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="098c1d71-ee65-110f-a2ee-85ec31e8a353-69554cf4-6ebb-98a2-9249-0d7c1641b183" name="SSU" hidden="false" targetId="69554cf4-6ebb-98a2-9249-0d7c1641b183" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </forceEntry>
   </forceEntries>
   <selectionEntries/>
@@ -434,6 +433,7 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -806,7 +806,7 @@
       <modifiers/>
       <description>Treats Water as Open Terrain but cannot enter any other type of terrain. May take a free Attack Action after performing a March Move Action.</description>
     </rule>
-    <rule id="ad37-41f0-a2e5-4d13" name="Nothin's Easy" book="Dust 1947 Rule Book" page="153" hidden="false">
+    <rule id="ad37-41f0-a2e5-4d13" name="Nothin&apos;s Easy" book="Dust 1947 Rule Book" page="153" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -846,7 +846,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When this weapon performs an Attack Action, remove it's Reload Token. The Unit may not perform another Attack Action until a Reload Action is performed.</description>
+      <description>When this weapon performs an Attack Action, remove it&apos;s Reload Token. The Unit may not perform another Attack Action until a Reload Action is performed.</description>
     </rule>
     <rule id="d2e3-01cc-31d2-6b6c" name="Salvo" book="Dust 1947 Rule Book" page="143" hidden="false">
       <profiles/>
@@ -937,7 +937,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Airborne units are dropped anywhere on the table, but not closer than range 2 to any objective in the game. The Unit's first Action must by a Nothing Action. Player rolls one die and on a roll of [bloc] or [crosshair] the player may take a second action. Unit may not capture objectives on the first turn placed.</description>
+      <description>Airborne units are dropped anywhere on the table, but not closer than range 2 to any objective in the game. The Unit&apos;s first Action must by a Nothing Action. Player rolls one die and on a roll of [bloc] or [crosshair] the player may take a second action. Unit may not capture objectives on the first turn placed.</description>
     </rule>
     <rule id="90f6-9a1a-e0ab-ce6c" name="Blutkreuz" book="Dust 1947 Rule Book" page="148" hidden="false">
       <profiles/>
@@ -1141,6 +1141,20 @@
       <infoLinks/>
       <modifiers/>
       <description>Unit does not need to take a Nothing Action after using Airborne skill. A Unit share this skill with a Squad but not a Vehicle.</description>
+    </rule>
+    <rule id="46d2-2b5b-abf1-b90a" name="Radar" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A vehicle with this equipment can reroll once any failed dice when making an Attack or Sustained Attack Action against an Aircraft.	</description>
+    </rule>
+    <rule id="5fce-2ac8-7580-9ecc" name="Large Ordnance" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Uses Artillery Template or targets four squares like Artillery.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

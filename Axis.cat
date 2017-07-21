@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8ef2fe75-bde5-cb08-a904-1e2fe601c053" name="Axis" revision="24" battleScribeVersion="2.01" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8ef2fe75-bde5-cb08-a904-1e2fe601c053" name="Axis" revision="25" battleScribeVersion="2.01" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -11332,7 +11332,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="e881-4d43-cbe5-15d3" name="Dual Autocannons (Turret)" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -11354,7 +11356,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -11420,7 +11424,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="ce21-4e99-41d9-8e23" name="Gliding Bomb (Front)" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -11448,13 +11454,146 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
         <cost name=" pts" costTypeId="points" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8bfa-b424-8526-32f5" name="Raketentruppe Command Squad" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="e933-e388-9c29-d65a" name="Raketentruppe Command Squad" hidden="false" profileTypeId="41b56042-fab9-47e0-0812-0af86fc4caba">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="5c7c3ab5-1c5d-c101-1cbb-0352fdf58869" value="3"/>
+            <characteristic name="March Move" characteristicTypeId="b83a82fd-4a1a-6698-9305-9f3ef7e57f48" value="6"/>
+            <characteristic name="Armour" characteristicTypeId="aeef742f-0070-cf7b-3fba-92583ccc1fd7" value="S1"/>
+            <characteristic name="Faction" characteristicTypeId="0487-5495-4e79-1ee5" value="Luftwaffe"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="fe2c-11e5-f157-0487" name="Flying" hidden="false" targetId="5c4d-7223-a1e3-67f2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6b2c-fb7f-e797-93bc" name="New InfoLink" hidden="false" targetId="e75e-1fec-1166-ab4c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="7322-c7cc-86e8-ba2f" hidden="false" targetId="76227318-3362-ffb8-0460-e948cda200fe" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6a80-d544-e319-07f7" name="Rocket Launcher" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="ce54-d570-e98a-289c" name="Rocket Launcher" hidden="false" targetId="7bac35a2-94c6-33a8-f1e9-0a2cff8b4cd9" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="fe31-0216-474e-d34b" hidden="false" targetId="d2e3-01cc-31d2-6b6c" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="06e4-e552-e286-d740" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3859-4923-7ea6-7528" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cf0f-dd68-6bc2-35be" name="Assault Rifle" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="6348-97eb-c32c-ee3b" name="Assault Rifle" hidden="false" targetId="469d8b6d-f5ec-2bd7-b79c-3091c45563fb" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="257e-bf4f-701f-6c8b" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f3c2-9931-afac-63d8" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bdc2-5c8f-7886-3617" name="Panzerfaust" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="a04a-6faa-9af2-cec7" name="Panzerfaust" hidden="false" targetId="70704192-3e57-f913-b8d9-9c60636d7030" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="0b4d-9170-5451-246b" name="Grenade" hidden="false" targetId="be1f-1707-269f-5ab5" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="683a-fd28-572b-7528" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc89-b1b9-4e39-c60a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" pts" costTypeId="points" value="13.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

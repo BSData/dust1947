@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bacf-9ebb-dbda-57d0" name="Dust 1947" revision="9" battleScribeVersion="2.01" authorName="Franky" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bacf-9ebb-dbda-57d0" name="Dust 1947" revision="10" battleScribeVersion="2.01" authorName="Franky" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -932,7 +932,7 @@
       <modifiers/>
       <description>May mount an Aircraft, using his skills while mounted. Roll one die when the Aircraft Activates gaining a third action on a [bloc] or [crosshair].</description>
     </rule>
-    <rule id="77f0-fd65-c07e-019d" name="Airborne" hidden="false">
+    <rule id="77f0-fd65-c07e-019d" name="Airborne" book="Operation Kondor" page="112" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -953,7 +953,7 @@
       <modifiers/>
       <description>Can take execute special action to eliminate chose soldier within Range 1 from a unit with a stunned token.</description>
     </rule>
-    <rule id="540e-f4c4-e4c9-0153" name="Flame Burst" hidden="false">
+    <rule id="540e-f4c4-e4c9-0153" name="Flame Burst" book="Operation Kondor" page="112" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1128,21 +1128,21 @@
       <modifiers/>
       <description>Any Vehicle this Hero pilots gains Expert on all Weapons.</description>
     </rule>
-    <rule id="c697-cca3-4af2-fbc5" name="Assault Vehicle" hidden="false">
+    <rule id="c697-cca3-4af2-fbc5" name="Assault Vehicle" book="Operation Kondor" page="112" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>Passengers in this Vehicle can Activate after the Vehicle has Activated.</description>
     </rule>
-    <rule id="4a1d-986b-27ce-95ef" name="Quick Recovery" hidden="false">
+    <rule id="4a1d-986b-27ce-95ef" name="Quick Recovery" book="Operation Kondor" page="112" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>Unit does not need to take a Nothing Action after using Airborne skill. A Unit share this skill with a Squad but not a Vehicle.</description>
     </rule>
-    <rule id="46d2-2b5b-abf1-b90a" name="Radar" hidden="false">
+    <rule id="46d2-2b5b-abf1-b90a" name="Radar" book="Operation Kondor" page="112" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>

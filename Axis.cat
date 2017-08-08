@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8ef2fe75-bde5-cb08-a904-1e2fe601c053" name="Axis" revision="25" battleScribeVersion="2.01" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8ef2fe75-bde5-cb08-a904-1e2fe601c053" name="Axis" revision="26" battleScribeVersion="2.01" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -964,7 +964,7 @@
         <cost name=" pts" costTypeId="points" value="17.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7ac2-132f-6deb-904e" name="Fallschirm RSO/Flak 3" hidden="false" collective="false" type="model">
+    <selectionEntry id="7ac2-132f-6deb-904e" name="Fallschirm RSO/Flak 3" book="Operation Kondor" page="78" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="2d3c-5b2c-73ae-4fb3" name="Fallschirm RSO/Flak 3" hidden="false" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625">
           <profiles/>
@@ -1068,7 +1068,7 @@
         <cost name=" pts" costTypeId="points" value="6.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ea23-4fe2-e09a-b0ff" name="Fallschirm RSO/Laserkanone" hidden="false" collective="false" type="model">
+    <selectionEntry id="ea23-4fe2-e09a-b0ff" name="Fallschirm RSO/Laserkanone" book="Operation Kondor" page="80" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="111d-a96d-d297-1138" name="Fallschirm RSO/Laserkanone" hidden="false" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625">
           <profiles/>
@@ -1172,7 +1172,7 @@
         <cost name=" pts" costTypeId="points" value="11.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0a59-3b8e-1618-7c64" name="Fallschirm RSO/Pak 40" hidden="false" collective="false" type="model">
+    <selectionEntry id="0a59-3b8e-1618-7c64" name="Fallschirm RSO/Pak 40" book="Operation Kondor" page="79" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="30e9-0e9d-4612-a56f" name="Fallschirm RSO/Pak 40" hidden="false" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625">
           <profiles/>
@@ -1270,7 +1270,7 @@
         <cost name=" pts" costTypeId="points" value="9.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e2f9-ac11-300a-90a5" name="Fallschirmjäger Anti-Aircraft Squad" hidden="false" collective="false" type="unit">
+    <selectionEntry id="e2f9-ac11-300a-90a5" name="Fallschirmjäger Anti-Aircraft Squad" book="Operation Kondor" page="50" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="ae94-8c3c-b48b-3eaf" name="Fallschirmjäger Anti-Aircraft Squad" hidden="false" profileTypeId="41b56042-fab9-47e0-0812-0af86fc4caba">
           <profiles/>
@@ -1367,7 +1367,7 @@
         <cost name=" pts" costTypeId="points" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b46d-cad5-4da5-a489" name="Fallschirmjäger Battle Squad" hidden="false" collective="false" type="unit">
+    <selectionEntry id="b46d-cad5-4da5-a489" name="Fallschirmjäger Battle Squad" book="Operation Kondor" page="48" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="3fbd-04e5-bcac-760c" name="Fallschirmjäger Battle Squad" hidden="false" profileTypeId="41b56042-fab9-47e0-0812-0af86fc4caba">
           <profiles/>
@@ -1488,7 +1488,7 @@
         <cost name=" pts" costTypeId="points" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fe88-4805-12f3-cd99" name="Fallschirmjäger Tank-Hunter Squad" hidden="false" collective="false" type="unit">
+    <selectionEntry id="fe88-4805-12f3-cd99" name="Fallschirmjäger Tank-Hunter Squad" book="Operation Kondor" page="49" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="c5f9-3037-d8c6-d02a" name="Fallschirmjäger Tank-Hunter Squad" hidden="false" profileTypeId="41b56042-fab9-47e0-0812-0af86fc4caba">
           <profiles/>
@@ -1947,7 +1947,7 @@
         <cost name=" pts" costTypeId="points" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e289-212f-a0e6-57ab" name="Florentine" hidden="false" collective="false" type="model">
+    <selectionEntry id="e289-212f-a0e6-57ab" name="Florentine" book="Operation Kondor" page="70" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="9c41-ca0e-7dbc-1860" name="Florentine" hidden="false" profileTypeId="cdc60b3a-77a5-d5f7-bfbc-40fa73d6902b">
           <profiles/>
@@ -6940,7 +6940,7 @@
         <cost name=" pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="81cc-b0f1-3c32-052a" name="Raketentruppe Battle Squad" hidden="false" collective="false" type="unit">
+    <selectionEntry id="81cc-b0f1-3c32-052a" name="Raketentruppe Battle Squad" book="Operation Kondor" page="76" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="159d-60d9-1b75-fd58" name="Raketentruppe Battle Squad" hidden="false" profileTypeId="41b56042-fab9-47e0-0812-0af86fc4caba">
           <profiles/>
@@ -7061,7 +7061,7 @@
         <cost name=" pts" costTypeId="points" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="af15f775-9d31-c48c-4966-3f1c76c5c2ee" name="Rolf" page="0" hidden="false" collective="false" type="model">
+    <selectionEntry id="af15f775-9d31-c48c-4966-3f1c76c5c2ee" name="Rolf" book="Operation Kondor" page="46" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="afc3d1b2-2423-c5ee-358c-96d97664b34f" name="Rolf" page="0" hidden="false" profileTypeId="cdc60b3a-77a5-d5f7-bfbc-40fa73d6902b">
           <profiles/>
@@ -9868,7 +9868,7 @@
         <cost name=" pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="34d8-b23c-46b7-072c" name="Luft Heinrich (Trop)" page="0" hidden="false" collective="false" type="model">
+    <selectionEntry id="34d8-b23c-46b7-072c" name="Luft Heinrich (Trop)" book="Operation Kondor" page="81" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="8bf5-ac98-a2fc-c0ba" name="Luft Heinrich (Trop)" hidden="false" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" profileTypeName="Vehicle">
           <profiles/>
@@ -9990,7 +9990,7 @@
         <cost name=" pts" costTypeId="points" value="11.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1abf-3a9d-ab4b-41c6" name="Luft Hermann (Trop)" page="0" hidden="false" collective="false" type="model">
+    <selectionEntry id="1abf-3a9d-ab4b-41c6" name="Luft Hermann (Trop)" book="Operation Kondor" page="82" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="e3e1-ce80-e8d7-4542" name="Luft Hermann (Trop)" page="0" hidden="false" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625">
           <profiles/>
@@ -10124,7 +10124,7 @@
         <cost name=" pts" costTypeId="points" value="13.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2c98-cdc7-4572-d788" name="Fallschirmjäger Command Squad" hidden="false" collective="false" type="unit">
+    <selectionEntry id="2c98-cdc7-4572-d788" name="Fallschirmjäger Command Squad" book="Operation Kondor" page="47" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="2af3-832f-3ec2-e007" name="Fallschirmjäger Command Squad" hidden="false" profileTypeId="41b56042-fab9-47e0-0812-0af86fc4caba">
           <profiles/>
@@ -10227,7 +10227,7 @@
         <cost name=" pts" costTypeId="points" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bcc1-8d8e-0c83-a07e" name="Luft Hans (Trop)" page="0" hidden="false" collective="false" type="model">
+    <selectionEntry id="bcc1-8d8e-0c83-a07e" name="Luft Hans (Trop)" book="Operation Kondor" page="83" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="fc16-0a30-623b-a294" name="Luft Hans (Trop)" page="0" hidden="false" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625">
           <profiles/>
@@ -10361,7 +10361,7 @@
         <cost name=" pts" costTypeId="points" value="14.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c3fb-e5b0-793b-9ccd" name="Luft Horst (Trop)" page="0" hidden="false" collective="false" type="model">
+    <selectionEntry id="c3fb-e5b0-793b-9ccd" name="Luft Horst (Trop)" book="Operation Kondor" page="84" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="a01a-ed03-0c1b-729b" name="Luft Horst (Trop)" page="0" hidden="false" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625">
           <profiles/>
@@ -10495,7 +10495,7 @@
         <cost name=" pts" costTypeId="points" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5804-7439-9bed-bf2c" name="Raketentruppe Anti-Aircraft Squad" hidden="false" collective="false" type="unit">
+    <selectionEntry id="5804-7439-9bed-bf2c" name="Raketentruppe Anti-Aircraft Squad" book="Operation Kondor" page="77" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="a1d2-ae94-e9c1-616d" name="Raketentruppe Anti-Aircraft Squad" hidden="false" profileTypeId="41b56042-fab9-47e0-0812-0af86fc4caba">
           <profiles/>
@@ -10728,7 +10728,7 @@
         <cost name=" pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0332-ab04-2fba-9227" name="Fallschirmjäger Mortar Squad" hidden="false" collective="false" type="model">
+    <selectionEntry id="0332-ab04-2fba-9227" name="Fallschirmjäger Mortar Squad" book="Operation Kondor" page="51" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="f829-4061-6869-7b8f" name="Fallschirmjäger Mortar Squad" hidden="false" profileTypeId="4c7e5a31-9ebb-047b-c784-ddb4ae29b228" profileTypeName="Support Weapons/Fortifications">
           <profiles/>
@@ -10924,7 +10924,7 @@
         <cost name=" pts" costTypeId="points" value="9.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c0c6-d8f2-61cc-8671" name="Kurt" hidden="false" collective="false" type="model">
+    <selectionEntry id="c0c6-d8f2-61cc-8671" name="Kurt" book="Operation Kondor" page="45" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="0da9-f4aa-d368-abfa" name="Kurt" hidden="false" profileTypeId="cdc60b3a-77a5-d5f7-bfbc-40fa73d6902b" profileTypeName="Heroes">
           <profiles/>
@@ -11060,7 +11060,7 @@
         <cost name=" pts" costTypeId="points" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0208-79b7-16b7-a952" name="Galeazzo" hidden="false" collective="false" type="model">
+    <selectionEntry id="0208-79b7-16b7-a952" name="Galeazzo" book="Operation Kondor" page="44" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="9243-44ae-bbdb-5cab" name="Galeazzo" hidden="false" profileTypeId="cdc60b3a-77a5-d5f7-bfbc-40fa73d6902b" profileTypeName="Heroes">
           <profiles/>
@@ -11275,7 +11275,7 @@
         <cost name=" pts" costTypeId="points" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2153-f236-4420-ebf3" name="Geist" hidden="false" collective="false" type="model">
+    <selectionEntry id="2153-f236-4420-ebf3" name="Geist" book="Operation Kondor" page="86" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="1402-61ed-50c9-e06a" name="Geist" hidden="false" profileTypeId="1501a0c7-39e2-22f9-345a-06ffa5c8ac55" profileTypeName="Aircraft">
           <profiles/>
@@ -11367,7 +11367,7 @@
         <cost name=" pts" costTypeId="points" value="19.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d097-aab5-3e8e-71b4" name="Hexe" hidden="false" collective="false" type="model">
+    <selectionEntry id="d097-aab5-3e8e-71b4" name="Hexe" book="Operation Kondor" page="85" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="e48c-a107-77db-9835" name="Hexe" hidden="false" profileTypeId="1501a0c7-39e2-22f9-345a-06ffa5c8ac55" profileTypeName="Aircraft">
           <profiles/>
@@ -11465,7 +11465,7 @@
         <cost name=" pts" costTypeId="points" value="18.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8bfa-b424-8526-32f5" name="Raketentruppe Command Squad" hidden="false" collective="false" type="unit">
+    <selectionEntry id="8bfa-b424-8526-32f5" name="Raketentruppe Command Squad" book="Operation Kondor" page="74" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="e933-e388-9c29-d65a" name="Raketentruppe Command Squad" hidden="false" profileTypeId="41b56042-fab9-47e0-0812-0af86fc4caba">
           <profiles/>
@@ -11587,13 +11587,821 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
         <cost name=" pts" costTypeId="points" value="13.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7dee-8e4a-84ae-1d36" name="Fallschirmjäger Rocket Launcher Squad" book="Operation Kondor" page="52" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="9ae0-1d3a-4054-c3b1" name="Fallschirmjäger Rocket Launcher Squad" hidden="false" profileTypeId="4c7e5a31-9ebb-047b-c784-ddb4ae29b228" profileTypeName="Support Weapons/Fortifications">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Damage Track" characteristicTypeId="72c474f9-90b1-5a73-91b5-4c076f0f7cd4" value="3"/>
+            <characteristic name="Move" characteristicTypeId="be56f73e-3478-29fa-0f81-d47357fefa54" value="2"/>
+            <characteristic name="March Move" characteristicTypeId="3b967438-aba2-3297-ea7f-b7ce59b6c178" value="3"/>
+            <characteristic name="Armour" characteristicTypeId="7e578297-b2b3-8316-ed51-b1b8e4a800c5" value="S1"/>
+            <characteristic name="Faction" characteristicTypeId="5314-4eb8-e9bf-4727" value="Luftwaffe"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="b5e0-f493-ddea-d814" name="New InfoLink" hidden="false" targetId="77f0-fd65-c07e-019d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="32a7-9fc5-0688-d7ed" name="New InfoLink" hidden="false" targetId="9766-6532-5af3-6daa" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="4e27-e374-e67e-46ea" hidden="false" targetId="b65bbf00-a157-7756-2040-07ec6f49cef9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ebe7-2745-a4fa-7db5" name="Rocket Launcher" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="035b-62da-68b6-0520" name="Rocket Launcher " hidden="false" targetId="a766-7922-9206-66c8" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="cf1f-085b-3caa-64ba" name="Grenade" hidden="false" targetId="be1f-1707-269f-5ab5" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="946d-acc2-1568-a692" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1de2-947f-93d0-6a46" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="de3b-2065-29ff-385b" name="Submachine Gun" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="265e-5f60-de5c-b154" name="New InfoLink" hidden="false" targetId="541a6b0f-7a18-5753-4515-50c801630eb3" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39c1-bb9f-d479-1be4" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25bb-0153-ee78-f795" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" pts" costTypeId="points" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="38ea-09f7-1009-ef5e" name="Fallschirmjäger Anti-Tank Squad" book="Operation Kondor" page="53" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="dcee-2488-a253-30ae" name="Fallschirmjäger Anti-Tank Squad" hidden="false" profileTypeId="4c7e5a31-9ebb-047b-c784-ddb4ae29b228" profileTypeName="Support Weapons/Fortifications">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Damage Track" characteristicTypeId="72c474f9-90b1-5a73-91b5-4c076f0f7cd4" value="3"/>
+            <characteristic name="Move" characteristicTypeId="be56f73e-3478-29fa-0f81-d47357fefa54" value="2"/>
+            <characteristic name="March Move" characteristicTypeId="3b967438-aba2-3297-ea7f-b7ce59b6c178" value="3"/>
+            <characteristic name="Armour" characteristicTypeId="7e578297-b2b3-8316-ed51-b1b8e4a800c5" value="S1"/>
+            <characteristic name="Faction" characteristicTypeId="5314-4eb8-e9bf-4727" value="Luftwaffe"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6b2d-7bb9-b80c-5df9" name="New InfoLink" hidden="false" targetId="77f0-fd65-c07e-019d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6512-35c1-7899-8417" name="New InfoLink" hidden="false" targetId="9766-6532-5af3-6daa" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5525-2c88-e1da-f69c" hidden="false" targetId="b65bbf00-a157-7756-2040-07ec6f49cef9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9658-d42c-27aa-0307" name="Recoilless Rocket Launcher" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="3262-5e11-9876-8f9e" name="Recoilless Rocket Launcher" hidden="false" targetId="dbe0-0969-1812-0ca6" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cdf-37c4-2c0b-07ee" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a10f-4e3e-06e2-470b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ed62-ce73-4d83-eac0" name="Submachine Gun" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="690b-3251-1f5e-a55a" name="New InfoLink" hidden="false" targetId="541a6b0f-7a18-5753-4515-50c801630eb3" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="157a-2a18-cbd3-19e5" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0852-d93d-4312-522b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" pts" costTypeId="points" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0180-6508-f26b-0a96" name="Fallschirmjäger Laser Gun Squad" book="Operation Kondor" page="54" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="8819-9260-9383-5241" name="Fallschirmjäger Laser Gun Squad" hidden="false" profileTypeId="4c7e5a31-9ebb-047b-c784-ddb4ae29b228" profileTypeName="Support Weapons/Fortifications">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Damage Track" characteristicTypeId="72c474f9-90b1-5a73-91b5-4c076f0f7cd4" value="3"/>
+            <characteristic name="Move" characteristicTypeId="be56f73e-3478-29fa-0f81-d47357fefa54" value="2"/>
+            <characteristic name="March Move" characteristicTypeId="3b967438-aba2-3297-ea7f-b7ce59b6c178" value="3"/>
+            <characteristic name="Armour" characteristicTypeId="7e578297-b2b3-8316-ed51-b1b8e4a800c5" value="S1"/>
+            <characteristic name="Faction" characteristicTypeId="5314-4eb8-e9bf-4727" value="Luftwaffe"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e2fa-804b-cbcf-a6e3" name="New InfoLink" hidden="false" targetId="77f0-fd65-c07e-019d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f697-35f1-112d-1052" name="New InfoLink" hidden="false" targetId="9766-6532-5af3-6daa" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5944-0a15-20a5-4d6d" hidden="false" targetId="b65bbf00-a157-7756-2040-07ec6f49cef9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="42cd-cc81-e2ae-26d8" name="Laser Gun" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="0e16-5781-fb5f-50d9" name="Laser Gun " hidden="false" targetId="1ebb-c4d9-3245-8376" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="1d71-8cb1-e086-fa80" name="Laser" hidden="false" targetId="18d8-2c16-81bc-0fa6" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0dc-57dc-3e5c-7ca4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e702-3a76-029a-501b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="84d2-e6c4-caec-b846" name="Submachine Gun" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="fec2-c035-47cd-c40e" name="New InfoLink" hidden="false" targetId="541a6b0f-7a18-5753-4515-50c801630eb3" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81b5-cd57-a31f-52e1" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="446f-8598-ba0f-2385" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" pts" costTypeId="points" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bde9-e6f2-7550-ab6e" name="Fallschirmjäger Observer Squad" book="Operation Kondor" page="55" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="0fb7-5598-a440-c701" name="Fallschirmjäger Observer Squad" hidden="false" profileTypeId="41b56042-fab9-47e0-0812-0af86fc4caba">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="5c7c3ab5-1c5d-c101-1cbb-0352fdf58869" value="2"/>
+            <characteristic name="March Move" characteristicTypeId="b83a82fd-4a1a-6698-9305-9f3ef7e57f48" value="5"/>
+            <characteristic name="Armour" characteristicTypeId="aeef742f-0070-cf7b-3fba-92583ccc1fd7" value="S1"/>
+            <characteristic name="Faction" characteristicTypeId="0487-5495-4e79-1ee5" value="Luftwaffe"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="939e-4f1f-6d23-58be" hidden="false" targetId="77f0-fd65-c07e-019d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="88c9-9751-33f6-0754" name="Artillery Observer" hidden="false" targetId="464f-2687-e1d8-97f2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="4fe1-900b-5fdd-ee39" hidden="false" targetId="76227318-3362-ffb8-0460-e948cda200fe" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ec42-c0ba-c748-ef7b" name="Heavy Assault Rifle" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="6076-d99e-7a9a-42df" hidden="false" targetId="2b32-7eaa-bcdf-cc0c" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1827-816c-0cd3-a2ba" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b61a-db7f-c3b9-7eb2" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" pts" costTypeId="points" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="378c-c4fa-a58a-5706" name="Kaori" book="Operation Kondor" page="71" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="ed82-230d-32eb-e2f8" name="Kaori" hidden="false" profileTypeId="cdc60b3a-77a5-d5f7-bfbc-40fa73d6902b">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Damage Track" characteristicTypeId="4df5bfce-f8de-996b-b151-521ceb1ffe6a" value="4"/>
+            <characteristic name="Move" characteristicTypeId="44ed5a71-9e76-fc25-7fcf-46df82ff75eb" value="3"/>
+            <characteristic name="March Move" characteristicTypeId="c508ae09-edfd-4a55-8027-3b3099af5e01" value="6"/>
+            <characteristic name="Armour" characteristicTypeId="ec77eb83-dbb3-c773-ca88-53b8207beda6" value="S1"/>
+            <characteristic name="Faction" characteristicTypeId="4a5a-a591-3db6-3a03" value="Luftwaffe"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d4ff-17e1-5e00-c24d" hidden="false" targetId="5c4d-7223-a1e3-67f2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6b0d-be50-9e22-ed39" name="Assassin" hidden="false" targetId="ad54-dca0-aaa6-a533" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="55fa-6c00-06b7-bdc0" name="Camouflage" hidden="false" targetId="52ec-faeb-4b70-18df" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f82c-cf2e-f18d-f21c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b46a-059c-b2fc-9fa0" hidden="false" targetId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3fda-60f3-9631-6551" name="Paired Light Submachine Gun" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="d68f-7bfc-bf7d-6982" name="Paired Light Submachine Gun" hidden="false" targetId="a4ca-adcc-25de-5635" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3038-57f9-48b1-5699" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94fa-ed66-7d50-956f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="911e-5c06-1b7f-d31b" name="Paired Katana" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="84a8-0865-b98f-2c59" name="Paired Katana" hidden="false" targetId="d9c9-2ffd-1e1b-9bc2" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="3f92-d097-35ab-d5de" name="Expert" hidden="false" targetId="7fd1-f22a-c9a6-5dfd" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5aa0-335f-7d3e-591d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eeb9-8e00-89a8-3bca" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4776-3baf-87aa-b4d2" name="Raketenmann" book="Operation Kondor" page="72" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="935c-8506-4ae7-a29f" name="Raketenmann" hidden="false" profileTypeId="cdc60b3a-77a5-d5f7-bfbc-40fa73d6902b">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Damage Track" characteristicTypeId="4df5bfce-f8de-996b-b151-521ceb1ffe6a" value="5"/>
+            <characteristic name="Move" characteristicTypeId="44ed5a71-9e76-fc25-7fcf-46df82ff75eb" value="3"/>
+            <characteristic name="March Move" characteristicTypeId="c508ae09-edfd-4a55-8027-3b3099af5e01" value="6"/>
+            <characteristic name="Armour" characteristicTypeId="ec77eb83-dbb3-c773-ca88-53b8207beda6" value="S1"/>
+            <characteristic name="Faction" characteristicTypeId="4a5a-a591-3db6-3a03" value="Luftwaffe"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6df0-b84c-ed3a-ad9b" name="Flying" hidden="false" targetId="5c4d-7223-a1e3-67f2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3afd-e124-4ec9-dbed" name="Move and Fire" hidden="false" targetId="d475-fbdb-821c-ae90" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="3726-1d58-5003-48b2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b05b-bfaa-81ad-6217" hidden="false" targetId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2d0a-d8dd-a378-7ad7" name="Pistol" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="a08d-8ccb-d1b9-1a76" name="Pistol" hidden="false" targetId="b61b-ce4b-79e9-0a36" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b212-f49f-5f39-8f12" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d41-933a-5512-ad41" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="621b-345b-55e2-2a57" name="Triple Assault Laser" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="fa4c-9974-a45b-cda8" name="Triple Assault Laser" hidden="false" targetId="f225-8b6d-66ca-8002" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="02a8-56e9-bc11-fc72" name="Laser" hidden="false" targetId="18d8-2c16-81bc-0fa6" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b892-6004-fa42-673e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d08c-d6d6-4140-e935" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" pts" costTypeId="points" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2dc2-dcd7-2067-4ac3" name="Goliath" book="Operation Kondor" page="73" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="d99a-bb9c-ef4d-315c" name="Goliath" hidden="false" profileTypeId="cdc60b3a-77a5-d5f7-bfbc-40fa73d6902b">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Damage Track" characteristicTypeId="4df5bfce-f8de-996b-b151-521ceb1ffe6a" value="6"/>
+            <characteristic name="Move" characteristicTypeId="44ed5a71-9e76-fc25-7fcf-46df82ff75eb" value="3"/>
+            <characteristic name="March Move" characteristicTypeId="c508ae09-edfd-4a55-8027-3b3099af5e01" value="6"/>
+            <characteristic name="Armour" characteristicTypeId="ec77eb83-dbb3-c773-ca88-53b8207beda6" value="S3"/>
+            <characteristic name="Faction" characteristicTypeId="4a5a-a591-3db6-3a03" value="Luftwaffe"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="19bd-d121-beca-272c" name="Flying" hidden="false" targetId="5c4d-7223-a1e3-67f2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3885-400e-2085-c8b5" name="Assassin" hidden="false" targetId="ad54-dca0-aaa6-a533" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ab30-9748-e6c1-833b" name="Charge" hidden="false" targetId="e9af-5878-ed2e-f493" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2cd6-c435-0775-c24a" name="Damage Resilient" hidden="false" targetId="7005-a571-08c8-f819" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4921-9357-bb30-ef6a" name="Gorilla" hidden="false" targetId="f41a-e504-291c-ff1e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="c416-c2ef-e807-af43" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="89b9-f992-3b3f-9a17" hidden="false" targetId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="899b-a6e2-d7ab-84ca" name="Heavy Panzer Gloves" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="abcd-2cdd-8c34-c234" name="Heavy Panzer Gloves" hidden="false" targetId="c8e2-c6d5-41f8-deaa" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="858e-7765-7ab0-cf8a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ffb-f3cc-7232-8189" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" pts" costTypeId="points" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="27b6-205d-8f5d-1218" name="Raketentruppe Tank-Hunter Squad" book="Operation Kondor" page="75" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="ac8e-cc11-81dd-7766" name="Raketentruppe Tank-Hunter Squad" hidden="false" profileTypeId="41b56042-fab9-47e0-0812-0af86fc4caba">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="5c7c3ab5-1c5d-c101-1cbb-0352fdf58869" value="3"/>
+            <characteristic name="March Move" characteristicTypeId="b83a82fd-4a1a-6698-9305-9f3ef7e57f48" value="6"/>
+            <characteristic name="Armour" characteristicTypeId="aeef742f-0070-cf7b-3fba-92583ccc1fd7" value="S1"/>
+            <characteristic name="Faction" characteristicTypeId="0487-5495-4e79-1ee5" value="Luftwaffe"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="7216-c9a2-360f-ab0a" hidden="false" targetId="5c4d-7223-a1e3-67f2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="e2e1-8b3e-9523-bc6f" hidden="false" targetId="76227318-3362-ffb8-0460-e948cda200fe" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c155-f8ac-d544-fa9a" name="Assault Rifle" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="8703-ae8a-9b31-7127" name="Assault Rifle" hidden="false" targetId="469d8b6d-f5ec-2bd7-b79c-3091c45563fb" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0cc7-a051-04b8-2940" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="531f-965f-f940-f076" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="11e3-3906-7d6f-5f47" name="Panzerfaust" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="0897-c9a5-9cd5-29ae" hidden="false" targetId="70704192-3e57-f913-b8d9-9c60636d7030" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="d409-d81b-be6a-0051" hidden="false" targetId="be1f-1707-269f-5ab5" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f65c-cbf4-9624-d7ad" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2015-3b6c-ec04-9a2f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f068-b063-7143-b80f" name="Bazooka" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="4219-c764-5cc6-5f0b" name="Grenade" hidden="false" targetId="be1f-1707-269f-5ab5" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="59cf-2f08-8b74-9ccc" name="Bazooka" hidden="false" targetId="ee19234a-c765-5d3f-da9c-1a1939fa83df" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f137-5f45-1088-00da" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec24-a584-2ca0-9835" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" pts" costTypeId="points" value="9.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -13684,6 +14492,144 @@
         <characteristic name="A1" characteristicTypeId="3d408739-3c19-38d5-ed51-5bf195e61965" value=""/>
         <characteristic name="A2" characteristicTypeId="afbc1d34-5c65-e8a1-6226-84be59697cb2"/>
         <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685"/>
+      </characteristics>
+    </profile>
+    <profile id="a766-7922-9206-66c8" name="Rocket Launcher " hidden="false" profileTypeId="6c4a1962-9409-6e62-9ea7-e81c4935e4fa" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="382f5f95-0919-db20-9901-aa54bc211abf" value="10"/>
+        <characteristic name="S1" characteristicTypeId="9f313303-9a76-64ed-6657-e3b18cdf1022" value="*/1"/>
+        <characteristic name="S2" characteristicTypeId="2fd57814-fb96-57cd-78e5-048c1e328a32" value="*/1"/>
+        <characteristic name="S3" characteristicTypeId="21997c06-620b-2dc6-ee6e-6f0b06c06b70" value="*/1"/>
+        <characteristic name="S4" characteristicTypeId="9c177689-a2b1-8777-3393-bd39db9df6f9" value="*/1"/>
+        <characteristic name="V1" characteristicTypeId="4acce298-41c6-ac29-6442-02e5e62f87c5" value="*/2"/>
+        <characteristic name="V2" characteristicTypeId="ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1" value="*/2"/>
+        <characteristic name="V3" characteristicTypeId="dd544bcd-65f3-f239-9b6e-9a6342e49bac" value="*/1"/>
+        <characteristic name="V4" characteristicTypeId="a27828e2-0dc0-c181-1699-be334623891d" value="*/1"/>
+        <characteristic name="V5" characteristicTypeId="2e7ddbf4-add2-7c6a-e399-f39b4cddfb09" value="*/1"/>
+        <characteristic name="V6" characteristicTypeId="c95029b6-a3de-69ec-b3f0-0d150370d270" value="*/1"/>
+        <characteristic name="V7" characteristicTypeId="36d7cfe6-023a-0dfe-e736-812d153c4fcc" value=""/>
+        <characteristic name="A1" characteristicTypeId="bf377d08-6032-da4e-f38f-cab8ee40f265"/>
+        <characteristic name="A2" characteristicTypeId="0bb5675e-a53a-ae6e-1343-8cd4702c13a7"/>
+        <characteristic name="A3" characteristicTypeId="4946dc2d-5011-1098-c878-f3ab3bc8477f"/>
+      </characteristics>
+    </profile>
+    <profile id="dbe0-0969-1812-0ca6" name="Recoilless Rocket Launcher" hidden="false" profileTypeId="6c4a1962-9409-6e62-9ea7-e81c4935e4fa" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="382f5f95-0919-db20-9901-aa54bc211abf" value="12"/>
+        <characteristic name="S1" characteristicTypeId="9f313303-9a76-64ed-6657-e3b18cdf1022" value="*/1"/>
+        <characteristic name="S2" characteristicTypeId="2fd57814-fb96-57cd-78e5-048c1e328a32" value="*/1"/>
+        <characteristic name="S3" characteristicTypeId="21997c06-620b-2dc6-ee6e-6f0b06c06b70" value="*/1"/>
+        <characteristic name="S4" characteristicTypeId="9c177689-a2b1-8777-3393-bd39db9df6f9" value="*/1"/>
+        <characteristic name="V1" characteristicTypeId="4acce298-41c6-ac29-6442-02e5e62f87c5" value="1/#"/>
+        <characteristic name="V2" characteristicTypeId="ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1" value="1/#"/>
+        <characteristic name="V3" characteristicTypeId="dd544bcd-65f3-f239-9b6e-9a6342e49bac" value="1/4"/>
+        <characteristic name="V4" characteristicTypeId="a27828e2-0dc0-c181-1699-be334623891d" value="1/4"/>
+        <characteristic name="V5" characteristicTypeId="2e7ddbf4-add2-7c6a-e399-f39b4cddfb09" value="1/3"/>
+        <characteristic name="V6" characteristicTypeId="c95029b6-a3de-69ec-b3f0-0d150370d270" value="1/3"/>
+        <characteristic name="V7" characteristicTypeId="36d7cfe6-023a-0dfe-e736-812d153c4fcc" value="1/2"/>
+        <characteristic name="A1" characteristicTypeId="bf377d08-6032-da4e-f38f-cab8ee40f265" value=""/>
+        <characteristic name="A2" characteristicTypeId="0bb5675e-a53a-ae6e-1343-8cd4702c13a7"/>
+        <characteristic name="A3" characteristicTypeId="4946dc2d-5011-1098-c878-f3ab3bc8477f"/>
+      </characteristics>
+    </profile>
+    <profile id="1ebb-c4d9-3245-8376" name="Laser Gun " hidden="false" profileTypeId="6c4a1962-9409-6e62-9ea7-e81c4935e4fa" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="382f5f95-0919-db20-9901-aa54bc211abf" value="10"/>
+        <characteristic name="S1" characteristicTypeId="9f313303-9a76-64ed-6657-e3b18cdf1022" value="4/1"/>
+        <characteristic name="S2" characteristicTypeId="2fd57814-fb96-57cd-78e5-048c1e328a32" value="3/1"/>
+        <characteristic name="S3" characteristicTypeId="21997c06-620b-2dc6-ee6e-6f0b06c06b70" value="3/1"/>
+        <characteristic name="S4" characteristicTypeId="9c177689-a2b1-8777-3393-bd39db9df6f9" value="2/1"/>
+        <characteristic name="V1" characteristicTypeId="4acce298-41c6-ac29-6442-02e5e62f87c5" value="8/1"/>
+        <characteristic name="V2" characteristicTypeId="ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1" value="7/1"/>
+        <characteristic name="V3" characteristicTypeId="dd544bcd-65f3-f239-9b6e-9a6342e49bac" value="6/1"/>
+        <characteristic name="V4" characteristicTypeId="a27828e2-0dc0-c181-1699-be334623891d" value="5/1"/>
+        <characteristic name="V5" characteristicTypeId="2e7ddbf4-add2-7c6a-e399-f39b4cddfb09" value="4/1"/>
+        <characteristic name="V6" characteristicTypeId="c95029b6-a3de-69ec-b3f0-0d150370d270" value="3/1"/>
+        <characteristic name="V7" characteristicTypeId="36d7cfe6-023a-0dfe-e736-812d153c4fcc" value="2/1"/>
+        <characteristic name="A1" characteristicTypeId="bf377d08-6032-da4e-f38f-cab8ee40f265" value=""/>
+        <characteristic name="A2" characteristicTypeId="0bb5675e-a53a-ae6e-1343-8cd4702c13a7"/>
+        <characteristic name="A3" characteristicTypeId="4946dc2d-5011-1098-c878-f3ab3bc8477f"/>
+      </characteristics>
+    </profile>
+    <profile id="a4ca-adcc-25de-5635" name="Paired Light Submachine Gun" hidden="false" profileTypeId="6c4a1962-9409-6e62-9ea7-e81c4935e4fa" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="382f5f95-0919-db20-9901-aa54bc211abf" value="2"/>
+        <characteristic name="S1" characteristicTypeId="9f313303-9a76-64ed-6657-e3b18cdf1022" value="10/1"/>
+        <characteristic name="S2" characteristicTypeId="2fd57814-fb96-57cd-78e5-048c1e328a32" value="7/1"/>
+        <characteristic name="S3" characteristicTypeId="21997c06-620b-2dc6-ee6e-6f0b06c06b70" value="4/1"/>
+        <characteristic name="S4" characteristicTypeId="9c177689-a2b1-8777-3393-bd39db9df6f9" value=""/>
+        <characteristic name="V1" characteristicTypeId="4acce298-41c6-ac29-6442-02e5e62f87c5" value="3/1"/>
+        <characteristic name="V2" characteristicTypeId="ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1" value=""/>
+        <characteristic name="V3" characteristicTypeId="dd544bcd-65f3-f239-9b6e-9a6342e49bac"/>
+        <characteristic name="V4" characteristicTypeId="a27828e2-0dc0-c181-1699-be334623891d"/>
+        <characteristic name="V5" characteristicTypeId="2e7ddbf4-add2-7c6a-e399-f39b4cddfb09"/>
+        <characteristic name="V6" characteristicTypeId="c95029b6-a3de-69ec-b3f0-0d150370d270"/>
+        <characteristic name="V7" characteristicTypeId="36d7cfe6-023a-0dfe-e736-812d153c4fcc"/>
+        <characteristic name="A1" characteristicTypeId="bf377d08-6032-da4e-f38f-cab8ee40f265"/>
+        <characteristic name="A2" characteristicTypeId="0bb5675e-a53a-ae6e-1343-8cd4702c13a7"/>
+        <characteristic name="A3" characteristicTypeId="4946dc2d-5011-1098-c878-f3ab3bc8477f"/>
+      </characteristics>
+    </profile>
+    <profile id="d9c9-2ffd-1e1b-9bc2" name="Paired Katana" hidden="false" profileTypeId="6c4a1962-9409-6e62-9ea7-e81c4935e4fa" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="382f5f95-0919-db20-9901-aa54bc211abf" value="C"/>
+        <characteristic name="S1" characteristicTypeId="9f313303-9a76-64ed-6657-e3b18cdf1022" value="2/1"/>
+        <characteristic name="S2" characteristicTypeId="2fd57814-fb96-57cd-78e5-048c1e328a32" value="2/1"/>
+        <characteristic name="S3" characteristicTypeId="21997c06-620b-2dc6-ee6e-6f0b06c06b70" value="2/1"/>
+        <characteristic name="S4" characteristicTypeId="9c177689-a2b1-8777-3393-bd39db9df6f9" value="2/1"/>
+        <characteristic name="V1" characteristicTypeId="4acce298-41c6-ac29-6442-02e5e62f87c5" value=""/>
+        <characteristic name="V2" characteristicTypeId="ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1"/>
+        <characteristic name="V3" characteristicTypeId="dd544bcd-65f3-f239-9b6e-9a6342e49bac"/>
+        <characteristic name="V4" characteristicTypeId="a27828e2-0dc0-c181-1699-be334623891d"/>
+        <characteristic name="V5" characteristicTypeId="2e7ddbf4-add2-7c6a-e399-f39b4cddfb09"/>
+        <characteristic name="V6" characteristicTypeId="c95029b6-a3de-69ec-b3f0-0d150370d270"/>
+        <characteristic name="V7" characteristicTypeId="36d7cfe6-023a-0dfe-e736-812d153c4fcc"/>
+        <characteristic name="A1" characteristicTypeId="bf377d08-6032-da4e-f38f-cab8ee40f265"/>
+        <characteristic name="A2" characteristicTypeId="0bb5675e-a53a-ae6e-1343-8cd4702c13a7"/>
+        <characteristic name="A3" characteristicTypeId="4946dc2d-5011-1098-c878-f3ab3bc8477f"/>
+      </characteristics>
+    </profile>
+    <profile id="f225-8b6d-66ca-8002" name="Triple Assault Laser" hidden="false" profileTypeId="6c4a1962-9409-6e62-9ea7-e81c4935e4fa" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="382f5f95-0919-db20-9901-aa54bc211abf" value=""/>
+        <characteristic name="S1" characteristicTypeId="9f313303-9a76-64ed-6657-e3b18cdf1022" value="3/1"/>
+        <characteristic name="S2" characteristicTypeId="2fd57814-fb96-57cd-78e5-048c1e328a32" value="3/1"/>
+        <characteristic name="S3" characteristicTypeId="21997c06-620b-2dc6-ee6e-6f0b06c06b70" value="2/1"/>
+        <characteristic name="S4" characteristicTypeId="9c177689-a2b1-8777-3393-bd39db9df6f9" value="2/1"/>
+        <characteristic name="V1" characteristicTypeId="4acce298-41c6-ac29-6442-02e5e62f87c5" value="7/1/"/>
+        <characteristic name="V2" characteristicTypeId="ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1" value="6/1"/>
+        <characteristic name="V3" characteristicTypeId="dd544bcd-65f3-f239-9b6e-9a6342e49bac" value="5/1"/>
+        <characteristic name="V4" characteristicTypeId="a27828e2-0dc0-c181-1699-be334623891d" value="4/1"/>
+        <characteristic name="V5" characteristicTypeId="2e7ddbf4-add2-7c6a-e399-f39b4cddfb09" value="3/1"/>
+        <characteristic name="V6" characteristicTypeId="c95029b6-a3de-69ec-b3f0-0d150370d270" value="2/1"/>
+        <characteristic name="V7" characteristicTypeId="36d7cfe6-023a-0dfe-e736-812d153c4fcc" value="1/1"/>
+        <characteristic name="A1" characteristicTypeId="bf377d08-6032-da4e-f38f-cab8ee40f265" value="2/1"/>
+        <characteristic name="A2" characteristicTypeId="0bb5675e-a53a-ae6e-1343-8cd4702c13a7" value="2/1"/>
+        <characteristic name="A3" characteristicTypeId="4946dc2d-5011-1098-c878-f3ab3bc8477f" value="2/1"/>
       </characteristics>
     </profile>
   </sharedProfiles>

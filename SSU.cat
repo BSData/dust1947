@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ad634f24-aa33-2bad-c3a7-cda4f0a5417b" name="SSU" revision="11" battleScribeVersion="2.01" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ad634f24-aa33-2bad-c3a7-cda4f0a5417b" name="SSU" revision="12" battleScribeVersion="2.01" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7281,7 +7281,7 @@
         <cost name=" pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="25ff-53e3-c00b-49c5" name="Steel Guards Anti-Infantry Squad" hidden="false" collective="false" type="unit">
+    <selectionEntry id="25ff-53e3-c00b-49c5" name="Steel Guards Anti-Infantry Squad" book="Operation Kondor" page="103" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="4ed1-b482-f233-acd9" name="Steel Guards Anti-Infantry Squad" hidden="false" profileTypeId="41b56042-fab9-47e0-0812-0af86fc4caba">
           <profiles/>
@@ -8899,7 +8899,7 @@
         <cost name=" pts" costTypeId="points" value="13.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="227e-cdf6-0f9a-38f5" name="PT-47A" hidden="false" collective="false" type="model">
+    <selectionEntry id="227e-cdf6-0f9a-38f5" name="PT-47A" book="Operation Kondor" page="101" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="31d2-3eef-2eaa-d8dc" name="PT-47A" hidden="false" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" profileTypeName="Vehicle">
           <profiles/>
@@ -8979,7 +8979,7 @@
         <cost name=" pts" costTypeId="points" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2b20-e2da-144d-2704" name="Invader" hidden="false" collective="false" type="model">
+    <selectionEntry id="2b20-e2da-144d-2704" name="Invader" book="Operation Kondor" page="107" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="652a-f90a-fc05-3b32" name="Invader" hidden="false" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" profileTypeName="Vehicle">
           <profiles/>
@@ -9113,7 +9113,7 @@
         <cost name=" pts" costTypeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="36da-219c-d909-2928" name="Type 47" hidden="false" collective="false" type="model">
+    <selectionEntry id="36da-219c-d909-2928" name="Type 47" book="Operation Kondor" page="105" hidden="false" collective="false" type="model">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -9149,7 +9149,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="6059-2b6f-ada4-7512" name="Twin Tesla Guns (Front)" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -9177,7 +9179,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -9216,7 +9220,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="6802-8df0-2af4-6d94" name="PLA Faction" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -9242,7 +9248,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>

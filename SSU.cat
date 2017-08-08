@@ -9262,6 +9262,110 @@
         <cost name=" pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="510b-0a5d-83bb-38c2" name="Commissar Poon" page="0" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="56fa-aa9a-cebd-0555" name="Commissar Poon" page="0" hidden="false" profileTypeId="cdc60b3a-77a5-d5f7-bfbc-40fa73d6902b">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Damage Track" characteristicTypeId="4df5bfce-f8de-996b-b151-521ceb1ffe6a" value="4"/>
+            <characteristic name="Move" characteristicTypeId="44ed5a71-9e76-fc25-7fcf-46df82ff75eb" value="3"/>
+            <characteristic name="March Move" characteristicTypeId="c508ae09-edfd-4a55-8027-3b3099af5e01" value="5"/>
+            <characteristic name="Armour" characteristicTypeId="ec77eb83-dbb3-c773-ca88-53b8207beda6" value="S1"/>
+            <characteristic name="Faction" characteristicTypeId="4a5a-a591-3db6-3a03" value="PLA"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d661-97f8-7ef6-7fe1" name="Fighting Spirit" hidden="false" targetId="9310-80a1-2d3a-9416" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a57a-a96c-b892-d892" name="Commissar" hidden="false" targetId="6c44-df48-8441-e194" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="598b-0f1d-39e6-50a7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7dae-b0dd-0a86-f433" hidden="false" targetId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a46d-5558-38b7-821c" name="Pistol" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="0112-fe4c-7b46-df7e" hidden="false" targetId="1c46-0255-a601-7df2" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5f13-1365-7fa4-e92b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5e1f-f36e-6cbc-2c0b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ce66-dc66-c010-ec07" name="Demo Charge" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="d3b0-fb4d-a920-7263" name="Demo Charge" hidden="false" targetId="a784-56f2-39e3-14f6" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="4826-2a78-5748-8b0c" name="Expert" hidden="false" targetId="7fd1-f22a-c9a6-5dfd" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b505-f880-8011-35ef" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfef-d751-333d-8cb6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" pts" costTypeId="points" value="4.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>

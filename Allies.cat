@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8eb0bc51-b6f0-d32c-b0d1-35fa5259b2da" name="Allies" revision="9" battleScribeVersion="2.01" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8eb0bc51-b6f0-d32c-b0d1-35fa5259b2da" name="Allies" revision="10" battleScribeVersion="2.01" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -10275,6 +10275,106 @@
         <cost name=" pts" costTypeId="points" value="6.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="9587-70b9-ceca-67fd" name="Humber Mk V" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="36bc-a8b9-6263-9494" name="Humber Mk V" hidden="false" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" profileTypeName="Vehicle">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Damage Track" characteristicTypeId="ed36b802-b164-ae0b-b441-ebb8e45606b6" value="4"/>
+            <characteristic name="Move" characteristicTypeId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" value="3"/>
+            <characteristic name="March Move" characteristicTypeId="7efff746-66c0-c275-304c-6339ff7da914" value="5"/>
+            <characteristic name="Armour" characteristicTypeId="214b6458-e958-a048-8f8c-de17188dae7b" value="V3"/>
+            <characteristic name="Faction" characteristicTypeId="fbc5-7d00-f9de-443e" value="Desert Scorpions"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c3ac-558a-be2b-f532" name="Scout" hidden="false" targetId="2c87-2079-b7dd-9363" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e29b-2126-1eda-8827" name="Smoke Launchers" hidden="false" targetId="ac5d-c49b-ab17-e288" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5aaf-d340-72e0-b2be" name="New CategoryLink" hidden="false" targetId="29b76100-e940-9c92-7f00-a7ad44e2f288" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c904-bd3e-1965-b55a" name="Machinegun (Turret)" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="70f7-8012-0976-124c" name="Machinegun (Turret)" hidden="false" targetId="39e5-e1f7-0456-160a" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="033b-8ca7-9aeb-f30b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adda-6d49-f7af-9c51" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="252c-ea55-37c6-cf73" name="Phaser Gun (Turret)" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="3cd0-657e-bac5-1834" name="Phaser" hidden="false" targetId="2e31-6152-60f4-91cd" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="1a8f-07a4-2d4c-075f" name="Phaser Gun (Turret)" hidden="false" targetId="db06-656d-7a03-32f0" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="631f-5665-7abd-d2e5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1681-e260-b3ed-834e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" pts" costTypeId="points" value="7.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries/>
@@ -12093,6 +12193,30 @@
         <characteristic name="A1" characteristicTypeId="bf377d08-6032-da4e-f38f-cab8ee40f265"/>
         <characteristic name="A2" characteristicTypeId="0bb5675e-a53a-ae6e-1343-8cd4702c13a7"/>
         <characteristic name="A3" characteristicTypeId="4946dc2d-5011-1098-c878-f3ab3bc8477f"/>
+      </characteristics>
+    </profile>
+    <profile id="db06-656d-7a03-32f0" name="Phaser Gun (Turret)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" profileTypeName="Vehicle Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Mount" characteristicTypeId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" value="Turret"/>
+        <characteristic name="Range" characteristicTypeId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" value="6"/>
+        <characteristic name="S1" characteristicTypeId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" value="3/1"/>
+        <characteristic name="S2" characteristicTypeId="a645204b-207d-2884-31bf-8052544ebe0f" value="3/1"/>
+        <characteristic name="S3" characteristicTypeId="144e20c5-fee5-87da-d142-43ee6b13d299" value="3/1"/>
+        <characteristic name="S4" characteristicTypeId="f8d85935-dc8d-ceab-8b59-185af6f07e21" value="3/1"/>
+        <characteristic name="V1" characteristicTypeId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" value="1/3"/>
+        <characteristic name="V2" characteristicTypeId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" value="1/3"/>
+        <characteristic name="V3" characteristicTypeId="7d9919e5-211a-348d-cc4a-75f55034aa11" value="1/3"/>
+        <characteristic name="V4" characteristicTypeId="5126abc7-3036-a560-473c-95cc1ebd6083" value="1/3"/>
+        <characteristic name="V5" characteristicTypeId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" value="1/3"/>
+        <characteristic name="V6" characteristicTypeId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" value="1/3"/>
+        <characteristic name="V7" characteristicTypeId="95df902a-0d91-60fb-d501-90ba12e3f256" value="1/3"/>
+        <characteristic name="A1" characteristicTypeId="3d408739-3c19-38d5-ed51-5bf195e61965" value=""/>
+        <characteristic name="A2" characteristicTypeId="afbc1d34-5c65-e8a1-6226-84be59697cb2"/>
+        <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685"/>
       </characteristics>
     </profile>
   </sharedProfiles>

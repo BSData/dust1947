@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bacf-9ebb-dbda-57d0" name="Dust 1947" revision="10" battleScribeVersion="2.01" authorName="Franky" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bacf-9ebb-dbda-57d0" name="Dust 1947" revision="11" battleScribeVersion="2.01" authorName="Franky" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1155,6 +1155,13 @@
       <infoLinks/>
       <modifiers/>
       <description>Uses Artillery Template or targets four squares like Artillery.</description>
+    </rule>
+    <rule id="b24c-9323-2628-3003" name="Raid" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The vehicle can spend all its Actions to do a Raid Special Action. It can do MOVE + ATTACK + MOVE in this Activation, but can&apos;t be reactivated for this turn.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ad634f24-aa33-2bad-c3a7-cda4f0a5417b" name="SSU" revision="12" battleScribeVersion="2.01" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ad634f24-aa33-2bad-c3a7-cda4f0a5417b" name="SSU" revision="13" battleScribeVersion="2.01" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -4209,24 +4209,10 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="dae4-d46b-2261-4d44" name="Nina (TSh)" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="8270-4cce-771b-a431" name="Nina (TSh)" hidden="false" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Damage Track" characteristicTypeId="ed36b802-b164-ae0b-b441-ebb8e45606b6" value="4"/>
-            <characteristic name="Move" characteristicTypeId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" value="3"/>
-            <characteristic name="March Move" characteristicTypeId="7efff746-66c0-c275-304c-6339ff7da914" value="4"/>
-            <characteristic name="Armour" characteristicTypeId="214b6458-e958-a048-8f8c-de17188dae7b" value="V3"/>
-            <characteristic name="Faction" characteristicTypeId="fbc5-7d00-f9de-443e" value="Spetsnaz"/>
-          </characteristics>
-        </profile>
-      </profiles>
+      <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="e6fb-e80e-7e9d-0828" hidden="false" targetId="c1cd-d427-ebe6-b9d3" type="rule">
+        <infoLink id="e6fb-e80e-7e9d-0828" name="Airmobile" hidden="false" targetId="c1cd-d427-ebe6-b9d3" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4318,7 +4304,75 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fb25-290b-777d-e167" name="Faction" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5e9-a0a4-0e1a-1b03" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7525-d10b-a53b-509a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="f837-2a3e-d13d-1634" name="PLA" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="185f-88b3-34bf-649e" name="Nina (TSh)" hidden="false" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Damage Track" characteristicTypeId="ed36b802-b164-ae0b-b441-ebb8e45606b6" value="4"/>
+                    <characteristic name="Move" characteristicTypeId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" value="3"/>
+                    <characteristic name="March Move" characteristicTypeId="7efff746-66c0-c275-304c-6339ff7da914" value="4"/>
+                    <characteristic name="Armour" characteristicTypeId="214b6458-e958-a048-8f8c-de17188dae7b" value="V3"/>
+                    <characteristic name="Faction" characteristicTypeId="fbc5-7d00-f9de-443e" value="PLA"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+            <selectionEntry id="6c68-7c1b-39fe-b367" name="Spetsnaz" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="e698-24c5-4a5c-56a2" name="Nina (TSh)" hidden="false" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Damage Track" characteristicTypeId="ed36b802-b164-ae0b-b441-ebb8e45606b6" value="4"/>
+                    <characteristic name="Move" characteristicTypeId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" value="3"/>
+                    <characteristic name="March Move" characteristicTypeId="7efff746-66c0-c275-304c-6339ff7da914" value="4"/>
+                    <characteristic name="Armour" characteristicTypeId="214b6458-e958-a048-8f8c-de17188dae7b" value="V3"/>
+                    <characteristic name="Faction" characteristicTypeId="fbc5-7d00-f9de-443e" value="Spetsnaz"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
       <costs>
         <cost name=" pts" costTypeId="points" value="9.0"/>
@@ -9357,13 +9411,283 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
         <cost name=" pts" costTypeId="points" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c40e-ce5a-c034-5340" name="PLA Assault Squad" page="0" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="c9ab-5011-aaa5-8208" name="PLA Assault Squad" page="0" hidden="false" profileTypeId="41b56042-fab9-47e0-0812-0af86fc4caba">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="5c7c3ab5-1c5d-c101-1cbb-0352fdf58869" value="3"/>
+            <characteristic name="March Move" characteristicTypeId="b83a82fd-4a1a-6698-9305-9f3ef7e57f48" value="5"/>
+            <characteristic name="Armour" characteristicTypeId="aeef742f-0070-cf7b-3fba-92583ccc1fd7" value="S1"/>
+            <characteristic name="Faction" characteristicTypeId="0487-5495-4e79-1ee5" value="PLA"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="82f6-a036-4178-40f3" name="New CategoryLink" hidden="false" targetId="76227318-3362-ffb8-0460-e948cda200fe" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="00ec-d33e-7002-5ff7" name="Submachine Gun" page="0" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="c358-7ebd-bd6d-cc32" hidden="false" targetId="ebce8c95-56ec-9c1e-8839-e440d29cc591" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="efca-6512-cd42-f20b" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bcc3-e36f-bf60-23d6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3762-335c-ee30-cc2a" name="The Dragon" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="b306-5189-b923-efb5" name="The Dragon" hidden="false" profileTypeId="cdc60b3a-77a5-d5f7-bfbc-40fa73d6902b" profileTypeName="Heroes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Damage Track" characteristicTypeId="4df5bfce-f8de-996b-b151-521ceb1ffe6a" value="3"/>
+            <characteristic name="Move" characteristicTypeId="44ed5a71-9e76-fc25-7fcf-46df82ff75eb" value="3"/>
+            <characteristic name="March Move" characteristicTypeId="c508ae09-edfd-4a55-8027-3b3099af5e01" value="5"/>
+            <characteristic name="Armour" characteristicTypeId="ec77eb83-dbb3-c773-ca88-53b8207beda6" value="S1"/>
+            <characteristic name="Faction" characteristicTypeId="4a5a-a591-3db6-3a03" value="PLA"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="5d00-3935-19bd-a736" name="Sibling: The Phoenix" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The Dragon can join the same Unit as The Phoenix or form one with her. When Joined in the same Unit, they gain Expert with all weapons.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="2ba7-05fb-2f5b-382a" name="First Strike" hidden="false" targetId="e452-a3b7-f41c-2046" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="77bd-0bf8-055c-40ff" name="Infantry Ace" hidden="false" targetId="918c-0b66-e132-5fdf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3066-fa5c-acb6-4c3f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f219-a72a-e0d8-b46a" name="New CategoryLink" hidden="false" targetId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a7c3-6641-a638-32d9" name="Pistol" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="01a2-806a-e7ae-0785" name="Pistol" hidden="false" targetId="1c46-0255-a601-7df2" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d54c-ef87-d975-cbc9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5853-9dfc-db4c-4ce5" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="1dd3-a113-2a85-6b0a" name="Guandao" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="1b6b-7c89-ea98-e182" name="Guandao" hidden="false" targetId="edb0-d99a-c317-3ca7" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcb3-c35a-89a4-5e6f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="211d-ed1a-b38e-d022" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" pts" costTypeId="points" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7d62-7c2c-d898-8597" name="The Phoenix" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="8238-5474-f412-5930" name="The Phoenix" hidden="false" profileTypeId="cdc60b3a-77a5-d5f7-bfbc-40fa73d6902b" profileTypeName="Heroes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Damage Track" characteristicTypeId="4df5bfce-f8de-996b-b151-521ceb1ffe6a" value="3"/>
+            <characteristic name="Move" characteristicTypeId="44ed5a71-9e76-fc25-7fcf-46df82ff75eb" value="3"/>
+            <characteristic name="March Move" characteristicTypeId="c508ae09-edfd-4a55-8027-3b3099af5e01" value="5"/>
+            <characteristic name="Armour" characteristicTypeId="ec77eb83-dbb3-c773-ca88-53b8207beda6" value="S1"/>
+            <characteristic name="Faction" characteristicTypeId="4a5a-a591-3db6-3a03" value="PLA"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4604-0aa4-1195-f79a" name="Sibling: The Dragon" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The Phoenix can join the same Unit as The Dragon or form one with her. When Joined in the same Unit, they gain Expert with all weapons.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0c88-fdba-f63c-5ec9" name="Assassin" hidden="false" targetId="ad54-dca0-aaa6-a533" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dc0f-8166-19cc-a8c5" name="Black Ops" hidden="false" targetId="eec6-77c3-2eb0-5b81" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d108-bfa6-56ea-42fb" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1c91-1cf0-b061-e5b1" name="New CategoryLink" hidden="false" targetId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ce85-c5ff-3588-a145" name="Pistol" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="2c35-05ec-c5c8-db23" name="Pistol" hidden="false" targetId="1c46-0255-a601-7df2" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa50-3ce2-a86f-e082" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0cb-9439-d2d0-d445" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="a4bc-f9bf-3f2d-af3d" name="Guandao" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="5d1d-3283-db6c-0196" name="Guandao" hidden="false" targetId="edb0-d99a-c317-3ca7" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="759e-7aa4-936e-487c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd00-c548-901c-5804" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" pts" costTypeId="points" value="6.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -11383,6 +11707,29 @@
         <characteristic name="A1" characteristicTypeId="3d408739-3c19-38d5-ed51-5bf195e61965" value=""/>
         <characteristic name="A2" characteristicTypeId="afbc1d34-5c65-e8a1-6226-84be59697cb2"/>
         <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685"/>
+      </characteristics>
+    </profile>
+    <profile id="edb0-d99a-c317-3ca7" name="Guandao" hidden="false" profileTypeId="6c4a1962-9409-6e62-9ea7-e81c4935e4fa" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="382f5f95-0919-db20-9901-aa54bc211abf" value="C"/>
+        <characteristic name="S1" characteristicTypeId="9f313303-9a76-64ed-6657-e3b18cdf1022" value="3/1"/>
+        <characteristic name="S2" characteristicTypeId="2fd57814-fb96-57cd-78e5-048c1e328a32" value="3/1"/>
+        <characteristic name="S3" characteristicTypeId="21997c06-620b-2dc6-ee6e-6f0b06c06b70" value="3/1"/>
+        <characteristic name="S4" characteristicTypeId="9c177689-a2b1-8777-3393-bd39db9df6f9" value="3/1"/>
+        <characteristic name="V1" characteristicTypeId="4acce298-41c6-ac29-6442-02e5e62f87c5" value="3/1"/>
+        <characteristic name="V2" characteristicTypeId="ae7f079b-f6e8-7a6e-fa5c-8448667ec4e1" value="3/1"/>
+        <characteristic name="V3" characteristicTypeId="dd544bcd-65f3-f239-9b6e-9a6342e49bac" value="2/1"/>
+        <characteristic name="V4" characteristicTypeId="a27828e2-0dc0-c181-1699-be334623891d" value="1/1"/>
+        <characteristic name="V5" characteristicTypeId="2e7ddbf4-add2-7c6a-e399-f39b4cddfb09" value=""/>
+        <characteristic name="V6" characteristicTypeId="c95029b6-a3de-69ec-b3f0-0d150370d270"/>
+        <characteristic name="V7" characteristicTypeId="36d7cfe6-023a-0dfe-e736-812d153c4fcc"/>
+        <characteristic name="A1" characteristicTypeId="bf377d08-6032-da4e-f38f-cab8ee40f265"/>
+        <characteristic name="A2" characteristicTypeId="0bb5675e-a53a-ae6e-1343-8cd4702c13a7"/>
+        <characteristic name="A3" characteristicTypeId="4946dc2d-5011-1098-c878-f3ab3bc8477f"/>
       </characteristics>
     </profile>
   </sharedProfiles>

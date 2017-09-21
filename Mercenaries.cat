@@ -1,16 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="4568-fee3-1dc6-089f" name="Mercenaries" revision="4" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="4">
-<categoryEntries/>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="4568-fee3-1dc6-089f" name="Mercenaries" revision="5" battleScribeVersion="2.01" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
+  <categoryEntries/>
   <forceEntries/>
   <selectionEntries>
     <selectionEntry id="d01a-3130-d148-a708" name="Emma" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="d01a-3130-d148-a708-9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" targetId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="9f66-1c56-5499-0c43" name="Emma" hidden="false" profileTypeId="cdc60b3a-77a5-d5f7-bfbc-40fa73d6902b">
           <profiles/>
@@ -63,6 +61,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="d01a-3130-d148-a708-9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" hidden="false" targetId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6aaf-5603-6bfb-1a1f" name=".45 ACP Pistol" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -80,6 +87,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -95,9 +103,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4f56-eadc-d98b-8abd" name="Justine &amp; Co" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="4f56-eadc-d98b-8abd-76227318-3362-ffb8-0460-e948cda200fe" targetId="76227318-3362-ffb8-0460-e948cda200fe" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="4aeb-09b1-cc89-5da7" name="Justine &amp; Co" hidden="false" profileTypeId="41b56042-fab9-47e0-0812-0af86fc4caba">
           <profiles/>
@@ -129,8 +134,17 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="4f56-eadc-d98b-8abd-76227318-3362-ffb8-0460-e948cda200fe" hidden="false" targetId="76227318-3362-ffb8-0460-e948cda200fe" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="6965-5987-41e3-d12a" name="Mechanics' Tools" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="6965-5987-41e3-d12a" name="Mechanics&apos; Tools" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -146,6 +160,7 @@
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -161,9 +176,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a846-5c7f-4dbe-bbd2" name="Luisa" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="a846-5c7f-4dbe-bbd2-9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" targetId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="6cc4-cce4-7ed1-035d" name="Luisa" hidden="false" profileTypeId="cdc60b3a-77a5-d5f7-bfbc-40fa73d6902b">
           <profiles/>
@@ -212,6 +224,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="a846-5c7f-4dbe-bbd2-9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" hidden="false" targetId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ad23-d35f-684a-a780" name="Recoilless Rifle" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -235,6 +256,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -250,9 +272,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1797-9995-0b26-e0b9" name="Mercenary Cleaning Team" hidden="false" collective="false" type="unit">
-<categoryLinks>
-<categoryLink id="1797-9995-0b26-e0b9-76227318-3362-ffb8-0460-e948cda200fe" targetId="76227318-3362-ffb8-0460-e948cda200fe" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="8fc6-865c-fb2c-4815" name="Mercenary Cleaning Team" hidden="false" profileTypeId="41b56042-fab9-47e0-0812-0af86fc4caba">
           <profiles/>
@@ -278,6 +297,15 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="1797-9995-0b26-e0b9-76227318-3362-ffb8-0460-e948cda200fe" hidden="false" targetId="76227318-3362-ffb8-0460-e948cda200fe" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6c5f-8b2f-0c0a-ae40" name="Auto Grenade Launcher" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -301,6 +329,7 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -324,6 +353,7 @@
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c64d-b9c5-2b89-b1e5" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3698-38a7-2e59-7c28" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -343,6 +373,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="051c-79bf-3fb7-f675" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a0f9-fcc9-753e-b69f" type="max"/>
           </constraints>
+          <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
@@ -350,9 +381,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="169d-9dab-1cff-61c2" name="Mercenary Heavy Machine Gun Squad" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="169d-9dab-1cff-61c2-b65bbf00-a157-7756-2040-07ec6f49cef9" targetId="b65bbf00-a157-7756-2040-07ec6f49cef9" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="5774-f1f0-da20-42a0" name="Mercenary Heavy Machine Gun Squad" hidden="false" profileTypeId="4c7e5a31-9ebb-047b-c784-ddb4ae29b228">
           <profiles/>
@@ -391,6 +419,15 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="169d-9dab-1cff-61c2-b65bbf00-a157-7756-2040-07ec6f49cef9" hidden="false" targetId="b65bbf00-a157-7756-2040-07ec6f49cef9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="226b-d5b3-f1b0-a994" name="Heavy Machinegun" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -408,6 +445,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -431,6 +469,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -454,6 +493,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -469,9 +509,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="27a3-07de-f855-d5e2" name="Tanya" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="27a3-07de-f855-d5e2-9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" targetId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="c2d6-7ce4-81ee-c363" name="Tanya" hidden="false" profileTypeId="cdc60b3a-77a5-d5f7-bfbc-40fa73d6902b">
           <profiles/>
@@ -506,6 +543,15 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="27a3-07de-f855-d5e2-9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" hidden="false" targetId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1d0c-578f-73df-21f0" name="Machinegun" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -523,6 +569,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -538,9 +585,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ea8a-1168-0f9f-7989" name="Wrecker" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="ea8a-1168-0f9f-7989-29b76100-e940-9c92-7f00-a7ad44e2f288" targetId="29b76100-e940-9c92-7f00-a7ad44e2f288" primary="true"/>
-</categoryLinks>
       <profiles/>
       <rules/>
       <infoLinks>
@@ -571,6 +615,15 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="ea8a-1168-0f9f-7989-29b76100-e940-9c92-7f00-a7ad44e2f288" hidden="false" targetId="29b76100-e940-9c92-7f00-a7ad44e2f288" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2ca0-374b-3c24-33f2" name="Quad Antiaircraft Gun (Front)" page="" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -588,6 +641,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -611,6 +665,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -629,6 +684,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="5362-6e1c-6954-7493" name="Wrecker" hidden="false" collective="false" type="model">
               <profiles>
@@ -652,6 +708,7 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -690,6 +747,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                 <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
               </constraints>
+              <categoryLinks/>
               <selectionEntries>
                 <selectionEntry id="a3ab-18e4-06ab-c9cf" name="Recoilless Rifle (Turret)" hidden="false" collective="false" type="upgrade">
                   <profiles/>
@@ -713,6 +771,7 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
                   </constraints>
+                  <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
@@ -738,9 +797,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="c71b-ad3f-b038-46e1" name="Silence" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="c71b-ad3f-b038-46e1-9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" targetId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="61f9-cb99-36b5-381d" name="Silence" hidden="false" profileTypeId="cdc60b3a-77a5-d5f7-bfbc-40fa73d6902b" profileTypeName="Heroes">
           <profiles/>
@@ -787,6 +843,15 @@
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6ce4-25e6-07e6-355a" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="c71b-ad3f-b038-46e1-9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" hidden="false" targetId="9f916fbe-6a7d-bb77-2b8a-7b9d16261e99" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="61d8-1415-160e-3216" name="Sniper Rifle" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -810,6 +875,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b0db-8eb3-1cfc-d459" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7652-bde5-b005-7726" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -833,6 +899,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ee6b-ed4b-eb2a-06f2" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e43b-9702-e22b-a8a6" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -848,9 +915,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="16b1-7ec8-6805-c95a" name="Mercenary Heavy Machine Gun Squad II" hidden="false" collective="false" type="model">
-<categoryLinks>
-<categoryLink id="16b1-7ec8-6805-c95a-b65bbf00-a157-7756-2040-07ec6f49cef9" targetId="b65bbf00-a157-7756-2040-07ec6f49cef9" primary="true"/>
-</categoryLinks>
       <profiles>
         <profile id="01e6-1c09-48b3-4855" name="Mercenary Heavy Machine Gun Squad II" hidden="false" profileTypeId="4c7e5a31-9ebb-047b-c784-ddb4ae29b228" profileTypeName="Support Weapons/Fortifications">
           <profiles/>
@@ -889,6 +953,15 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks>
+        <categoryLink id="16b1-7ec8-6805-c95a-b65bbf00-a157-7756-2040-07ec6f49cef9" hidden="false" targetId="b65bbf00-a157-7756-2040-07ec6f49cef9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c2b1-2e99-1394-c1fc" name="Heavy Machinegun" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -906,6 +979,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="71fd-1afa-0c22-e435" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1ae9-78a0-13f9-5cb6" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -929,6 +1003,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5f13-e2db-d963-98d8" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b0b8-20a0-a45d-9ace" type="max"/>
           </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -952,6 +1027,175 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb7b-52e6-c4d8-d896" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb92-2919-4947-3341" type="max"/>
           </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" pts" costTypeId="points" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8d2e-b359-20b8-bae6" name="Meatgrinder" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="c487-32b0-0f47-1a71" name="Meatgrinder" hidden="false" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" profileTypeName="Vehicle">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Damage Track" characteristicTypeId="ed36b802-b164-ae0b-b441-ebb8e45606b6" value="6"/>
+            <characteristic name="Move" characteristicTypeId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" value="3"/>
+            <characteristic name="March Move" characteristicTypeId="7efff746-66c0-c275-304c-6339ff7da914" value="5"/>
+            <characteristic name="Armour" characteristicTypeId="214b6458-e958-a048-8f8c-de17188dae7b" value="V3"/>
+            <characteristic name="Faction" characteristicTypeId="fbc5-7d00-f9de-443e"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="bf5a-6b96-d5a4-c203" name="Mercenary" hidden="false" targetId="f410-4431-9afd-85f1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="788b-06b8-70e1-797a" name="Scout" hidden="false" targetId="2c87-2079-b7dd-9363" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="a92f-aef0-99a8-bcb6" name="New CategoryLink" hidden="false" targetId="29b76100-e940-9c92-7f00-a7ad44e2f288" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2ad3-c091-2d45-54b7" name="Heavy Mortar (Front)" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="f170-58ca-547a-e9be" name="Artillery" hidden="false" targetId="9f01-cd98-0325-296d" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="2f79-ab62-4161-447f" name="Heavy Mortar (Front)" hidden="false" targetId="8e20-116c-8df4-5506" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dff-ec90-b666-64ed" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="071e-0a66-54d3-3831" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="0e4c-4105-3599-a3b0" name="Heavy Machinegun (Front)" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="977d-707c-c207-32a9" name="Heavy Machinegun (Front)" hidden="false" targetId="bd1e-1f45-0d17-3138" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b3d-601f-2983-284e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2b7-ffc2-12c3-0ae3" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="9ea8-ba4d-d3aa-2248" name="Heavy Machinegun (Rear)" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="c41c-8fee-33ab-8aad" name="Heavy Machinegun (Rear)" hidden="false" targetId="7ec9-b950-81e7-b912" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b609-6460-25af-88e6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c513-96ff-8547-4517" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="a2bc-3413-426b-c9a3" name="Heavy Machinegun (Left)" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="8b72-3c9c-5edd-24e8" name="Heavy Machinegun (Left)" hidden="false" targetId="884f-c9a1-67e2-0c67" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e63-855b-363d-7653" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f43e-8e90-74f7-1d38" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="7dc1-0087-0b0a-6db9" name="Heavy Machinegun (Right)" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="913c-7b6e-0a37-d296" name="Heavy Machinegun (Right)" hidden="false" targetId="753a-4728-5384-5abc" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5cc-ecc7-084d-9d44" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c47f-ab42-db49-b475" type="max"/>
+          </constraints>
+          <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -961,7 +1205,129 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name=" pts" costTypeId="points" value="4.0"/>
+        <cost name=" pts" costTypeId="points" value="13.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="38fc-586c-208f-0773" name="Pulverizer" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="a0f4-86fd-381f-96bb" name="Pulverizer" hidden="false" profileTypeId="d4bd9345-c104-05b5-dba6-bf84d1163625" profileTypeName="Vehicle">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Damage Track" characteristicTypeId="ed36b802-b164-ae0b-b441-ebb8e45606b6" value="6"/>
+            <characteristic name="Move" characteristicTypeId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" value="3"/>
+            <characteristic name="March Move" characteristicTypeId="7efff746-66c0-c275-304c-6339ff7da914" value="5"/>
+            <characteristic name="Armour" characteristicTypeId="214b6458-e958-a048-8f8c-de17188dae7b" value="V3"/>
+            <characteristic name="Faction" characteristicTypeId="fbc5-7d00-f9de-443e"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f76c-a07c-8c83-7c76" name="Mercenary" hidden="false" targetId="f410-4431-9afd-85f1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7329-8682-5d04-158e" name="Scout" hidden="false" targetId="2c87-2079-b7dd-9363" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c70c-51c5-1fbf-c276" name="New CategoryLink" hidden="false" targetId="29b76100-e940-9c92-7f00-a7ad44e2f288" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="54b6-7f8d-d683-f0b8" name="Recoilless Gun (Front)" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="9729-1856-2e76-ed07" name="Grenade" hidden="false" targetId="be1f-1707-269f-5ab5" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="19ca-eab2-6453-46b2" name="Recoilless Gun (Front)" hidden="false" targetId="ed9f-d89a-4db3-014d" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99c2-6329-5a5a-733c" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d9d-509f-da3b-8bce" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="8989-d541-cffc-5817" name="Heavy Machinegun (Front)" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="dbc8-7202-0180-b1a2" name="Heavy Machinegun (Front)" hidden="false" targetId="bd1e-1f45-0d17-3138" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d80-1eed-b52c-919c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1578-98fc-27af-a7f1" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="cc08-055b-74e4-6f28" name="Twin Heavy Machinegun (Front)" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="a753-1e75-1f2c-5a61" name="Twin Heavy Machinegun (Front)" hidden="false" targetId="94b4-997e-9463-ea47" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20a6-fec7-057e-4001" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2ca-de10-173e-a83e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" pts" costTypeId="points" value="14.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -1109,7 +1475,7 @@
         <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685" value="1/1"/>
       </characteristics>
     </profile>
-    <profile id="0599-38a3-3291-935d" name="Mechanics' Tools" hidden="false" profileTypeId="6c4a1962-9409-6e62-9ea7-e81c4935e4fa">
+    <profile id="0599-38a3-3291-935d" name="Mechanics&apos; Tools" hidden="false" profileTypeId="6c4a1962-9409-6e62-9ea7-e81c4935e4fa">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1316,6 +1682,174 @@
         <characteristic name="A1" characteristicTypeId="bf377d08-6032-da4e-f38f-cab8ee40f265"/>
         <characteristic name="A2" characteristicTypeId="0bb5675e-a53a-ae6e-1343-8cd4702c13a7"/>
         <characteristic name="A3" characteristicTypeId="4946dc2d-5011-1098-c878-f3ab3bc8477f"/>
+      </characteristics>
+    </profile>
+    <profile id="8e20-116c-8df4-5506" name="Heavy Mortar (Front)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" profileTypeName="Vehicle Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Mount" characteristicTypeId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" value="Front"/>
+        <characteristic name="Range" characteristicTypeId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" value="4-12"/>
+        <characteristic name="S1" characteristicTypeId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" value="*/1"/>
+        <characteristic name="S2" characteristicTypeId="a645204b-207d-2884-31bf-8052544ebe0f" value="*/1"/>
+        <characteristic name="S3" characteristicTypeId="144e20c5-fee5-87da-d142-43ee6b13d299" value="*/1"/>
+        <characteristic name="S4" characteristicTypeId="f8d85935-dc8d-ceab-8b59-185af6f07e21" value="*/1"/>
+        <characteristic name="V1" characteristicTypeId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" value="*/2"/>
+        <characteristic name="V2" characteristicTypeId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" value="*/1"/>
+        <characteristic name="V3" characteristicTypeId="7d9919e5-211a-348d-cc4a-75f55034aa11" value="*/1"/>
+        <characteristic name="V4" characteristicTypeId="5126abc7-3036-a560-473c-95cc1ebd6083" value="*/1"/>
+        <characteristic name="V5" characteristicTypeId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" value="*/1"/>
+        <characteristic name="V6" characteristicTypeId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" value=""/>
+        <characteristic name="V7" characteristicTypeId="95df902a-0d91-60fb-d501-90ba12e3f256" value=""/>
+        <characteristic name="A1" characteristicTypeId="3d408739-3c19-38d5-ed51-5bf195e61965" value=""/>
+        <characteristic name="A2" characteristicTypeId="afbc1d34-5c65-e8a1-6226-84be59697cb2"/>
+        <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685"/>
+      </characteristics>
+    </profile>
+    <profile id="bd1e-1f45-0d17-3138" name="Heavy Machinegun (Front)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" profileTypeName="Vehicle Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Mount" characteristicTypeId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" value="Front"/>
+        <characteristic name="Range" characteristicTypeId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" value="6"/>
+        <characteristic name="S1" characteristicTypeId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" value="5/1"/>
+        <characteristic name="S2" characteristicTypeId="a645204b-207d-2884-31bf-8052544ebe0f" value="5/1"/>
+        <characteristic name="S3" characteristicTypeId="144e20c5-fee5-87da-d142-43ee6b13d299" value="4/1"/>
+        <characteristic name="S4" characteristicTypeId="f8d85935-dc8d-ceab-8b59-185af6f07e21" value="3/1"/>
+        <characteristic name="V1" characteristicTypeId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" value="3/2"/>
+        <characteristic name="V2" characteristicTypeId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" value="2/1"/>
+        <characteristic name="V3" characteristicTypeId="7d9919e5-211a-348d-cc4a-75f55034aa11" value="1/1"/>
+        <characteristic name="V4" characteristicTypeId="5126abc7-3036-a560-473c-95cc1ebd6083" value=""/>
+        <characteristic name="V5" characteristicTypeId="10e6e9fa-5b07-60dc-7c21-43fd0d321972"/>
+        <characteristic name="V6" characteristicTypeId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4"/>
+        <characteristic name="V7" characteristicTypeId="95df902a-0d91-60fb-d501-90ba12e3f256"/>
+        <characteristic name="A1" characteristicTypeId="3d408739-3c19-38d5-ed51-5bf195e61965" value=""/>
+        <characteristic name="A2" characteristicTypeId="afbc1d34-5c65-e8a1-6226-84be59697cb2" value=""/>
+        <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685" value=""/>
+      </characteristics>
+    </profile>
+    <profile id="7ec9-b950-81e7-b912" name="Heavy Machinegun (Rear)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" profileTypeName="Vehicle Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Mount" characteristicTypeId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" value="Rear"/>
+        <characteristic name="Range" characteristicTypeId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" value="6"/>
+        <characteristic name="S1" characteristicTypeId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" value="5/1"/>
+        <characteristic name="S2" characteristicTypeId="a645204b-207d-2884-31bf-8052544ebe0f" value="5/1"/>
+        <characteristic name="S3" characteristicTypeId="144e20c5-fee5-87da-d142-43ee6b13d299" value="4/1"/>
+        <characteristic name="S4" characteristicTypeId="f8d85935-dc8d-ceab-8b59-185af6f07e21" value="3/1"/>
+        <characteristic name="V1" characteristicTypeId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" value="3/2"/>
+        <characteristic name="V2" characteristicTypeId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" value="2/1"/>
+        <characteristic name="V3" characteristicTypeId="7d9919e5-211a-348d-cc4a-75f55034aa11" value="1/1"/>
+        <characteristic name="V4" characteristicTypeId="5126abc7-3036-a560-473c-95cc1ebd6083" value=""/>
+        <characteristic name="V5" characteristicTypeId="10e6e9fa-5b07-60dc-7c21-43fd0d321972"/>
+        <characteristic name="V6" characteristicTypeId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4"/>
+        <characteristic name="V7" characteristicTypeId="95df902a-0d91-60fb-d501-90ba12e3f256"/>
+        <characteristic name="A1" characteristicTypeId="3d408739-3c19-38d5-ed51-5bf195e61965" value="2/2"/>
+        <characteristic name="A2" characteristicTypeId="afbc1d34-5c65-e8a1-6226-84be59697cb2" value="1/2"/>
+        <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685" value="1/1"/>
+      </characteristics>
+    </profile>
+    <profile id="884f-c9a1-67e2-0c67" name="Heavy Machinegun (Left)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" profileTypeName="Vehicle Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Mount" characteristicTypeId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" value="Left"/>
+        <characteristic name="Range" characteristicTypeId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" value="6"/>
+        <characteristic name="S1" characteristicTypeId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" value="5/1"/>
+        <characteristic name="S2" characteristicTypeId="a645204b-207d-2884-31bf-8052544ebe0f" value="5/1"/>
+        <characteristic name="S3" characteristicTypeId="144e20c5-fee5-87da-d142-43ee6b13d299" value="4/1"/>
+        <characteristic name="S4" characteristicTypeId="f8d85935-dc8d-ceab-8b59-185af6f07e21" value="3/1"/>
+        <characteristic name="V1" characteristicTypeId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" value="3/2"/>
+        <characteristic name="V2" characteristicTypeId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" value="2/1"/>
+        <characteristic name="V3" characteristicTypeId="7d9919e5-211a-348d-cc4a-75f55034aa11" value="1/1"/>
+        <characteristic name="V4" characteristicTypeId="5126abc7-3036-a560-473c-95cc1ebd6083" value=""/>
+        <characteristic name="V5" characteristicTypeId="10e6e9fa-5b07-60dc-7c21-43fd0d321972"/>
+        <characteristic name="V6" characteristicTypeId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4"/>
+        <characteristic name="V7" characteristicTypeId="95df902a-0d91-60fb-d501-90ba12e3f256"/>
+        <characteristic name="A1" characteristicTypeId="3d408739-3c19-38d5-ed51-5bf195e61965" value="2/2"/>
+        <characteristic name="A2" characteristicTypeId="afbc1d34-5c65-e8a1-6226-84be59697cb2" value="1/2"/>
+        <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685" value="1/1"/>
+      </characteristics>
+    </profile>
+    <profile id="753a-4728-5384-5abc" name="Heavy Machinegun (Right)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" profileTypeName="Vehicle Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Mount" characteristicTypeId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" value="Right"/>
+        <characteristic name="Range" characteristicTypeId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" value="6"/>
+        <characteristic name="S1" characteristicTypeId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" value="5/1"/>
+        <characteristic name="S2" characteristicTypeId="a645204b-207d-2884-31bf-8052544ebe0f" value="5/1"/>
+        <characteristic name="S3" characteristicTypeId="144e20c5-fee5-87da-d142-43ee6b13d299" value="4/1"/>
+        <characteristic name="S4" characteristicTypeId="f8d85935-dc8d-ceab-8b59-185af6f07e21" value="3/1"/>
+        <characteristic name="V1" characteristicTypeId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" value="3/2"/>
+        <characteristic name="V2" characteristicTypeId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" value="2/1"/>
+        <characteristic name="V3" characteristicTypeId="7d9919e5-211a-348d-cc4a-75f55034aa11" value="1/1"/>
+        <characteristic name="V4" characteristicTypeId="5126abc7-3036-a560-473c-95cc1ebd6083" value=""/>
+        <characteristic name="V5" characteristicTypeId="10e6e9fa-5b07-60dc-7c21-43fd0d321972"/>
+        <characteristic name="V6" characteristicTypeId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4"/>
+        <characteristic name="V7" characteristicTypeId="95df902a-0d91-60fb-d501-90ba12e3f256"/>
+        <characteristic name="A1" characteristicTypeId="3d408739-3c19-38d5-ed51-5bf195e61965" value="2/2"/>
+        <characteristic name="A2" characteristicTypeId="afbc1d34-5c65-e8a1-6226-84be59697cb2" value="1/2"/>
+        <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685" value="1/1"/>
+      </characteristics>
+    </profile>
+    <profile id="ed9f-d89a-4db3-014d" name="Recoilless Gun (Front)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" profileTypeName="Vehicle Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Mount" characteristicTypeId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" value="Front"/>
+        <characteristic name="Range" characteristicTypeId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" value="8"/>
+        <characteristic name="S1" characteristicTypeId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" value="*/1"/>
+        <characteristic name="S2" characteristicTypeId="a645204b-207d-2884-31bf-8052544ebe0f" value="*/1"/>
+        <characteristic name="S3" characteristicTypeId="144e20c5-fee5-87da-d142-43ee6b13d299" value="*/1"/>
+        <characteristic name="S4" characteristicTypeId="f8d85935-dc8d-ceab-8b59-185af6f07e21" value="*/1"/>
+        <characteristic name="V1" characteristicTypeId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" value="1/#"/>
+        <characteristic name="V2" characteristicTypeId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" value="1/#"/>
+        <characteristic name="V3" characteristicTypeId="7d9919e5-211a-348d-cc4a-75f55034aa11" value="1/4"/>
+        <characteristic name="V4" characteristicTypeId="5126abc7-3036-a560-473c-95cc1ebd6083" value="1/3"/>
+        <characteristic name="V5" characteristicTypeId="10e6e9fa-5b07-60dc-7c21-43fd0d321972" value="1/3"/>
+        <characteristic name="V6" characteristicTypeId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4" value="1/2"/>
+        <characteristic name="V7" characteristicTypeId="95df902a-0d91-60fb-d501-90ba12e3f256" value="1/2"/>
+        <characteristic name="A1" characteristicTypeId="3d408739-3c19-38d5-ed51-5bf195e61965"/>
+        <characteristic name="A2" characteristicTypeId="afbc1d34-5c65-e8a1-6226-84be59697cb2"/>
+        <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685"/>
+      </characteristics>
+    </profile>
+    <profile id="94b4-997e-9463-ea47" name="Twin Heavy Machinegun (Front)" hidden="false" profileTypeId="51c4cbbb-feba-838a-7356-102e85a51f40" profileTypeName="Vehicle Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Mount" characteristicTypeId="99494c30-5918-3c34-1ea8-5fd2a3a35acb" value="Front"/>
+        <characteristic name="Range" characteristicTypeId="426f1c91-a24f-c1e2-6c5d-0b056331dce9" value="6"/>
+        <characteristic name="S1" characteristicTypeId="94a02cd9-1473-5a5f-cddd-481f20e61e6e" value="7/1"/>
+        <characteristic name="S2" characteristicTypeId="a645204b-207d-2884-31bf-8052544ebe0f" value="7/1"/>
+        <characteristic name="S3" characteristicTypeId="144e20c5-fee5-87da-d142-43ee6b13d299" value="5/1"/>
+        <characteristic name="S4" characteristicTypeId="f8d85935-dc8d-ceab-8b59-185af6f07e21" value="4/1"/>
+        <characteristic name="V1" characteristicTypeId="0de14c52-6109-fb8b-5a4c-f4c28b81e724" value="4/2"/>
+        <characteristic name="V2" characteristicTypeId="29107c7e-8b35-1352-b0e8-8274e8e6fc9e" value="3/1"/>
+        <characteristic name="V3" characteristicTypeId="7d9919e5-211a-348d-cc4a-75f55034aa11" value="1/1"/>
+        <characteristic name="V4" characteristicTypeId="5126abc7-3036-a560-473c-95cc1ebd6083" value=""/>
+        <characteristic name="V5" characteristicTypeId="10e6e9fa-5b07-60dc-7c21-43fd0d321972"/>
+        <characteristic name="V6" characteristicTypeId="f39e3ba7-f0f6-e8ce-827a-9f36af8f38b4"/>
+        <characteristic name="V7" characteristicTypeId="95df902a-0d91-60fb-d501-90ba12e3f256"/>
+        <characteristic name="A1" characteristicTypeId="3d408739-3c19-38d5-ed51-5bf195e61965" value="3/2"/>
+        <characteristic name="A2" characteristicTypeId="afbc1d34-5c65-e8a1-6226-84be59697cb2" value="2/2"/>
+        <characteristic name="A3" characteristicTypeId="cc1450a8-c61a-8715-5533-2175e5923685" value="1/1"/>
       </characteristics>
     </profile>
   </sharedProfiles>

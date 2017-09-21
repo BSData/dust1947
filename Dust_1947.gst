@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bacf-9ebb-dbda-57d0" name="Dust 1947" revision="11" battleScribeVersion="2.01" authorName="Franky" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bacf-9ebb-dbda-57d0" name="Dust 1947" revision="12" battleScribeVersion="2.01" authorName="Franky" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1162,6 +1162,13 @@
       <infoLinks/>
       <modifiers/>
       <description>The vehicle can spend all its Actions to do a Raid Special Action. It can do MOVE + ATTACK + MOVE in this Activation, but can&apos;t be reactivated for this turn.</description>
+    </rule>
+    <rule id="55eb-0798-1c33-8df7" name="Passengers (2)" book="Dust 1947 Rule Book" page="154" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Can carry two Infantry with Armour 1 or 2 or one Infantry with Armour 3 or 4.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

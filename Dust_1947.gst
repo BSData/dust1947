@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bacf-9ebb-dbda-57d0" name="Dust 1947" revision="12" battleScribeVersion="2.01" authorName="Franky" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bacf-9ebb-dbda-57d0" name="Dust 1947" revision="13" battleScribeVersion="2.01" authorName="Franky" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1169,6 +1169,20 @@
       <infoLinks/>
       <modifiers/>
       <description>Can carry two Infantry with Armour 1 or 2 or one Infantry with Armour 3 or 4.</description>
+    </rule>
+    <rule id="5ecc-bf37-dcad-4e11" name="Mythos Creature" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Immune to Suppression and Critical Hits.</description>
+    </rule>
+    <rule id="0a01-816f-3ce5-05f5" name="Psychic Scream" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Once per game, execute Psychic Scream Free Action to Attack all Units, friends or foes, in Range 3 radius. Ignores Line of Sight, Infantry and Cover Saves.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

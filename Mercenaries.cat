@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4568-fee3-1dc6-089f" name="Mercenaries" revision="5" battleScribeVersion="2.01" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4568-fee3-1dc6-089f" name="Mercenaries" revision="6" battleScribeVersion="2.01" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1066,12 +1066,6 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="788b-06b8-70e1-797a" name="Scout" hidden="false" targetId="2c87-2079-b7dd-9363" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -1111,7 +1105,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="0e4c-4105-3599-a3b0" name="Heavy Machinegun (Front)" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1133,7 +1129,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="9ea8-ba4d-d3aa-2248" name="Heavy Machinegun (Rear)" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1155,7 +1153,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="a2bc-3413-426b-c9a3" name="Heavy Machinegun (Left)" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1177,7 +1177,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="7dc1-0087-0b0a-6db9" name="Heavy Machinegun (Right)" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1199,7 +1201,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1277,7 +1281,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="8989-d541-cffc-5817" name="Heavy Machinegun (Front)" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1299,7 +1305,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="cc08-055b-74e4-6f28" name="Twin Heavy Machinegun (Front)" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -1321,7 +1329,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>

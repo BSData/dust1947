@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3528-abb5-af8c-570f" name="Mythos" revision="1" battleScribeVersion="2.01" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3528-abb5-af8c-570f" name="Mythos" revision="2" battleScribeVersion="2.01" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -19,7 +19,7 @@
             <characteristic name="Damage Track" characteristicTypeId="ed36b802-b164-ae0b-b441-ebb8e45606b6" value="9"/>
             <characteristic name="Move" characteristicTypeId="8b340ad2-9af2-327e-d1ca-675097d3b3c5" value="3"/>
             <characteristic name="March Move" characteristicTypeId="7efff746-66c0-c275-304c-6339ff7da914" value="5"/>
-            <characteristic name="Armour" characteristicTypeId="214b6458-e958-a048-8f8c-de17188dae7b" value="V7"/>
+            <characteristic name="Armour" characteristicTypeId="214b6458-e958-a048-8f8c-de17188dae7b" value="V5"/>
             <characteristic name="Faction" characteristicTypeId="fbc5-7d00-f9de-443e" value=""/>
           </characteristics>
         </profile>
@@ -54,7 +54,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="df63-95f8-1c15-2836" name="New CategoryLink" hidden="false" targetId="de909069-5479-47d9-dc05-07d94eae45d1" primary="true">
+        <categoryLink id="7e52-64ed-12dd-7f1b" name="New CategoryLink" hidden="false" targetId="d78cc027-a9e9-a40f-cca6-6333e2739f64" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -163,7 +163,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="50fd-fb4e-5715-47f2" name="Psychic Scream (Turret)" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -191,7 +193,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="fa91-f781-32e2-5242" name="Claws (Turret)" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -213,7 +217,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>

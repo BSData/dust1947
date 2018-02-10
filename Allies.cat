@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8eb0bc51-b6f0-d32c-b0d1-35fa5259b2da" name="Allies" revision="13" battleScribeVersion="2.01" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8eb0bc51-b6f0-d32c-b0d1-35fa5259b2da" name="Allies" revision="14" battleScribeVersion="2.01" authorName="Franky" gameSystemId="bacf-9ebb-dbda-57d0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -8552,7 +8552,7 @@
         <cost name=" pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ade5e830-5c54-aea6-3013-404323b3c6c3" name="USMC Demoltition Squad" page="0" hidden="false" collective="false" type="unit">
+    <selectionEntry id="ade5e830-5c54-aea6-3013-404323b3c6c3" name="USMC Demolition Squad" page="0" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="f7fefe4e-3930-52df-9b8e-815bd62af6d0" name="USMC Demoltition Squad" page="0" hidden="false" profileTypeId="41b56042-fab9-47e0-0812-0af86fc4caba">
           <profiles/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bacf-9ebb-dbda-57d0" name="Dust 1947" revision="13" battleScribeVersion="2.01" authorName="Franky" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bacf-9ebb-dbda-57d0" name="Dust 1947" revision="14" battleScribeVersion="2.01" authorName="Franky" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1183,6 +1183,34 @@
       <infoLinks/>
       <modifiers/>
       <description>Once per game, execute Psychic Scream Free Action to Attack all Units, friends or foes, in Range 3 radius. Ignores Line of Sight, Infantry and Cover Saves.</description>
+    </rule>
+    <rule id="049d-d288-a828-4c96" name="Lesser Mythos Creatures" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Can never be the target of any Command Squad, Officer, or Medic Special Actions.</description>
+    </rule>
+    <rule id="04a9-e6fe-0515-8e2c" name="Spores" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Attacks all Units in Range 1 around the Unit. Target Infantry get no Cover Save from this weapon (but still have an Infantry Save).</description>
+    </rule>
+    <rule id="ed89-509b-43fb-3b05" name="Devour" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Each time this Hero inflicts one point of Damage in Close Combat, she heals one Health.</description>
+    </rule>
+    <rule id="07d1-7058-363c-8c0f" name="Passengers (18)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Can carry eighteen Infantry with Armour 1 or 2 or nine Infantry with Armour 3 or 4.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
